@@ -1,0 +1,1001 @@
+id,amount,merchant_name,payment_method,transaction_time,device_id,location,sender,receiver,is_fraud,fraud_type
+d8ab915e-586b-4522-9398-f3e42c637953,151000.0,Toko Buah Bu Lastri,BCA,2024-04-10T02:58:02.001437,ANDROID-28611E92,Semarang,Sari Rahayu,Toko Elektronik Mas Dedi,0,
+d401ca06-8e30-4a01-b257-d29ace13c76c,1297000.0,Toko Baju Murah Pak Rahmat,Mandiri,2024-03-25T10:02:13.604666,WEB-E928B057,Medan,Kartini Lestari,Bengkel Las Pak Slamet,0,
+a176961f-b2d3-4653-8007-23723ca88fff,73731000.0,Kios Pulsa Mas Feri,OVO,2024-04-16T02:11:12.687405,IOS-2717CC19,Makassar,Citra Wibowo,Jasa Print Pak Hendra,1,amount_anomaly
+d209880a-d7d1-4b2b-92e6-3420376f9db8,1438000.0,Kios Pulsa Mas Feri,BCA,2024-01-17T18:14:15.504594,IOS-F8E3E982,Surabaya,Yanto Santoso,Bakso Pak Soleh,0,
+3f31a9e1-a3e3-4895-96e9-88d57b4896dd,64000.0,Kios Pulsa Mas Feri,Mandiri,2024-08-19T15:12:17.272717,ANDROID-6FD449EF,Jakarta Utara,Joko Hidayat,Supermarket Berkah Jaya,0,
+c1501fa9-18ef-4b5c-92fa-e5fe0dc1cf52,415000.0,Jasa Print Pak Hendra,ShopeePay,2024-09-02T22:54:29.160681,ANDROID-D8C6E368,Tangerang,Zahra Firmansyah,Warung Kopi Mas Rizky,0,
+491a51d6-9a06-46f9-9a16-cff2f7fdd3a6,3856000.0,Toko Baju Murah Pak Rahmat,ShopeePay,2024-10-07T18:00:27.709974,IOS-08DD2CA9,Jakarta Utara,Joko Saputra,Toko Baju Murah Pak Rahmat,0,
+31337982-0dd4-44c0-9a93-d0813f089e7b,1074000.0,FAKE-Warung Pak Budi,BNI,2024-06-23T01:18:35.892630,WEB-058ABA44,Jakarta Utara,Wahyu Ariani,Warung Makan Bu Tini,1,invoice_manipulation
+6c6aaf54-8d77-47af-9473-00488a8b9c3f,1446000.0,Bakso Pak Soleh,Dana,2024-12-19T16:24:48.725923,ANDROID-B8E8FA3F,Tangerang,Xena Firmansyah,Warung Kopi Mas Rizky,0,
+b133d1b8-817b-4024-b84b-2bb25fccc594,3738000.0,Bengkel Las Pak Slamet,QRIS,2024-08-29T13:59:33.693679,WEB-BEC2EC59,Surabaya,Joko Susanto,Toko Online Bu Sari,0,
+94780794-40e2-4245-8eb8-c83a860f864b,372000.0,Bakso Pak Soleh,GoPay,2024-10-11T19:47:40.818913,IOS-7FD63ADF,Depok,Tono Wijaya,Jasa Print Pak Hendra,0,
+2c1549f3-889f-431a-91e3-6245350de6bc,60000.0,Warung Makan Bu Tini,Mandiri,2024-04-08T05:53:21.509466,WEB-39B7523D,Makassar,Wahyu Kusuma,Salon Cantik Bu Dewi,1,duplicate
+eda6c6ad-044a-4273-b96a-05ed168cab7e,141000.0,Laundry Kilat Bu Wati,GoPay,2024-09-10T14:42:41.651387,IOS-6A6F5BC7,Jakarta Utara,Mira Suharto,Kios Pulsa Mas Feri,0,
+24c5b113-cb73-4985-8cff-c60ffb41be75,11000.0,Supermarket Berkah Jaya,GoPay,2024-05-29T07:44:42.479016,IOS-37BC54B6,Surabaya,Tono Ariani,Bengkel Motor Mas Agus,0,
+d660dd2d-e1aa-4664-8a47-cd2aca57a66d,4886000.0,Toko Elektronik Mas Dedi,QRIS,2024-12-06T19:09:43.447194,ANDROID-BF13354F,Jakarta Timur,Putri Hidayat,Konter HP Bu Nurul,0,
+e41867d5-369f-4cb3-a236-068149641bee,275000.0,Toko Elektronik Mas Dedi,ShopeePay,2024-09-08T11:49:47.378238,WEB-F05B3644,Medan,Irwan Wijaya,Supermarket Berkah Jaya,0,
+576ef66e-d3c4-4cd8-a7c0-1065332aa364,273000.0,Bengkel Motor Mas Agus,QRIS,2024-10-12T21:58:51.816885,WEB-C0AD882F,Jakarta Selatan,Budi Rahayu,Toko Elektronik Mas Dedi,0,
+505e831a-a153-4759-9ef6-92238d4b3168,422000.0,Bakso Pak Soleh,LinkAja,2024-05-09T12:05:18.955647,ANDROID-6A8367B7,Palembang,Fajar Wibowo,Bakso Pak Soleh,0,
+4351b10e-86df-4067-a97a-88245c7f0831,346000.0,Warung Pak Budi,BNI,2024-04-28T17:34:22.198784,ANDROID-188A4343,Surabaya,Kartini Firmansyah,Laundry Kilat Bu Wati,0,
+08deddd7-135a-4a0b-9f38-53578bc9d585,963000.0,Kios Pulsa Mas Feri,Dana,2024-01-10T16:26:40.805986,IOS-1B59E3E8,Tangerang,Citra Lestari,Minimarket Bu Endah,0,
+1f0f7f44-278e-48e6-b6b0-86b78795fafc,30000.0,Laundry Kilat Bu Wati,QRIS,2024-12-24T11:41:55.275087,WEB-0854C5F9,Bekasi,Joko Santoso,Minimarket Bu Endah,0,
+c1f61bd4-f3bf-431d-95c5-5e288700e5a1,3377000.0,Apotek Sehat Sejahtera,Mandiri,2024-10-24T19:16:41.025534,IOS-13B7189D,Makassar,Citra Handoko,Jasa Print Pak Hendra,0,
+0aec27a9-6c40-4747-b9c5-5829b72afb23,81000.0,Warung Makan Bu Tini,ShopeePay,2024-02-17T09:36:59.495252,ANDROID-6430B29B,Makassar,Joko Purnama,Toko Sembako Bu Yanti,0,
+4a0c3d15-832f-4acc-8c0f-cd452e274c77,48000.0,Bakso Pak Soleh,BCA,2024-03-02T19:40:07.686480,WEB-B002AC62,Makassar,Putri Santoso,Konter HP Bu Nurul,1,duplicate
+875443a8-0ccb-45bc-b111-a95a71381e40,490000.0,Jasa Print Pak Hendra,ShopeePay,2024-03-01T20:39:15.944946,ANDROID-37BAEEB9,Jakarta Timur,Gilang Lestari,Minimarket Bu Endah,0,
+fc29b300-f71f-478f-91ec-8842d62a46db,421000.0,Toko Buah Bu Lastri,GoPay,2024-08-24T18:47:56.178086,ANDROID-62354CBE,Surabaya,Reza Lestari,Laundry Kilat Bu Wati,0,
+8a67ea15-e703-45d0-8a1f-73dba88ee144,630000.0,Salon Cantik Bu Dewi,Dana,2024-08-08T12:51:04.355067,ANDROID-F5C1F341,Semarang,Tono Purnama,Toko Buah Bu Lastri,0,
+a6013f9d-992c-42f2-8ca6-aac9165be4cb,332000.0,Toko Baju Murah Pak Rahmat,LinkAja,2024-04-10T09:11:27.783421,WEB-DF94FAE4,Tangerang,Reza Hidayat,Toko Alat Tulis Mas Erwan,0,
+ef478777-0fe8-43bd-bb58-eda5f9c874b7,96000.0,Toko Buah Bu Lastri,Mandiri,2024-06-01T22:18:00.809604,WEB-7F044BCC,Bandung,Vina Purnama,Toko Elektronik Mas Dedi,0,
+53ea244c-0130-4202-a56e-1afad3d05ad8,18000.0,Toko Sembako Bu Yanti,QRIS,2024-11-01T02:20:47.320468,WEB-AF703E5D,Palembang,Andi Prasetyo,Bengkel Las Pak Slamet,1,suspicious_pattern
+d953969d-9006-403c-98cc-e694a86ab76f,477000.0,Toko Online Bu Sari,GoPay,2024-08-12T21:38:21.797737,IOS-D8EF1F99,Bekasi,Andi Kurniawan,Toko Sembako Bu Yanti,0,
+9bf4cb6d-8941-4347-81ff-15e8471b8d8d,75000.0,Konter HP Bu Nurul,BNI,2024-09-25T09:23:36.721796,IOS-DB5E6FC4,Bandung,Anonim-2670,Toko Baju Murah Pak Rahmat,1,identity_fraud
+c1950b6d-c31d-4374-86f5-018bad72b135,98560000.0,Laundry Kilat Bu Wati,Dana,2024-08-13T00:38:54.231739,ANDROID-63A649D0,Medan,Andi Prasetyo,Laundry Kilat Bu Wati,1,amount_anomaly
+86f9d835-956b-4c18-9d65-5dc7eb5f014d,3728000.0,FAKE-Toko Sembako Bu Yanti,OVO,2024-06-12T16:42:15.292991,WEB-0B275A9B,Tangerang,Citra Lestari,Salon Cantik Bu Dewi,1,invoice_manipulation
+011ecc55-5e9a-457c-a871-686ba3b11e96,252000.0,Toko Baju Murah Pak Rahmat,LinkAja,2024-04-29T11:21:44.087583,WEB-283EC6F4,Jakarta Timur,Gilang Kurniawan,Kios Pulsa Mas Feri,0,
+852bdaa4-5c1f-43fc-8607-2068f192b944,4935000.0,Warung Kopi Mas Rizky,BCA,2024-09-16T03:16:17.085659,WEB-BE07D09C,Medan,Vina Prasetyo,Toko Online Bu Sari,1,suspicious_pattern
+a3d3d8fc-8030-4492-80eb-fc07d9de26dd,116865000.0,Bengkel Motor Mas Agus,LinkAja,2024-03-11T10:02:41.871658,IOS-A6B91C8D,Jakarta Timur,Citra Purnama,Toko Buah Bu Lastri,1,amount_anomaly
+6ccfeed0-b9dc-4b16-ba8a-bc772f5c06ae,326000.0,Minimarket Bu Endah,Dana,2024-06-28T23:07:11.896762,WEB-2C33ACCA,Bekasi,Umi Handoko,Bengkel Motor Mas Agus,0,
+b09de421-ff90-4fec-995d-60c84d3394cd,148000.0,Toko Alat Tulis Mas Erwan,BNI,2024-08-14T13:55:10.845997,IOS-AA437BB5,Makassar,Umi Kusuma,Konter HP Bu Nurul,0,
+f9c10030-0b93-4820-84bb-924c0282a9b2,116000.0,Jasa Print Pak Hendra,OVO,2024-05-27T09:04:25.786373,WEB-87DBAF81,Semarang,Tono Wibowo,Konter HP Bu Nurul,0,
+8384d846-6486-41b7-a8f3-5ea6ce650eba,723000.0,FAKE-Toko Buah Bu Lastri,BRI,2024-03-13T07:47:51.415440,IOS-E6B1B0AD,Jakarta Pusat,Putri Wijaya,Bengkel Motor Mas Agus,1,invoice_manipulation
+5782c214-82d8-4e6e-9712-3f1391ea37d6,51000.0,Bengkel Motor Mas Agus,BRI,2024-12-12T19:12:57.756901,IOS-995EB3D1,Medan,Reza Nugroho,Apotek Sehat Sejahtera,0,
+a02e655d-9bc7-4fde-8838-0b1beefe6076,3430000.0,Bakso Pak Soleh,Mandiri,2024-03-31T17:44:11.968842,WEB-42EC1463,Jakarta Timur,Citra Purnama,Toko Baju Murah Pak Rahmat,0,
+b127e2a2-01e2-489f-8299-26c6f8eaee7a,32000.0,Bengkel Las Pak Slamet,QRIS,2024-07-12T14:49:36.759422,ANDROID-A818ECB3,Semarang,Fajar Kusuma,Kios Pulsa Mas Feri,0,
+4ed74c75-fa0d-4a29-bfdf-a5cd99716078,60000.0,Bakso Pak Soleh,Dana,2024-09-12T11:38:04.223765,WEB-4E4B8CF6,Jakarta Barat,Putri Wibowo,Warung Pak Budi,0,
+a1a900bf-51fb-4e5c-8edd-041166aac446,1979000.0,FAKE-Laundry Kilat Bu Wati,Mandiri,2024-03-13T19:21:57.451214,WEB-D211F391,Palembang,Kartini Lestari,Toko Buah Bu Lastri,1,invoice_manipulation
+94ff5b97-20d7-43f2-9107-0f07af2599c8,58000.0,Toko Sembako Bu Yanti,QRIS,2024-05-16T22:14:17.044571,ANDROID-281A6E67,Yogyakarta,Wahyu Lestari,Minimarket Bu Endah,0,
+916ce296-e228-4055-8404-03742df48e6d,15000.0,Toko Online Bu Sari,OVO,2024-08-14T21:24:10.897663,IOS-164E9D53,Tangerang,Tono Kusuma,Jasa Print Pak Hendra,0,
+24a62cb6-b6cb-4a55-92bd-e842b8df92fb,436000.0,Warung Kopi Mas Rizky,GoPay,2024-11-24T10:31:42.056098,ANDROID-7FAC8A38,Surabaya,Joko Santoso,Toko Online Bu Sari,0,
+d24211b5-3be0-469f-abb6-a70427c4f42d,2578000.0,Kios Pulsa Mas Feri,LinkAja,2024-03-29T06:26:25.981722,IOS-59F406E0,Jakarta Utara,Anonim-1845,Kios Pulsa Mas Feri,1,identity_fraud
+76094fa2-2927-4525-8371-bc0769b3a915,253000.0,Toko Alat Tulis Mas Erwan,ShopeePay,2024-10-31T16:10:54.347707,WEB-3DAF4239,Tangerang,Hani Saputra,Warung Makan Bu Tini,0,
+71919841-6e95-45f4-859a-dce7b4269e21,461000.0,Toko Online Bu Sari,BRI,2024-03-20T15:28:47.139637,IOS-87D2E7D3,Jakarta Selatan,Wahyu Prasetyo,Konter HP Bu Nurul,0,
+1e34c0b4-759b-4990-b2a7-92180c34bc5b,1890000.0,FAKE-Bengkel Motor Mas Agus,Mandiri,2024-08-06T14:11:29.401650,IOS-559E8C4A,Jakarta Timur,Irwan Lestari,Kios Pulsa Mas Feri,1,invoice_manipulation
+5190e0b2-6267-4566-9503-364e771319e0,909000.0,Salon Cantik Bu Dewi,BNI,2024-09-16T10:52:21.214425,IOS-D54B7C39,Jakarta Pusat,Joko Suharto,Apotek Sehat Sejahtera,0,
+1b12a930-9823-459d-8b7b-5e1039eeca0c,47000.0,Toko Sembako Bu Yanti,Mandiri,2024-05-20T16:40:57.301616,ANDROID-03998E3B,Tangerang,Wahyu Saputra,Toko Buah Bu Lastri,0,
+5d741640-9cd8-433d-9306-10e6010c9b86,361000.0,Bakso Pak Soleh,BRI,2024-10-17T16:56:38.817428,WEB-65381678,Tangerang,Tono Kurniawan,Bengkel Las Pak Slamet,0,
+7f253a1b-4b1c-4625-b2a6-c0b06945653d,483000.0,Konter HP Bu Nurul,BCA,2024-01-18T08:22:29.004056,WEB-BDC18E69,Surabaya,Mira Wibowo,Minimarket Bu Endah,0,
+b954631a-75c6-4e6c-b0cb-2913c93a4aa8,67175000.0,Toko Buah Bu Lastri,Dana,2024-07-20T07:54:36.402272,IOS-9D5C0504,Tangerang,Dewi Handoko,Kios Pulsa Mas Feri,1,amount_anomaly
+134191a3-dbd7-48a7-b2ca-2812a5fd9026,1748000.0,Warung Kopi Mas Rizky,QRIS,2024-09-19T13:19:26.055953,IOS-3E36CB57,Yogyakarta,Vina Lestari,Toko Sembako Bu Yanti,0,
+0ac8600f-fc3a-4775-8ec6-2bdc167af6ef,267000.0,Salon Cantik Bu Dewi,BNI,2024-04-19T21:27:03.703124,IOS-FDB9880F,Jakarta Barat,Budi Purnama,Minimarket Bu Endah,0,
+cf1cacbe-4848-495d-a9fb-ebe22359afb9,24000.0,Supermarket Berkah Jaya,OVO,2024-07-27T13:42:56.079001,WEB-32D3A9C2,Depok,Andi Saputra,Toko Alat Tulis Mas Erwan,0,
+0c60edc4-321f-4e70-914c-2945ae5aa037,383000.0,Jasa Print Pak Hendra,OVO,2024-11-21T11:54:54.198875,IOS-8055417C,Surabaya,Hani Firmansyah,Bengkel Las Pak Slamet,0,
+1baedc6c-d80a-4386-beb6-1679aa847c07,401000.0,Kios Pulsa Mas Feri,BCA,2024-03-06T11:08:43.613548,IOS-0F0D356D,Jakarta Utara,Andi Susanto,Konter HP Bu Nurul,0,
+1d6f8bfb-3040-4866-845c-6ac53f74e6ee,74000.0,Warung Makan Bu Tini,LinkAja,2024-08-17T09:52:31.272992,WEB-9040844A,Bandung,Dewi Hidayat,Laundry Kilat Bu Wati,0,
+ed9e7a4b-43a8-4585-9b49-eb3f2b6e2ee9,303000.0,Bakso Pak Soleh,OVO,2024-09-18T20:18:05.460697,WEB-0A4F8D05,Palembang,Dewi Hidayat,Bengkel Las Pak Slamet,0,
+8619f0c2-ecb7-4493-894e-b3a72e792599,328000.0,Warung Kopi Mas Rizky,Dana,2024-03-26T22:51:56.852562,IOS-328A4740,Depok,Gilang Handoko,Kios Pulsa Mas Feri,0,
+f78f4a51-ae85-49e8-b0c4-ee12cfb5e5d1,71000.0,Warung Makan Bu Tini,BNI,2024-04-25T03:53:49.433852,WEB-43E58F81,Makassar,Umi Rahayu,Toko Online Bu Sari,1,suspicious_pattern
+386af034-30d2-4831-98dc-04daafdc5e2c,18000.0,Bengkel Las Pak Slamet,BRI,2024-07-15T11:55:02.624188,WEB-07AECB3D,Surabaya,Reza Purnama,Toko Baju Murah Pak Rahmat,0,
+2e90d453-2468-42d4-bc4c-6f86866381a2,443000.0,Salon Cantik Bu Dewi,Dana,2024-09-16T04:56:42.074453,ANDROID-D4F9EC85,Jakarta Timur,Budi Prasetyo,Bengkel Las Pak Slamet,1,suspicious_pattern
+38f8d397-d0ae-48e2-8024-e7bad3f6dc9b,336000.0,Konter HP Bu Nurul,Dana,2024-02-11T08:22:31.561925,ANDROID-E3AAC0C1,Semarang,Fajar Kusuma,Kios Pulsa Mas Feri,0,
+e498072c-0103-4937-8113-bac27fa03e33,1219000.0,Toko Elektronik Mas Dedi,GoPay,2024-06-01T07:57:11.574062,ANDROID-B8B81A4F,Bekasi,Dewi Prasetyo,Warung Kopi Mas Rizky,0,
+bc1e01bf-916b-4f9d-8a8a-1192ee389b3f,91000.0,Toko Alat Tulis Mas Erwan,Mandiri,2024-10-22T22:42:39.494734,ANDROID-D5DDE435,Jakarta Barat,Lina Wijaya,Kios Pulsa Mas Feri,0,
+1fae4140-983d-4a5e-b86c-c42396b194cc,4240000.0,FAKE-Toko Sembako Bu Yanti,Dana,2024-01-05T13:18:16.752961,WEB-8751C331,Jakarta Utara,Eko Hidayat,Salon Cantik Bu Dewi,1,invoice_manipulation
+2c6617af-7584-4c7a-a559-7824f720aadc,1790000.0,FAKE-Toko Sembako Bu Yanti,Dana,2024-05-12T16:00:56.475865,IOS-12B3025E,Yogyakarta,Umi Prasetyo,Toko Alat Tulis Mas Erwan,1,invoice_manipulation
+56d5f8a5-8ccf-4ac8-9ce0-31b75eea094e,490000.0,Warung Makan Bu Tini,BCA,2024-02-19T07:16:13.604687,ANDROID-5A90DD87,Makassar,Eko Lestari,Toko Sembako Bu Yanti,0,
+3752bbca-d888-4af3-94c3-4ce30d04fddc,318000.0,Toko Buah Bu Lastri,Mandiri,2024-02-11T17:29:58.435912,IOS-8414BF72,Semarang,Anonim-3384,Toko Online Bu Sari,1,identity_fraud
+151d42db-6c50-428e-b90d-920a36e0a6b5,1349000.0,Laundry Kilat Bu Wati,LinkAja,2024-09-10T14:17:11.805374,IOS-CEC9F47F,Bandung,Umi Setiawan,Laundry Kilat Bu Wati,0,
+a401de97-cc7d-4982-a487-4205c1878134,4767000.0,Minimarket Bu Endah,Mandiri,2024-06-08T03:54:10.904351,WEB-96C17C30,Bekasi,Anonim-3833,Minimarket Bu Endah,1,identity_fraud
+9c20473f-1fe0-4f8c-a294-08111892295a,84000.0,Bakso Pak Soleh,BCA,2024-10-20T07:08:08.016605,WEB-B8C2F7E2,Semarang,Budi Wibowo,Minimarket Bu Endah,0,
+c7fb72d7-9590-4c01-a1c9-0970f47af0e1,75000.0,Laundry Kilat Bu Wati,Dana,2024-10-30T12:59:05.691874,WEB-2A8E95EA,Semarang,Umi Ariani,Jasa Print Pak Hendra,0,
+21c4fdc4-7f60-4388-be36-f13cdd918541,251000.0,Kios Pulsa Mas Feri,GoPay,2024-08-19T15:02:48.337254,WEB-0307F1A9,Makassar,Tono Purnama,Jasa Print Pak Hendra,0,
+0ac158ee-0d94-41a9-bdfe-6906585616d9,851000.0,Toko Elektronik Mas Dedi,BRI,2024-06-14T09:34:08.855177,WEB-23F4FF77,Depok,Yanto Purnama,Konter HP Bu Nurul,0,
+45c31e07-b9d2-4326-944f-578d1e8ecb96,150000.0,Toko Elektronik Mas Dedi,ShopeePay,2024-12-12T08:08:25.789591,IOS-47DAAB84,Makassar,Umi Setiawan,Toko Sembako Bu Yanti,0,
+60d571f5-6d75-42a4-acaf-175fb977f8ac,1467000.0,Toko Online Bu Sari,Mandiri,2024-10-28T16:41:07.061485,ANDROID-B351B7CA,Jakarta Timur,Anonim-3165,Warung Makan Bu Tini,1,identity_fraud
+32b04b95-be78-467b-b843-b93f575052ad,47000.0,Toko Alat Tulis Mas Erwan,BCA,2024-08-05T10:37:16.765098,WEB-9042F637,Bekasi,Oka Hidayat,Toko Alat Tulis Mas Erwan,0,
+290ff8db-6a6d-434c-b7c6-04f1b12365bd,1615000.0,Toko Buah Bu Lastri,Dana,2024-08-11T20:50:03.650615,IOS-E9C983B9,Depok,Sari Saputra,Apotek Sehat Sejahtera,0,
+04628696-b2e2-434d-9ef7-8a81f63c6f04,32000.0,Minimarket Bu Endah,Mandiri,2024-12-11T13:45:16.687426,ANDROID-5C6B0975,Jakarta Barat,Putri Susanto,Apotek Sehat Sejahtera,0,
+afad988b-3e7c-4d2f-a7af-ecfde194ce0d,190863000.0,Toko Buah Bu Lastri,OVO,2024-05-07T03:24:19.699467,IOS-05F6889D,Semarang,Wahyu Kusuma,Supermarket Berkah Jaya,1,amount_anomaly
+123ccf4c-4205-4329-a6d7-bf2706fea3b9,373000.0,Warung Makan Bu Tini,ShopeePay,2024-02-13T03:35:14.163401,WEB-D7F87C98,Tangerang,Kartini Firmansyah,Kios Pulsa Mas Feri,1,suspicious_pattern
+70547184-8911-4619-8367-de5fc62925f9,89000.0,Toko Elektronik Mas Dedi,QRIS,2024-06-09T02:50:37.745630,IOS-EAD14504,Depok,Andi Handoko,Bakso Pak Soleh,0,
+1e78355c-4304-4075-afdb-7c0e7be106e9,618000.0,FAKE-Bakso Pak Soleh,GoPay,2024-01-12T22:13:46.523997,ANDROID-D9FD97D4,Semarang,Reza Setiawan,Toko Sembako Bu Yanti,1,invoice_manipulation
+a2bf0025-7406-43e2-b51b-49e3d328b86a,70000.0,Toko Buah Bu Lastri,LinkAja,2024-02-26T08:52:47.833764,IOS-81E0FA43,Bandung,Wahyu Suharto,Minimarket Bu Endah,0,
+a3cc484a-d82e-48d0-ad9d-35c8927b9465,89000.0,Bakso Pak Soleh,Dana,2024-09-14T08:07:54.380059,IOS-299ABAFE,Jakarta Barat,Irwan Kurniawan,Salon Cantik Bu Dewi,0,
+542588bf-6e47-45e0-a84d-7eeabe934d5d,164000.0,Salon Cantik Bu Dewi,BRI,2024-01-05T14:10:37.313547,WEB-1295209D,Jakarta Pusat,Budi Kusuma,Toko Elektronik Mas Dedi,0,
+e16da924-3d26-480d-a9cd-f8a46b5c7d0f,60000.0,Warung Makan Bu Tini,BRI,2024-04-08T05:50:21.509466,WEB-7DC5F2B9,Bandung,Wahyu Kusuma,Warung Kopi Mas Rizky,0,
+8b6851de-ae7d-4e68-a0bc-d50e7cc28e9b,161000.0,Konter HP Bu Nurul,GoPay,2024-11-24T21:02:19.880822,IOS-634F8CB0,Bandung,Kartini Rahayu,Toko Baju Murah Pak Rahmat,0,
+51f20099-4905-4d49-839c-e3c09cf8375c,677000.0,Supermarket Berkah Jaya,Dana,2024-02-16T11:36:21.766280,IOS-74BF2F8E,Jakarta Selatan,Xena Ariani,Toko Baju Murah Pak Rahmat,0,
+04eaf535-6152-4b07-8535-b30634383679,350000.0,Toko Baju Murah Pak Rahmat,BCA,2024-04-04T03:28:22.038244,IOS-5A90FCAD,Jakarta Pusat,Citra Rahayu,Minimarket Bu Endah,1,suspicious_pattern
+9fc8b191-c54b-4b0a-87ee-a66e6b55be5e,73000.0,Toko Buah Bu Lastri,BNI,2024-05-22T09:22:43.408953,ANDROID-E3C2F6E4,Yogyakarta,Dewi Hidayat,Warung Pak Budi,0,
+e36fed7e-7638-4f74-a339-d7e6795368f5,426000.0,Kios Pulsa Mas Feri,BRI,2024-09-10T03:35:20.720554,WEB-EC3F144F,Palembang,Lina Wibowo,Toko Elektronik Mas Dedi,0,
+63ac3c32-6a92-4c51-9f4a-e97169c9ec5c,398000.0,Bengkel Las Pak Slamet,OVO,2024-04-15T11:29:57.607485,IOS-D6405F97,Jakarta Pusat,Kartini Suharto,Kios Pulsa Mas Feri,0,
+7f4abb79-5cde-480f-a09d-666bfca52e91,382000.0,Kios Pulsa Mas Feri,OVO,2024-07-27T20:56:50.437636,WEB-6F7CD5B1,Depok,Budi Setiawan,Warung Makan Bu Tini,0,
+92018eca-be1c-437a-9ca1-f8fed7ebc905,275000.0,Konter HP Bu Nurul,QRIS,2024-01-24T20:49:25.449046,ANDROID-A3E4F825,Jakarta Pusat,Fajar Handoko,Toko Alat Tulis Mas Erwan,0,
+d713f730-0d18-41e4-a1f5-eba0e7dec392,71000.0,Toko Online Bu Sari,BNI,2024-11-30T09:53:15.865284,ANDROID-2C8F306A,Depok,Tono Handoko,Salon Cantik Bu Dewi,0,
+f7770360-5067-4f1d-a32e-aa61f24dbe78,41000.0,Warung Pak Budi,GoPay,2024-10-04T07:49:27.300065,ANDROID-F20CE7D8,Depok,Nanda Santoso,Kios Pulsa Mas Feri,0,
+bae4ee4d-1f1c-43e5-9cf8-5d2bff322798,192000.0,Bengkel Las Pak Slamet,GoPay,2024-01-03T12:42:50.333570,ANDROID-5CBF562C,Bandung,Eko Firmansyah,Toko Online Bu Sari,0,
+196788a6-efe0-4215-b92b-c88feecdb0be,179000.0,Toko Online Bu Sari,Mandiri,2024-09-28T10:47:14.313542,ANDROID-16777501,Jakarta Barat,Irwan Lestari,Toko Sembako Bu Yanti,0,
+9b123fb7-0d67-4819-a701-fd45ae1d7235,1091000.0,Warung Makan Bu Tini,BRI,2024-04-13T02:44:33.723206,IOS-C6D2F9EE,Makassar,Kartini Wijaya,Toko Baju Murah Pak Rahmat,1,suspicious_pattern
+f950ae8f-1206-41e4-a247-695d2f2592fb,49000.0,Bakso Pak Soleh,BCA,2024-02-07T10:39:19.568544,WEB-0A312999,Makassar,Tono Wijaya,Laundry Kilat Bu Wati,0,
+554dade2-d280-445a-8a01-1fcc89fb16cb,73000.0,Salon Cantik Bu Dewi,BRI,2024-01-01T13:49:42.022707,WEB-0435796E,Bandung,Anonim-7829,Toko Baju Murah Pak Rahmat,1,identity_fraud
+8baf8690-a60b-4463-b221-ce74b9415f55,83000.0,Toko Alat Tulis Mas Erwan,GoPay,2024-08-26T13:58:35.665401,ANDROID-8CE4E84E,Jakarta Pusat,Oka Wibowo,Supermarket Berkah Jaya,0,
+d492ff7f-aa85-4d50-a702-e6bcb64f314a,271000.0,Toko Buah Bu Lastri,QRIS,2024-01-23T05:59:20.043799,IOS-70999DD2,Makassar,Yanto Hidayat,Kios Pulsa Mas Feri,0,
+50a6054e-632b-452a-ab34-00d2f6e896b7,89000.0,Salon Cantik Bu Dewi,Mandiri,2024-10-24T17:17:15.393288,IOS-EB071998,Jakarta Timur,Tono Setiawan,Minimarket Bu Endah,0,
+61d1fd4b-5706-442d-861c-d4f6b7d4d20e,4810000.0,FAKE-Warung Pak Budi,GoPay,2024-02-17T23:13:07.646590,WEB-3C7B63E9,Jakarta Selatan,Eko Prasetyo,Apotek Sehat Sejahtera,1,invoice_manipulation
+05b2d50d-7dcf-4d25-a4d9-1047c2d98367,1367000.0,Apotek Sehat Sejahtera,BNI,2024-06-28T19:23:53.746191,IOS-D71BDAD1,Jakarta Pusat,Dewi Lestari,Toko Online Bu Sari,0,
+a074e021-5987-476b-a110-6c8ffbc1b1dd,69000.0,Toko Online Bu Sari,BNI,2024-04-11T13:16:09.601960,ANDROID-92D760A1,Makassar,Budi Hidayat,Konter HP Bu Nurul,0,
+62ecefcd-9de6-4b42-95cb-85cb7930cee8,3922000.0,Minimarket Bu Endah,GoPay,2024-04-13T22:15:58.018777,ANDROID-F88EAEB2,Medan,Citra Setiawan,Konter HP Bu Nurul,1,duplicate
+9b6ec0da-539d-482e-9964-dbc0895e4cb6,1007000.0,Bengkel Motor Mas Agus,LinkAja,2024-03-04T18:30:05.773960,ANDROID-66F454C5,Jakarta Pusat,Reza Wijaya,Bengkel Las Pak Slamet,0,
+da1b7419-630c-473f-8194-e543858e3489,184812000.0,Bengkel Las Pak Slamet,BRI,2024-10-17T06:17:50.385098,WEB-98FE074C,Jakarta Barat,Citra Firmansyah,Salon Cantik Bu Dewi,1,amount_anomaly
+b3e547a9-13d9-45d0-b015-86c23d2b7201,87000.0,Toko Buah Bu Lastri,QRIS,2024-01-11T15:16:57.936504,ANDROID-21060EF4,Bekasi,Wahyu Purnama,Jasa Print Pak Hendra,0,
+b76b55cc-fdc8-47eb-bb3f-bbf2c4e65017,394000.0,Toko Elektronik Mas Dedi,BCA,2024-10-27T08:57:08.216986,ANDROID-A9FD0972,Yogyakarta,Umi Nugroho,Bengkel Motor Mas Agus,0,
+b86756b0-ae33-4331-897a-4d21514f1374,380000.0,Apotek Sehat Sejahtera,GoPay,2024-05-18T19:53:21.143501,IOS-BFBFAE39,Medan,Anonim-4633,Toko Online Bu Sari,1,identity_fraud
+6b1bfa93-623b-46b3-8ef2-45cadc94f2a8,35000.0,Bengkel Motor Mas Agus,Dana,2024-11-08T18:44:37.296097,ANDROID-5CF9B4EE,Makassar,Sari Handoko,Supermarket Berkah Jaya,0,
+0e235d9d-88d5-408a-b5a3-ff7d3219dcf2,405000.0,Toko Baju Murah Pak Rahmat,QRIS,2024-04-24T15:58:19.145526,WEB-3ACA6C3B,Palembang,Umi Ariani,Salon Cantik Bu Dewi,0,
+82d230b5-f732-4d3c-bcf6-282b10f31547,229000.0,Bakso Pak Soleh,ShopeePay,2024-01-24T18:17:16.220027,WEB-697DE6DB,Medan,Putri Ariani,Toko Buah Bu Lastri,0,
+106e5b06-39c4-4a09-a420-7d036b5cd770,443000.0,Bengkel Motor Mas Agus,ShopeePay,2024-09-13T20:55:24.651003,ANDROID-8FF6ECB0,Jakarta Barat,Vina Setiawan,Supermarket Berkah Jaya,0,
+89338a31-9180-43e0-b26c-227856f96d76,1202000.0,Jasa Print Pak Hendra,BNI,2024-10-30T22:56:24.530677,ANDROID-CAA083F8,Bekasi,Joko Setiawan,Kios Pulsa Mas Feri,0,
+abf7661e-42a3-4c97-89f3-5531cac7b546,1389000.0,Laundry Kilat Bu Wati,ShopeePay,2024-12-18T22:34:59.588324,ANDROID-611A7579,Jakarta Utara,Oka Kurniawan,Bengkel Motor Mas Agus,1,duplicate
+f6307cd6-f405-429c-8ea0-1416bcea78fc,499000.0,Bakso Pak Soleh,OVO,2024-07-03T21:06:31.526036,WEB-3536C94F,Bandung,Lina Setiawan,Laundry Kilat Bu Wati,0,
+56ac164a-721a-4b3f-b26a-4959fa10dede,339000.0,Toko Online Bu Sari,Mandiri,2024-11-01T10:48:59.987360,WEB-6E20EE83,Jakarta Utara,Mira Rahayu,Salon Cantik Bu Dewi,1,duplicate
+34fab200-649c-4834-939d-b210bec788a2,125000.0,Bengkel Las Pak Slamet,BRI,2024-09-25T13:26:23.435969,IOS-02B688EB,Yogyakarta,Andi Wibowo,Warung Kopi Mas Rizky,0,
+98434f99-014a-4bb0-b82b-eb840013ca18,84000.0,Apotek Sehat Sejahtera,BRI,2024-11-09T19:59:20.180232,ANDROID-E27C3A9F,Bekasi,Irwan Rahayu,Toko Baju Murah Pak Rahmat,0,
+bb70dd0a-6503-4306-a755-82cc310ea67d,357000.0,Salon Cantik Bu Dewi,Dana,2024-08-08T00:22:43.600193,ANDROID-9D4B173E,Bekasi,Kartini Rahayu,Salon Cantik Bu Dewi,0,
+e65ed8a0-5ea9-4ba0-b82b-1c6cd7bceb11,25000.0,Bengkel Las Pak Slamet,QRIS,2024-02-17T00:25:41.076432,ANDROID-92A90EE4,Jakarta Pusat,Anonim-5206,Salon Cantik Bu Dewi,1,identity_fraud
+165cf243-eaa7-4b0d-878e-2064242301df,71000.0,Minimarket Bu Endah,BRI,2024-02-05T08:03:49.683535,WEB-AE5BCB84,Bekasi,Sari Susanto,Minimarket Bu Endah,0,
+707d2f83-2000-4f15-bb8e-3b0698d0af4f,346000.0,Jasa Print Pak Hendra,Mandiri,2024-10-31T10:41:05.622824,IOS-44D4C3AE,Surabaya,Dewi Lestari,Kios Pulsa Mas Feri,0,
+4da2f0a0-152f-4125-8f29-41ac54d90fe9,62052000.0,Supermarket Berkah Jaya,OVO,2024-12-21T13:30:55.342682,IOS-B8D3847A,Palembang,Nanda Hidayat,Toko Elektronik Mas Dedi,1,amount_anomaly
+978fee02-23b0-42f5-b914-21230d3833d7,194000.0,Jasa Print Pak Hendra,LinkAja,2024-03-17T20:09:58.166350,IOS-C90B3B78,Jakarta Pusat,Nanda Setiawan,Konter HP Bu Nurul,0,
+bbda4dec-8c3b-4e05-a9be-e742b1cef35f,1323000.0,Toko Alat Tulis Mas Erwan,BNI,2024-03-17T13:55:24.888893,WEB-70C28932,Palembang,Sari Ariani,Warung Pak Budi,0,
+6e53f73c-7168-4874-a1c1-cf5a5d1a764d,3150000.0,Toko Online Bu Sari,ShopeePay,2024-02-17T20:35:46.277873,ANDROID-8CE694F0,Palembang,Mira Kurniawan,Bakso Pak Soleh,0,
+81d68176-a224-4eac-8664-eb3c861f68b0,372000.0,Kios Pulsa Mas Feri,GoPay,2024-09-04T01:43:06.963615,WEB-A6CDB4AD,Tangerang,Andi Rahayu,Bengkel Motor Mas Agus,0,
+cb42bd8a-d041-4f65-b4ce-e3d27db80206,15000.0,Apotek Sehat Sejahtera,OVO,2024-09-30T17:50:33.529518,IOS-A103C857,Palembang,Kartini Wibowo,Konter HP Bu Nurul,1,duplicate
+58f5cc3d-7b74-437a-a171-693341fffe29,72000.0,Salon Cantik Bu Dewi,QRIS,2024-08-16T07:51:50.323563,IOS-A0561EE7,Bandung,Vina Suharto,Minimarket Bu Endah,0,
+31045145-3604-4cb2-8662-862278b970e6,68000.0,Jasa Print Pak Hendra,ShopeePay,2024-04-09T18:35:32.273013,ANDROID-885AEB46,Depok,Budi Rahayu,Toko Baju Murah Pak Rahmat,0,
+ff6ffc90-fb0b-4182-a873-b362ec9b1f29,78000.0,Toko Elektronik Mas Dedi,Dana,2024-11-20T18:05:24.802188,WEB-53CA3A96,Surabaya,Irwan Purnama,Apotek Sehat Sejahtera,0,
+5defbf82-1304-4f87-8808-71dadc22b162,95000.0,Konter HP Bu Nurul,BRI,2024-05-03T05:32:51.283201,WEB-6AE10AF9,Jakarta Barat,Budi Santoso,Konter HP Bu Nurul,0,
+6f89c792-ed85-4647-9824-f3392b6c5f84,76417000.0,Konter HP Bu Nurul,BRI,2024-10-24T16:38:18.138201,ANDROID-7B95E555,Jakarta Timur,Putri Hidayat,Toko Baju Murah Pak Rahmat,1,amount_anomaly
+1c9c279d-ab64-4ba3-aed6-f1fcf1e21e38,2815000.0,Kios Pulsa Mas Feri,Dana,2024-05-16T10:10:12.225663,IOS-8821E69A,Makassar,Mira Firmansyah,Toko Baju Murah Pak Rahmat,0,
+33dfe69f-2fd2-46f0-943a-ff839cf31e42,178000.0,Bengkel Motor Mas Agus,BNI,2024-10-12T14:09:34.659683,IOS-75C345A0,Jakarta Selatan,Yanto Lestari,Kios Pulsa Mas Feri,0,
+d859cfe8-6a58-41a6-9df3-a66448b9a225,83000.0,Bengkel Motor Mas Agus,QRIS,2024-02-05T21:10:39.909580,IOS-37C1F688,Makassar,Kartini Suharto,Bengkel Motor Mas Agus,0,
+9e366b01-0d54-4d49-b395-b3cf85068a3e,854000.0,FAKE-Kios Pulsa Mas Feri,Dana,2024-12-02T00:24:24.809227,WEB-45D1611A,Makassar,Andi Prasetyo,Bakso Pak Soleh,1,invoice_manipulation
+df00fcf0-5f35-4aff-9756-f216927ae498,3272000.0,Salon Cantik Bu Dewi,Mandiri,2024-06-09T11:28:21.589432,IOS-CC304FE7,Jakarta Pusat,Fajar Handoko,Laundry Kilat Bu Wati,0,
+d4a16d3c-9593-489e-a1af-8445c4265038,82013000.0,Supermarket Berkah Jaya,BRI,2024-12-23T04:11:34.137751,IOS-DD4AE7F0,Makassar,Andi Kurniawan,Toko Baju Murah Pak Rahmat,1,amount_anomaly
+6d915a8b-b25d-4576-9f3e-b1202a2b4cb3,2442000.0,Apotek Sehat Sejahtera,LinkAja,2024-08-18T11:08:44.778846,WEB-4700F5B9,Makassar,Irwan Saputra,Toko Baju Murah Pak Rahmat,0,
+558dfff6-bb95-4717-8861-70791ce1c915,1527000.0,Minimarket Bu Endah,ShopeePay,2024-11-24T22:09:04.035799,WEB-6BCBE065,Makassar,Irwan Wijaya,Toko Online Bu Sari,0,
+3af5cf9e-9320-495a-893d-318d061709d1,127000.0,Bengkel Las Pak Slamet,Mandiri,2024-02-11T20:37:14.161548,WEB-5C8EAC2F,Medan,Kartini Saputra,Warung Makan Bu Tini,0,
+34849b3b-a49a-4f44-abe1-1b3a5e9856ab,39000.0,Toko Online Bu Sari,Mandiri,2024-09-23T19:09:02.700162,ANDROID-F4CFA389,Depok,Irwan Purnama,Laundry Kilat Bu Wati,0,
+0dd9cbe3-337a-4404-b765-8868d6b038b6,37000.0,Minimarket Bu Endah,BNI,2024-06-09T09:51:55.439086,WEB-7E53DE34,Bandung,Nanda Lestari,Kios Pulsa Mas Feri,0,
+5a42b2f3-6c56-4f05-9d5a-e946f53ea53e,78000.0,Toko Baju Murah Pak Rahmat,BRI,2024-07-09T11:06:52.845093,WEB-4781B98A,Jakarta Timur,Budi Wijaya,Warung Makan Bu Tini,0,
+8e84b845-8bed-497f-a227-bba52305fca6,1303000.0,Warung Pak Budi,Dana,2024-09-06T16:29:18.267808,IOS-60DD78EC,Yogyakarta,Umi Wijaya,Toko Buah Bu Lastri,0,
+30b2a116-b5a0-4a75-8b53-234fe5ad6081,4010000.0,Laundry Kilat Bu Wati,ShopeePay,2024-01-05T12:16:31.676724,WEB-DA55FF2F,Palembang,Reza Wibowo,Toko Alat Tulis Mas Erwan,0,
+22b46006-0fd3-44e6-a6a3-0053c7635eb3,90000.0,Warung Makan Bu Tini,GoPay,2024-01-15T22:53:10.839541,WEB-B6E7ED21,Surabaya,Reza Saputra,Toko Baju Murah Pak Rahmat,0,
+5da7c6d2-ad51-4daf-981a-faf583d68456,67000.0,Toko Alat Tulis Mas Erwan,OVO,2024-11-10T13:20:16.465958,WEB-64178A1E,Palembang,Wahyu Saputra,Toko Online Bu Sari,0,
+6420afff-e720-4a8c-83e5-0a5cf682d72b,447000.0,Kios Pulsa Mas Feri,ShopeePay,2024-11-06T09:38:01.178635,IOS-339A9F9C,Bandung,Putri Susanto,Toko Online Bu Sari,0,
+7b8097fc-e972-42b7-8846-e89f5c3ec11c,11000.0,Supermarket Berkah Jaya,QRIS,2024-10-20T11:39:10.217716,ANDROID-F4743F7F,Medan,Andi Susanto,Warung Makan Bu Tini,0,
+db665ed7-c8a3-40ed-8535-467b36178d4e,1334000.0,Bengkel Las Pak Slamet,Mandiri,2024-04-04T23:03:39.975257,ANDROID-36DD95B2,Medan,Andi Firmansyah,Bengkel Motor Mas Agus,0,
+412a55b0-713b-4285-9bdb-b1048d547830,453000.0,Warung Kopi Mas Rizky,LinkAja,2024-08-17T20:42:01.416158,IOS-841A61C4,Bandung,Mira Santoso,Warung Pak Budi,0,
+737d9b2b-1c7b-4821-92dd-9054d009037b,323000.0,Warung Makan Bu Tini,BNI,2024-03-09T10:54:53.475203,WEB-E9867F8D,Bekasi,Mira Wijaya,Minimarket Bu Endah,0,
+9d286230-8dae-43d8-86b0-915f1b31e0d6,34000.0,Bakso Pak Soleh,BCA,2024-01-04T10:36:12.248302,ANDROID-88900122,Surabaya,Citra Purnama,Toko Elektronik Mas Dedi,0,
+0de89c6f-bbd7-420d-9e8b-5ab3dbf01f8d,190863000.0,Toko Buah Bu Lastri,Dana,2024-05-07T03:25:19.699467,ANDROID-369DE81B,Medan,Wahyu Kusuma,Laundry Kilat Bu Wati,1,duplicate
+5aadac58-8a2a-405f-8aa4-707c545968a5,179000.0,Kios Pulsa Mas Feri,LinkAja,2024-07-02T11:58:13.773744,ANDROID-630FBBAD,Yogyakarta,Zahra Prasetyo,Toko Alat Tulis Mas Erwan,0,
+5a406a88-05b6-4767-a239-eee9f0b71fa5,81000.0,Bengkel Motor Mas Agus,OVO,2024-09-25T20:18:17.181268,ANDROID-FB8BB362,Bekasi,Wahyu Wibowo,Toko Buah Bu Lastri,0,
+bae91c31-a4af-4620-93a3-a9f7e2635b40,182598000.0,Minimarket Bu Endah,OVO,2024-12-11T10:42:27.963913,WEB-FE1E6767,Jakarta Timur,Yanto Prasetyo,Laundry Kilat Bu Wati,1,amount_anomaly
+f4d8f98f-3d15-4859-9680-68e24b58dc03,2604000.0,Toko Buah Bu Lastri,BCA,2024-06-03T16:23:13.016881,IOS-36C332A4,Bandung,Joko Saputra,Kios Pulsa Mas Feri,0,
+9a37cc14-fef6-49ff-ab5e-8a692629be6a,3562000.0,Salon Cantik Bu Dewi,BNI,2024-07-19T17:24:11.427649,IOS-5B6B18DA,Yogyakarta,Reza Wibowo,Bengkel Las Pak Slamet,0,
+cc30bb5b-d16e-4fdd-8bbf-a96fd0613436,246000.0,Minimarket Bu Endah,OVO,2024-02-26T15:51:37.316597,ANDROID-4A4C7CD5,Bandung,Irwan Purnama,Bengkel Las Pak Slamet,0,
+88cd39a7-e1d8-407e-b9be-ce5603bd8d0e,1788000.0,Warung Makan Bu Tini,ShopeePay,2024-10-09T10:57:30.898681,ANDROID-D32550BE,Jakarta Timur,Fajar Suharto,Jasa Print Pak Hendra,0,
+989daa8c-70b6-41ee-b95f-ab316c915202,56000.0,Laundry Kilat Bu Wati,ShopeePay,2024-11-08T14:47:26.030165,WEB-81A873EE,Palembang,Oka Hidayat,Toko Online Bu Sari,0,
+66109ced-d7bf-45f1-848f-0e4e18f317df,62000.0,Warung Pak Budi,ShopeePay,2024-11-08T14:00:34.555906,ANDROID-AC6EEC16,Palembang,Reza Suharto,Supermarket Berkah Jaya,0,
+8a1062ac-7c98-4f51-a2c2-a06bd910b057,49000.0,Apotek Sehat Sejahtera,LinkAja,2024-11-01T20:01:25.931481,ANDROID-A0D082C9,Tangerang,Yanto Wibowo,Konter HP Bu Nurul,0,
+8ad97b1d-45e6-4dac-9198-44c54fdf074d,34000.0,Toko Sembako Bu Yanti,GoPay,2024-03-30T17:58:07.413766,WEB-335B2906,Makassar,Joko Ariani,Apotek Sehat Sejahtera,0,
+a073e493-a7f6-4aa5-92d7-068ae4aa8628,650000.0,Supermarket Berkah Jaya,GoPay,2024-01-09T19:47:28.731368,IOS-36B80EF4,Yogyakarta,Kartini Kusuma,Laundry Kilat Bu Wati,0,
+1582c20c-767c-4798-8509-44175e52735b,74000.0,Toko Sembako Bu Yanti,BRI,2024-11-28T11:20:03.632935,IOS-0B223C99,Palembang,Fajar Prasetyo,Warung Kopi Mas Rizky,0,
+f281f0d0-5368-4080-9bfe-d37008ea45f7,16000.0,Apotek Sehat Sejahtera,BCA,2024-01-16T18:21:41.632059,WEB-698EA398,Palembang,Irwan Santoso,Laundry Kilat Bu Wati,0,
+555d640b-384a-45da-83a9-7aec94bb0830,239000.0,Jasa Print Pak Hendra,Dana,2024-02-07T14:10:04.816441,ANDROID-91D6BD87,Depok,Joko Wijaya,Apotek Sehat Sejahtera,0,
+92287fd3-9029-48ef-b62b-50c259f2f83c,323000.0,Toko Online Bu Sari,BCA,2024-02-15T11:52:15.332428,IOS-535945D2,Medan,Putri Handoko,Bengkel Motor Mas Agus,0,
+ca5cdb3a-60c8-4a0f-8170-af518ed1b00c,307000.0,Supermarket Berkah Jaya,BCA,2024-05-04T05:22:05.758029,ANDROID-F0CFECF4,Palembang,Xena Nugroho,Toko Sembako Bu Yanti,0,
+6e8d8056-d4e6-47cd-88a8-c69fbad34d22,122000.0,Warung Makan Bu Tini,ShopeePay,2024-09-05T22:23:10.623647,IOS-32B82F54,Medan,Citra Ariani,Konter HP Bu Nurul,0,
+a11d4dab-3d94-4baf-b775-f77726510264,447000.0,Apotek Sehat Sejahtera,OVO,2024-10-03T21:07:22.533587,IOS-6386B5B4,Depok,Umi Lestari,Toko Online Bu Sari,0,
+0fd7b688-ee1b-4ee2-bb43-dd17c33015be,140000.0,Toko Baju Murah Pak Rahmat,QRIS,2024-11-26T21:52:02.652455,IOS-C8B08550,Surabaya,Joko Nugroho,Laundry Kilat Bu Wati,0,
+35a9297a-6913-4a64-b57b-20c46458aadf,157065000.0,Bengkel Las Pak Slamet,QRIS,2024-04-28T17:00:20.946020,IOS-F542AA6C,Yogyakarta,Fajar Firmansyah,Bengkel Las Pak Slamet,1,amount_anomaly
+bbbed4cd-8593-4d4a-bac7-831248f3c149,1822000.0,Toko Online Bu Sari,GoPay,2024-03-26T18:00:12.740895,ANDROID-07401AB2,Palembang,Mira Lestari,Salon Cantik Bu Dewi,0,
+99f449e1-81ac-4869-941b-717aa536cc2c,17000.0,Warung Pak Budi,ShopeePay,2024-06-14T19:09:57.913720,ANDROID-1318C179,Surabaya,Irwan Kurniawan,Apotek Sehat Sejahtera,0,
+78d2e8ab-aa3c-43dc-a2a5-40caaa5c5183,56000.0,Bengkel Las Pak Slamet,GoPay,2024-04-29T19:34:28.892971,ANDROID-1B5BA336,Jakarta Pusat,Zahra Nugroho,Minimarket Bu Endah,0,
+27116f70-e056-4333-8ab1-8cdde9622ae5,1336000.0,Warung Makan Bu Tini,ShopeePay,2024-03-22T17:04:40.063298,WEB-524F37F0,Makassar,Lina Wijaya,Bengkel Motor Mas Agus,0,
+79d460c8-3ab1-4a54-8506-cafc539f4535,1247000.0,Warung Pak Budi,BNI,2024-08-17T10:31:48.791456,IOS-2BEA0B3F,Semarang,Yanto Wijaya,Laundry Kilat Bu Wati,0,
+46a12fc7-91a0-4531-a71b-4e6b7d0f2507,441000.0,Bengkel Las Pak Slamet,OVO,2024-01-28T15:29:43.636614,IOS-A8F320AF,Makassar,Kartini Firmansyah,Toko Buah Bu Lastri,0,
+a2800c64-d720-4836-a83f-14b060d4a2c9,62000.0,Toko Online Bu Sari,BNI,2024-01-09T12:37:38.259234,IOS-AF6A8936,Tangerang,Eko Ariani,Toko Baju Murah Pak Rahmat,0,
+16c8a6af-925f-40ac-8e9a-de68502be46d,1701000.0,Kios Pulsa Mas Feri,GoPay,2024-02-14T22:23:47.720545,IOS-9C10F3A1,Makassar,Irwan Nugroho,Toko Alat Tulis Mas Erwan,0,
+8183abf4-921b-459a-b031-37a19c484075,30000.0,Konter HP Bu Nurul,BRI,2024-07-17T08:47:28.599082,ANDROID-64B06E43,Medan,Putri Prasetyo,Salon Cantik Bu Dewi,0,
+03d1502c-0062-4d0a-938e-1a490299f9ce,1144000.0,Toko Alat Tulis Mas Erwan,OVO,2024-01-19T23:52:08.297442,IOS-AF8A4A25,Jakarta Timur,Anonim-1131,Toko Elektronik Mas Dedi,1,identity_fraud
+a5497270-3daa-4181-93f7-a8512b7a1a11,22000.0,Supermarket Berkah Jaya,Dana,2024-06-30T21:54:18.589370,IOS-5A0365A1,Depok,Eko Handoko,Warung Pak Budi,0,
+259a49d2-cde5-45e9-8e97-3f834b674b8b,92000.0,Warung Kopi Mas Rizky,BNI,2024-05-26T17:12:12.723536,IOS-6D48631E,Jakarta Utara,Gilang Lestari,Apotek Sehat Sejahtera,0,
+2bc8ce33-8aaf-40b2-a69c-c24afa3ee043,306000.0,Toko Buah Bu Lastri,BRI,2024-12-06T13:39:48.415625,IOS-F1B29C5D,Jakarta Selatan,Zahra Hidayat,Jasa Print Pak Hendra,0,
+23121844-003d-4968-83cc-ef9eca211361,1458000.0,Apotek Sehat Sejahtera,Dana,2024-02-29T08:34:21.658246,WEB-9ED8443E,Jakarta Barat,Putri Wibowo,Apotek Sehat Sejahtera,0,
+6a3f92b6-a223-4b16-91de-894a6219e464,444000.0,Toko Elektronik Mas Dedi,BNI,2024-11-07T08:10:43.586631,IOS-16FA197A,Bandung,Budi Hidayat,Warung Makan Bu Tini,0,
+6daa862c-be7a-4856-ae08-f5d6dff64660,64000.0,Toko Sembako Bu Yanti,BNI,2024-07-18T09:21:20.594660,WEB-8747B310,Medan,Kartini Rahayu,Bakso Pak Soleh,0,
+f118af03-4a41-4cc6-b111-a5bbb4203b7a,3622000.0,Minimarket Bu Endah,ShopeePay,2024-01-11T17:17:04.296676,IOS-39E8C34F,Jakarta Utara,Putri Saputra,Bengkel Las Pak Slamet,0,
+388c4c30-848d-4500-afa7-4ec62040b44c,340000.0,Warung Pak Budi,Mandiri,2024-01-08T07:39:31.146105,IOS-99E70CC8,Semarang,Putri Prasetyo,Toko Elektronik Mas Dedi,0,
+3ce8581c-f379-4cf4-b3d7-8a746a52175e,706000.0,Toko Elektronik Mas Dedi,Dana,2024-01-11T06:55:22.435776,WEB-3F3D67F5,Bekasi,Xena Setiawan,Warung Makan Bu Tini,0,
+5a16be2f-949c-475e-9b19-92d1b43a1d20,1899000.0,Bengkel Las Pak Slamet,Dana,2024-08-13T10:54:42.939302,WEB-CD7D8A51,Yogyakarta,Fajar Wijaya,Jasa Print Pak Hendra,0,
+ca16cd08-7196-4ebc-bb5d-85acb0638a6c,2398000.0,Toko Elektronik Mas Dedi,Mandiri,2024-06-14T07:23:10.988088,WEB-2EDCA215,Jakarta Pusat,Xena Kurniawan,Warung Pak Budi,0,
+762b08a7-8b2f-4446-a6ba-c45c3d71b404,455000.0,Bakso Pak Soleh,BNI,2024-08-26T14:52:50.944258,IOS-39B18DBA,Surabaya,Yanto Rahayu,Laundry Kilat Bu Wati,1,duplicate
+86f59189-f2fd-4582-a119-0eed3eea9c7e,162000.0,Minimarket Bu Endah,GoPay,2024-12-01T11:25:18.648561,WEB-C8CD7B36,Jakarta Barat,Dewi Wijaya,Apotek Sehat Sejahtera,0,
+8ad40a1f-fa8f-4a7d-88b0-b9d551c14693,3377000.0,Warung Kopi Mas Rizky,LinkAja,2024-12-18T14:38:44.848846,ANDROID-F0D2A4A5,Medan,Zahra Setiawan,Bengkel Motor Mas Agus,0,
+f02d38f3-99b9-4693-8570-77d74d17e67a,1263000.0,Bengkel Motor Mas Agus,Mandiri,2024-07-16T21:25:16.047609,ANDROID-8438202B,Jakarta Barat,Fajar Hidayat,Toko Buah Bu Lastri,0,
+09775883-0ffa-4672-8032-964d7a1e24c3,121000.0,Konter HP Bu Nurul,ShopeePay,2024-07-23T09:44:54.781591,ANDROID-43F4B3C3,Depok,Gilang Purnama,Toko Buah Bu Lastri,0,
+46ebb95b-dcbc-4707-bba4-b2550cbb4942,1774000.0,Toko Elektronik Mas Dedi,BNI,2024-06-22T11:07:55.393476,IOS-0ED3C71B,Makassar,Yanto Firmansyah,Bakso Pak Soleh,0,
+f244c842-7f77-4330-b70b-f7cadb074a58,82000.0,Toko Sembako Bu Yanti,OVO,2024-04-14T10:19:53.202114,WEB-7FA162BC,Medan,Budi Setiawan,Kios Pulsa Mas Feri,0,
+d10ae5bb-6351-4132-ba7c-ab7a23b55084,578000.0,Toko Buah Bu Lastri,GoPay,2024-07-02T12:27:45.422752,WEB-807BF645,Tangerang,Gilang Prasetyo,Bengkel Motor Mas Agus,0,
+884c1fa3-8ec7-4859-be26-c98cdabdceed,66000.0,Toko Alat Tulis Mas Erwan,OVO,2024-10-05T11:18:22.037217,IOS-B743B7D9,Jakarta Barat,Yanto Setiawan,Kios Pulsa Mas Feri,0,
+7ccfea08-fe09-42bd-944f-1c6f2c00b684,3731000.0,Warung Pak Budi,QRIS,2024-11-07T11:10:24.626000,WEB-D71F8BF7,Yogyakarta,Anonim-6092,Supermarket Berkah Jaya,1,identity_fraud
+b9ac6bb0-67c2-4e0c-925b-259811017e32,78927000.0,Warung Pak Budi,ShopeePay,2024-12-04T04:52:07.140744,WEB-A319B4F9,Depok,Sari Santoso,Warung Makan Bu Tini,1,amount_anomaly
+af80d560-29b8-4cd8-99ab-1f56b4e43785,285000.0,Bengkel Motor Mas Agus,BCA,2024-04-24T18:55:53.764443,ANDROID-257D4F85,Depok,Zahra Susanto,Toko Elektronik Mas Dedi,0,
+2597ef52-33f4-49c9-bf26-c1348134ef42,380000.0,Bengkel Motor Mas Agus,GoPay,2024-05-29T01:22:11.523971,WEB-C8CE88F3,Bandung,Budi Lestari,Toko Buah Bu Lastri,0,
+6e588854-0af9-40db-8558-7e5fe8fbae7f,461000.0,Minimarket Bu Endah,QRIS,2024-01-08T21:40:37.322810,WEB-1D3FA63D,Medan,Wahyu Kurniawan,Konter HP Bu Nurul,0,
+be8a8207-e19b-47a0-99bd-1a70d33225bd,156504000.0,Warung Makan Bu Tini,LinkAja,2024-03-25T07:17:34.286464,IOS-7B61D6DF,Bekasi,Reza Kusuma,Minimarket Bu Endah,1,amount_anomaly
+bf4d4c29-a512-4f3a-b1d8-f2951cb50742,282000.0,Toko Sembako Bu Yanti,ShopeePay,2024-11-09T22:56:17.504186,IOS-CFC942B2,Bandung,Xena Kurniawan,Bakso Pak Soleh,0,
+ef9a7e2e-c5ff-4380-a9a8-585298b4c8ea,397000.0,Bengkel Las Pak Slamet,OVO,2024-03-26T19:50:53.822754,WEB-0171B250,Palembang,Oka Handoko,Warung Makan Bu Tini,0,
+24a65df2-6d3c-4021-813c-9ccca0819972,42000.0,Toko Elektronik Mas Dedi,QRIS,2024-04-10T16:08:12.236085,WEB-7317F138,Yogyakarta,Dewi Susanto,Warung Makan Bu Tini,0,
+4e2ed4da-d301-486d-b40c-a0705a3974b6,295000.0,Bengkel Las Pak Slamet,QRIS,2024-06-17T18:51:43.295063,WEB-17DBD761,Jakarta Selatan,Fajar Prasetyo,Jasa Print Pak Hendra,0,
+4df82625-1f26-49cf-8b66-9566e7751a63,1119000.0,Bakso Pak Soleh,ShopeePay,2024-04-04T14:30:04.103345,WEB-59AE1B63,Jakarta Selatan,Wahyu Wibowo,Minimarket Bu Endah,0,
+e673f65b-ef48-47f1-8d6b-39d05d36d849,76000.0,Toko Alat Tulis Mas Erwan,LinkAja,2024-02-10T22:53:29.695793,ANDROID-FEDCAA62,Jakarta Pusat,Fajar Purnama,Konter HP Bu Nurul,0,
+0ad25af2-4a9a-4b5a-b558-2c1237475e26,3907000.0,Warung Kopi Mas Rizky,BNI,2024-01-05T22:49:58.207630,IOS-EEE57524,Jakarta Utara,Dewi Kurniawan,Salon Cantik Bu Dewi,0,
+6796794c-d6de-4e55-a94c-c84e0a343bdb,4818000.0,Toko Alat Tulis Mas Erwan,LinkAja,2024-01-22T14:41:12.963094,ANDROID-704E5BFE,Yogyakarta,Putri Handoko,Toko Baju Murah Pak Rahmat,1,duplicate
+1d7e56e5-c7e8-4222-b224-2d19bde6fa0e,35000.0,Warung Makan Bu Tini,QRIS,2024-10-15T16:09:14.814066,WEB-EE2070AC,Jakarta Selatan,Anonim-5745,Supermarket Berkah Jaya,1,identity_fraud
+cabd75aa-7387-47a9-8846-cca3534dfe61,56000.0,Laundry Kilat Bu Wati,ShopeePay,2024-11-08T14:51:26.030165,WEB-90DA0C7C,Jakarta Pusat,Oka Hidayat,Toko Baju Murah Pak Rahmat,1,duplicate
+bdb390f8-63f6-4b9d-9e99-694ea25906f2,85000.0,Supermarket Berkah Jaya,QRIS,2024-04-28T08:17:53.099745,WEB-76593D40,Jakarta Utara,Tono Purnama,Laundry Kilat Bu Wati,0,
+bdacb4d4-fc44-41d7-a3cc-e3dee20e9844,11000.0,Toko Baju Murah Pak Rahmat,BCA,2024-10-22T02:53:23.003756,IOS-F281AF0C,Surabaya,Anonim-1515,Toko Buah Bu Lastri,1,identity_fraud
+78bdd3c5-9d33-49b6-809c-df55d1f65661,230000.0,Toko Buah Bu Lastri,Mandiri,2024-03-30T19:14:37.418326,IOS-5B71CC4C,Depok,Kartini Santoso,Minimarket Bu Endah,0,
+c951cdd0-772e-4b95-8234-b3c7307458d7,53000.0,Warung Makan Bu Tini,QRIS,2024-05-20T08:03:59.381505,IOS-1B800978,Jakarta Pusat,Oka Susanto,Laundry Kilat Bu Wati,0,
+01ae1d38-4937-4325-b961-cd378a734a51,95000.0,Warung Makan Bu Tini,ShopeePay,2024-09-27T20:10:57.925660,ANDROID-D49F34AD,Bekasi,Sari Santoso,Bakso Pak Soleh,0,
+aa712454-a662-4f0b-913e-aa625e71ef28,46000.0,Toko Elektronik Mas Dedi,Dana,2024-07-09T19:34:35.717016,IOS-F447EE13,Tangerang,Gilang Setiawan,Jasa Print Pak Hendra,0,
+8b0af862-e735-4203-ba2e-9ac4e03ca858,121000.0,Bakso Pak Soleh,LinkAja,2024-05-18T06:17:37.758839,IOS-05186BF8,Palembang,Anonim-5081,Warung Kopi Mas Rizky,1,identity_fraud
+3db393f6-2606-4578-b49b-30fbbe96a419,355000.0,Toko Buah Bu Lastri,GoPay,2024-05-27T13:17:10.740987,WEB-31001D5B,Jakarta Timur,Kartini Wibowo,Toko Baju Murah Pak Rahmat,0,
+f63fbedf-1b49-40e5-8ef8-a0171006b0a6,1257000.0,Laundry Kilat Bu Wati,OVO,2024-11-27T10:31:53.350661,IOS-4C76978F,Jakarta Utara,Lina Suharto,Minimarket Bu Endah,0,
+276a3aae-d678-4a47-b1b7-0ba5d5aa4cdd,459000.0,Toko Sembako Bu Yanti,QRIS,2024-06-06T02:05:29.163649,ANDROID-EDF2A514,Depok,Dewi Lestari,Minimarket Bu Endah,1,suspicious_pattern
+cef3bf19-bb3c-4547-bcdd-a589d227820d,100000.0,Warung Pak Budi,BCA,2024-06-10T17:49:31.176006,ANDROID-E52D0C10,Jakarta Utara,Sari Kusuma,Toko Sembako Bu Yanti,0,
+14da0141-889f-415d-8a32-db7ad5f61861,2431000.0,Toko Alat Tulis Mas Erwan,BRI,2024-02-05T21:01:25.868640,IOS-557B5B85,Bandung,Putri Wibowo,Toko Baju Murah Pak Rahmat,0,
+228cca18-3e99-4677-8c6a-7fb6fe1f327d,47000.0,Toko Online Bu Sari,BCA,2024-10-21T10:40:25.321569,ANDROID-91AC9B6A,Bandung,Wahyu Kurniawan,Laundry Kilat Bu Wati,0,
+a060d191-ded9-4cd5-89d2-775db9c62204,66000.0,Apotek Sehat Sejahtera,BCA,2024-07-20T12:36:37.694038,ANDROID-96234CBB,Jakarta Timur,Wahyu Firmansyah,Warung Makan Bu Tini,0,
+fcbf92fa-e8e9-486e-bec6-5dc510e8d1a9,265000.0,Warung Kopi Mas Rizky,LinkAja,2024-07-26T08:22:21.390380,IOS-184573F8,Surabaya,Reza Kusuma,Minimarket Bu Endah,0,
+c22d6ce5-4601-41f2-be9c-10e2cfc8adba,3557000.0,Toko Elektronik Mas Dedi,BCA,2024-02-29T02:49:50.036555,IOS-F8C2A497,Jakarta Barat,Hani Handoko,Bengkel Las Pak Slamet,0,
+84c5cd6d-2b35-494a-975e-e6f51a148013,633000.0,FAKE-Apotek Sehat Sejahtera,BCA,2024-01-24T10:56:20.225513,ANDROID-F681A45E,Jakarta Selatan,Putri Lestari,Minimarket Bu Endah,1,invoice_manipulation
+8a1a08e2-96a3-4416-9b9c-babef62cf599,565000.0,Toko Elektronik Mas Dedi,QRIS,2024-10-16T08:09:48.208538,ANDROID-BD6E0EBC,Depok,Putri Kusuma,Bengkel Motor Mas Agus,0,
+69d48f62-e284-46cd-b24d-9185c782fcce,381000.0,Minimarket Bu Endah,QRIS,2024-06-26T19:50:37.378296,IOS-F2CEA7A3,Jakarta Barat,Wahyu Lestari,Toko Alat Tulis Mas Erwan,0,
+7c4ed66b-4e0b-44d5-8126-8bf9aa090f55,4100000.0,Bengkel Motor Mas Agus,QRIS,2024-03-03T04:59:35.491436,ANDROID-C8CB32D3,Tangerang,Anonim-8125,Laundry Kilat Bu Wati,1,identity_fraud
+65c72dc6-fbcb-4497-87d8-8c5d2391fc76,312000.0,Apotek Sehat Sejahtera,QRIS,2024-02-20T14:30:39.902602,ANDROID-06DA28C3,Bandung,Hani Wijaya,Laundry Kilat Bu Wati,0,
+b4bf8b0c-206b-4b72-adfe-fbd5114e6fb8,19000.0,Bakso Pak Soleh,LinkAja,2024-06-16T07:13:06.127704,IOS-D678CCE8,Jakarta Utara,Wahyu Susanto,Bengkel Las Pak Slamet,0,
+1077a1f4-e068-4115-a73f-99a60beb1901,465000.0,Bakso Pak Soleh,BCA,2024-08-26T19:40:44.245570,ANDROID-D71C32A2,Jakarta Timur,Wahyu Nugroho,Kios Pulsa Mas Feri,0,
+13daf878-3bfb-484a-9e3a-68302be190a6,268000.0,Warung Pak Budi,BRI,2024-04-17T00:09:51.521095,ANDROID-D9488D6C,Jakarta Pusat,Sari Prasetyo,Warung Pak Budi,0,
+613847d8-23c5-4425-a342-b0f3215b770e,53000.0,Kios Pulsa Mas Feri,OVO,2024-03-21T16:46:33.118407,WEB-7ACE11D1,Jakarta Pusat,Oka Santoso,Toko Buah Bu Lastri,0,
+cb86541c-74fe-43e3-9018-d70639f14c75,93000.0,Toko Baju Murah Pak Rahmat,BRI,2024-04-24T21:11:12.276004,ANDROID-2238A340,Tangerang,Umi Nugroho,Warung Makan Bu Tini,1,duplicate
+74d30f05-d9b3-4332-a899-dd7aa953c0a1,93000.0,Konter HP Bu Nurul,BRI,2024-05-17T22:54:28.984624,IOS-7CD3F08F,Palembang,Citra Santoso,Toko Buah Bu Lastri,0,
+5e9070fa-f5b8-480c-a99a-4a17c55d08f5,1593000.0,Minimarket Bu Endah,Mandiri,2024-02-16T15:26:18.309168,WEB-2EF244C5,Jakarta Selatan,Tono Wibowo,Bengkel Las Pak Slamet,0,
+25b5f84a-81a3-4026-82d3-41153b0ca7c5,1120000.0,Toko Sembako Bu Yanti,Dana,2024-02-25T20:06:51.261340,WEB-849958BB,Depok,Hani Prasetyo,Bakso Pak Soleh,0,
+77bdb504-abb8-477e-9ee1-547ac4de1d33,29000.0,Warung Kopi Mas Rizky,Mandiri,2024-11-28T11:17:05.293451,IOS-8AEA35BC,Depok,Mira Kusuma,Bakso Pak Soleh,0,
+3a54a414-41bc-4dba-a01b-011baddf4eb8,66075000.0,Bakso Pak Soleh,OVO,2024-04-18T21:33:06.089840,IOS-FBFAD6AC,Jakarta Selatan,Yanto Hidayat,Bengkel Motor Mas Agus,1,amount_anomaly
+92c82c01-ee7f-48ef-8a43-a1ce9a95640e,389000.0,Toko Online Bu Sari,BNI,2024-04-27T09:25:44.654030,IOS-EE9D3F95,Tangerang,Vina Wibowo,Toko Baju Murah Pak Rahmat,0,
+b56769b4-1282-44f4-bfa8-da048dd29f7d,24000.0,Laundry Kilat Bu Wati,BCA,2024-10-22T12:36:38.881792,ANDROID-7C3EA30F,Bandung,Xena Kurniawan,Bengkel Motor Mas Agus,0,
+b1ed1bac-2cbe-42a8-97ed-c7d6a32601fe,83000.0,Apotek Sehat Sejahtera,BNI,2024-11-20T17:00:11.289397,WEB-F8133C13,Jakarta Utara,Fajar Rahayu,Apotek Sehat Sejahtera,0,
+dcf1b6db-3a67-4cb9-83f4-45e33be4e34d,118000.0,Supermarket Berkah Jaya,GoPay,2024-07-16T18:28:43.900957,WEB-16FADB0E,Jakarta Pusat,Reza Ariani,Bengkel Motor Mas Agus,0,
+23cd8c7c-47ef-4738-bf70-6969cacdc1d3,4267000.0,Bengkel Motor Mas Agus,LinkAja,2024-09-14T20:06:25.472534,WEB-EB17F46F,Depok,Oka Saputra,Bengkel Motor Mas Agus,0,
+e6a5f26b-8791-4c0e-94a4-fe82049db9b8,101000.0,Laundry Kilat Bu Wati,GoPay,2024-07-06T22:38:47.955159,ANDROID-962B3DD9,Depok,Anonim-1272,Laundry Kilat Bu Wati,1,identity_fraud
+a81fb8e9-666d-4ead-9de7-d58e3712bfcc,1119000.0,Jasa Print Pak Hendra,BNI,2024-06-03T15:49:01.174520,ANDROID-5DEB7920,Jakarta Timur,Joko Purnama,Bengkel Motor Mas Agus,0,
+a2cd1538-f43f-4b1b-89d1-9af26e30e3b3,1965000.0,Jasa Print Pak Hendra,LinkAja,2024-06-12T01:03:05.905381,IOS-D31B3FAC,Palembang,Anonim-2854,Minimarket Bu Endah,1,identity_fraud
+035ecb16-b04b-4e81-a218-df550fcee859,251000.0,Kios Pulsa Mas Feri,OVO,2024-12-06T04:04:32.665563,ANDROID-61A6563B,Jakarta Barat,Vina Purnama,Minimarket Bu Endah,1,suspicious_pattern
+4e7fad6a-7060-43f9-a07c-d54edf09bde6,4940000.0,Salon Cantik Bu Dewi,BRI,2024-05-23T11:00:44.973417,IOS-8F77A3AF,Bandung,Tono Wijaya,Bengkel Las Pak Slamet,0,
+482f33e5-1dea-48be-9b8a-db7c749de65b,2654000.0,Bengkel Motor Mas Agus,BNI,2024-04-30T19:32:40.488240,ANDROID-26B89131,Jakarta Timur,Yanto Wibowo,Warung Kopi Mas Rizky,0,
+be3be22b-c7ca-46e9-a794-646ea8afb789,230000.0,Supermarket Berkah Jaya,GoPay,2024-02-12T08:43:48.535135,ANDROID-4FC4211F,Depok,Yanto Saputra,Bengkel Motor Mas Agus,0,
+87c470ca-36ec-4f7b-9806-57d1ce6b7d3b,139000.0,Toko Buah Bu Lastri,OVO,2024-11-30T17:52:41.313071,ANDROID-2BDC61EC,Semarang,Joko Suharto,Laundry Kilat Bu Wati,0,
+51169947-15fe-41f1-bb1f-782b7f70874a,1241000.0,Apotek Sehat Sejahtera,Mandiri,2024-02-12T20:59:25.961149,ANDROID-9F408748,Bekasi,Zahra Saputra,Minimarket Bu Endah,0,
+67b9898e-a4fd-4b91-a051-c905657da951,158000.0,Warung Kopi Mas Rizky,BNI,2024-05-16T07:15:05.082940,IOS-402D13A6,Jakarta Utara,Irwan Hidayat,Toko Online Bu Sari,0,
+deab1f55-7f8e-40d1-810f-153ac69c1eb6,41000.0,Toko Baju Murah Pak Rahmat,Dana,2024-02-16T20:26:04.283887,ANDROID-948AFDC6,Palembang,Putri Purnama,Salon Cantik Bu Dewi,0,
+17275623-acfe-4eec-8be5-1f9930342de4,34000.0,Salon Cantik Bu Dewi,BCA,2024-07-13T12:46:47.225873,ANDROID-2217DB92,Depok,Kartini Rahayu,Toko Sembako Bu Yanti,0,
+da04b75a-9e13-4a8b-82f1-8c28f794995e,381000.0,Toko Sembako Bu Yanti,LinkAja,2024-01-11T07:04:25.112199,IOS-9E87269B,Surabaya,Sari Susanto,Jasa Print Pak Hendra,1,duplicate
+798cfc69-f4fc-495e-9eb5-23925c678403,482000.0,Toko Alat Tulis Mas Erwan,QRIS,2024-11-01T09:55:13.249814,IOS-F121B949,Jakarta Selatan,Oka Lestari,Toko Alat Tulis Mas Erwan,0,
+8a09c0d7-3a7b-4b82-a94e-6c013090c170,79000.0,Jasa Print Pak Hendra,BRI,2024-10-15T10:30:24.933321,WEB-C64625CE,Tangerang,Nanda Prasetyo,Bengkel Las Pak Slamet,0,
+d24a798a-250b-4105-b62f-6eb37fd99b6d,2601000.0,FAKE-Warung Kopi Mas Rizky,ShopeePay,2024-12-26T08:02:37.570100,ANDROID-354DE008,Jakarta Barat,Dewi Lestari,Supermarket Berkah Jaya,1,invoice_manipulation
+ea55de9f-65d1-4cfd-b04b-7c241dee76d7,1985000.0,Toko Elektronik Mas Dedi,LinkAja,2024-03-23T21:01:09.554483,WEB-A757286F,Jakarta Selatan,Oka Rahayu,Toko Alat Tulis Mas Erwan,0,
+709b66c1-8514-4aa2-9653-1ce2eaec46fe,84000.0,Toko Buah Bu Lastri,BNI,2024-12-14T14:38:51.601044,WEB-98F84C6A,Semarang,Eko Susanto,Toko Elektronik Mas Dedi,0,
+1a101292-8132-44cb-9403-51edf0c9ce9f,2874000.0,Toko Buah Bu Lastri,LinkAja,2024-12-11T17:09:48.084700,ANDROID-E525EE93,Surabaya,Fajar Firmansyah,Kios Pulsa Mas Feri,0,
+18dafd53-663c-4168-8de2-639889a9402b,74000.0,Jasa Print Pak Hendra,LinkAja,2024-07-30T05:16:41.724412,WEB-519931D0,Bekasi,Tono Firmansyah,Apotek Sehat Sejahtera,0,
+8e4ba18b-9da3-4ddc-a8ac-78f2280d9bb3,182000.0,Toko Alat Tulis Mas Erwan,BNI,2024-06-14T12:02:47.776874,IOS-7F32C0D6,Bekasi,Oka Kurniawan,Laundry Kilat Bu Wati,0,
+4e697ce6-1524-4401-9af7-695df57c25d9,48000.0,Toko Elektronik Mas Dedi,LinkAja,2024-01-19T22:48:23.331662,IOS-FD7EE73B,Jakarta Barat,Eko Wijaya,Bengkel Motor Mas Agus,0,
+2c35464f-8cde-47dd-aa36-bcf0664b328a,1395000.0,Toko Alat Tulis Mas Erwan,BRI,2024-01-03T11:27:05.009458,IOS-A064D9F1,Depok,Budi Prasetyo,Konter HP Bu Nurul,0,
+93fc6c46-61ae-475f-b549-5702bbf784ed,43000.0,Toko Elektronik Mas Dedi,QRIS,2024-12-10T10:02:57.677493,WEB-A97E1651,Jakarta Utara,Umi Kurniawan,Bengkel Motor Mas Agus,0,
+7d5e6928-139a-4bfc-ae70-1fab4f425ffd,412000.0,Bengkel Las Pak Slamet,Mandiri,2024-08-05T19:03:32.775534,WEB-A5DEA5DC,Yogyakarta,Andi Rahayu,Toko Baju Murah Pak Rahmat,0,
+14769f1d-7b58-4e8a-a987-aed32e98b248,116924000.0,Toko Alat Tulis Mas Erwan,GoPay,2024-06-07T05:12:42.628139,WEB-05F3E0DC,Jakarta Pusat,Yanto Nugroho,Toko Alat Tulis Mas Erwan,1,amount_anomaly
+ea8dc184-a5c0-4662-bb67-1c90d0e598af,269000.0,Minimarket Bu Endah,Dana,2024-10-19T13:11:25.422535,ANDROID-5E1C0487,Bekasi,Gilang Purnama,Jasa Print Pak Hendra,0,
+945bce38-9c28-4395-b4a9-97e012dcab0b,11000.0,Supermarket Berkah Jaya,BCA,2024-05-16T09:53:15.369048,ANDROID-D628CE0F,Tangerang,Andi Kurniawan,Bengkel Motor Mas Agus,0,
+9c625a7c-ee61-47d5-ac51-12be645ad0ea,184000.0,Supermarket Berkah Jaya,Mandiri,2024-02-07T16:10:50.829871,IOS-33F21127,Jakarta Timur,Andi Rahayu,Bengkel Las Pak Slamet,0,
+903009b9-1064-41cf-88e0-5011b465e59b,31000.0,Bengkel Motor Mas Agus,ShopeePay,2024-08-11T16:33:23.049998,ANDROID-8FBB478D,Semarang,Lina Kurniawan,Bakso Pak Soleh,0,
+8185f1a2-89ed-4fe1-8c40-dc84a3a21d12,118000.0,Warung Makan Bu Tini,BNI,2024-04-27T10:58:34.858690,ANDROID-6556D97F,Jakarta Barat,Dewi Ariani,Bengkel Motor Mas Agus,0,
+ba863d39-da71-4c6f-bd63-1fa1d05aa749,1287000.0,Apotek Sehat Sejahtera,Mandiri,2024-07-14T20:03:56.813809,WEB-283F9F52,Yogyakarta,Fajar Kusuma,Minimarket Bu Endah,0,
+ecd462c1-82d5-4408-a019-74ac8ff4f68c,47000.0,Warung Makan Bu Tini,OVO,2024-05-05T08:04:22.335903,IOS-0E395CB7,Tangerang,Citra Lestari,Kios Pulsa Mas Feri,0,
+254a4e4c-d63a-4186-8716-d3fd23bd0568,259000.0,Salon Cantik Bu Dewi,BCA,2024-12-08T07:21:30.006848,ANDROID-A4E8C809,Jakarta Utara,Wahyu Lestari,Kios Pulsa Mas Feri,0,
+3558cf22-1376-4ae9-b37a-abe004756289,90000.0,Apotek Sehat Sejahtera,LinkAja,2024-09-25T02:02:54.118017,ANDROID-8A39A62F,Depok,Reza Ariani,Laundry Kilat Bu Wati,0,
+e03164ad-2bfc-41c7-a9e8-afa9c0cc3113,165000.0,Toko Sembako Bu Yanti,OVO,2024-06-16T03:11:39.941428,WEB-6BB1A091,Jakarta Timur,Mira Rahayu,Toko Alat Tulis Mas Erwan,1,suspicious_pattern
+fa6aecbf-4c90-42ac-b921-6db21cb2a36d,71000.0,Toko Buah Bu Lastri,Dana,2024-03-13T12:52:22.977044,ANDROID-BFDD5878,Bandung,Zahra Rahayu,Toko Alat Tulis Mas Erwan,0,
+6f56aba7-0daf-496a-9575-088928fbeaa5,90000.0,Warung Makan Bu Tini,QRIS,2024-01-15T06:26:03.539753,WEB-47480F16,Jakarta Barat,Anonim-5430,Supermarket Berkah Jaya,1,identity_fraud
+ef70cd5c-65ad-4186-bb78-f6dc3c8cd18b,20000.0,Toko Alat Tulis Mas Erwan,ShopeePay,2024-04-26T10:45:07.793255,WEB-ECA7FA2C,Jakarta Pusat,Irwan Prasetyo,Supermarket Berkah Jaya,0,
+bd2004f3-98d8-4bdd-a089-a7d4ebce38c4,1242000.0,Laundry Kilat Bu Wati,BRI,2024-11-06T19:55:50.378039,IOS-3963E021,Yogyakarta,Gilang Kurniawan,Konter HP Bu Nurul,0,
+7640eaa0-ffa7-4a2d-a494-b65c22ec1288,1118000.0,FAKE-Warung Pak Budi,OVO,2024-09-21T08:55:43.111286,IOS-DE343DD2,Jakarta Selatan,Umi Kusuma,Bengkel Motor Mas Agus,1,invoice_manipulation
+6c2c14d4-6b0c-4178-b473-adf354fa79af,373000.0,Toko Elektronik Mas Dedi,GoPay,2024-03-13T10:48:56.579121,ANDROID-A1F40D08,Makassar,Reza Susanto,Toko Online Bu Sari,0,
+e8256ef3-eae0-4b0b-ad47-23c1b625758f,95000.0,Warung Makan Bu Tini,BRI,2024-03-21T11:44:29.382008,IOS-1906231D,Surabaya,Budi Santoso,Bengkel Motor Mas Agus,0,
+cc61b1ef-797b-46c5-9318-d736ebb7d9e4,74000.0,Toko Sembako Bu Yanti,BNI,2024-07-02T20:49:16.619953,IOS-3C5CFA86,Jakarta Pusat,Oka Prasetyo,Laundry Kilat Bu Wati,0,
+db7af759-d41b-4d7a-ad06-dab662ac0973,74000.0,Toko Sembako Bu Yanti,GoPay,2024-06-28T08:28:35.601385,IOS-1ED98413,Surabaya,Wahyu Handoko,Warung Pak Budi,0,
+bf284edb-79ae-4682-963a-c70befc203bc,27000.0,Toko Alat Tulis Mas Erwan,BCA,2024-01-19T12:14:48.747956,WEB-A05F9797,Bekasi,Budi Ariani,Apotek Sehat Sejahtera,0,
+030ef8a7-9393-4e3a-a5da-f8fbe41638af,417000.0,Kios Pulsa Mas Feri,BRI,2024-03-18T12:01:35.066889,WEB-BE1A7286,Semarang,Dewi Handoko,Toko Online Bu Sari,0,
+b4a54183-82fc-4886-9ee8-0b4112e6f2d1,432000.0,Toko Online Bu Sari,BRI,2024-03-15T21:13:47.213782,IOS-0C4F4C0D,Makassar,Lina Suharto,Toko Alat Tulis Mas Erwan,0,
+13d48725-1bb0-48b7-90fe-44d7eb289b8c,308000.0,Toko Buah Bu Lastri,Dana,2024-02-25T10:58:23.031388,ANDROID-41F6A70D,Jakarta Timur,Zahra Suharto,Toko Buah Bu Lastri,0,
+34068d18-f5d6-4ee5-ad7d-a9250a790184,145758000.0,Konter HP Bu Nurul,Dana,2024-08-17T00:21:25.050489,WEB-72E1B9E2,Jakarta Pusat,Dewi Kusuma,Bengkel Motor Mas Agus,1,amount_anomaly
+24dfe7c8-c10c-4a34-b9fe-8afd03812c2f,429000.0,Toko Sembako Bu Yanti,BCA,2024-07-18T10:46:10.184306,IOS-C6807140,Semarang,Budi Hidayat,Supermarket Berkah Jaya,0,
+3d1b8e6b-8797-43d0-b5f7-0638eba13e81,476000.0,Warung Makan Bu Tini,QRIS,2024-10-29T11:50:18.088210,IOS-9EA80B6E,Palembang,Yanto Kurniawan,Laundry Kilat Bu Wati,0,
+daf4a970-e694-49a7-bca1-1e2268168fcf,292000.0,Supermarket Berkah Jaya,LinkAja,2024-08-29T17:19:13.698827,ANDROID-9F34FE57,Makassar,Yanto Kusuma,Toko Sembako Bu Yanti,0,
+acef1222-cd93-47d6-be92-39ba84897122,1272000.0,Bengkel Motor Mas Agus,GoPay,2024-09-24T23:35:23.467516,ANDROID-F38CC3F0,Medan,Mira Prasetyo,Bengkel Motor Mas Agus,0,
+adabd503-2e2a-4602-a994-a73e4420ff87,99000.0,Salon Cantik Bu Dewi,GoPay,2024-09-22T09:35:03.536279,ANDROID-03A10BEF,Tangerang,Eko Susanto,Konter HP Bu Nurul,0,
+51bcb53f-f906-4128-9097-6f381083c4ee,79000.0,Supermarket Berkah Jaya,Mandiri,2024-07-04T16:21:32.907830,ANDROID-56E1894A,Jakarta Utara,Fajar Susanto,Jasa Print Pak Hendra,0,
+f27b847a-8411-43ef-b03a-c6001da9530a,439000.0,Toko Online Bu Sari,Mandiri,2024-08-02T09:11:22.372760,ANDROID-522E00DE,Tangerang,Joko Kurniawan,Toko Sembako Bu Yanti,0,
+1e69aac2-e62c-4e1e-ba96-5dcd028c1037,19000.0,Warung Kopi Mas Rizky,BNI,2024-08-10T03:55:14.464991,ANDROID-63637444,Semarang,Xena Firmansyah,Bengkel Motor Mas Agus,1,suspicious_pattern
+8955a08d-3377-4465-9103-1b203b75c427,4123000.0,Minimarket Bu Endah,Mandiri,2024-11-18T15:14:27.318871,WEB-F0140F4C,Surabaya,Vina Nugroho,Laundry Kilat Bu Wati,0,
+73d71823-79e8-4d3e-9622-569310069754,1618000.0,Toko Elektronik Mas Dedi,Mandiri,2024-01-03T22:56:17.448254,WEB-F036C9F8,Depok,Zahra Wijaya,Bakso Pak Soleh,0,
+2a5ac00f-0d4c-4fee-84c0-dbbc4b69a8b4,297000.0,Apotek Sehat Sejahtera,QRIS,2024-04-19T22:29:02.450491,ANDROID-47AD465D,Depok,Dewi Rahayu,Minimarket Bu Endah,0,
+053c92a9-5507-44f9-a09c-74378cb9bc98,1305000.0,Bakso Pak Soleh,GoPay,2024-09-14T09:29:02.384906,ANDROID-EA89E4FF,Medan,Tono Kusuma,Bengkel Motor Mas Agus,0,
+e770bfa4-4b55-4010-aa7b-067dc571cc83,1883000.0,Konter HP Bu Nurul,Mandiri,2024-05-30T22:15:29.816719,WEB-0ACDB45A,Jakarta Timur,Dewi Purnama,Toko Buah Bu Lastri,1,duplicate
+01869378-7ce3-4de4-bb98-3b18a9a413a3,437000.0,Bakso Pak Soleh,OVO,2024-07-17T22:14:26.097368,ANDROID-96292A57,Jakarta Timur,Eko Susanto,Warung Makan Bu Tini,0,
+45760296-cc14-44f4-aece-6e167255c8b3,313000.0,Bengkel Motor Mas Agus,QRIS,2024-09-07T01:40:03.105160,WEB-B395E8AC,Jakarta Barat,Anonim-7643,Warung Pak Budi,1,identity_fraud
+a4747398-3b3c-4dcb-9356-f86632e19c39,85000.0,Bengkel Las Pak Slamet,BNI,2024-07-25T17:18:25.882363,ANDROID-3A3FB65D,Yogyakarta,Yanto Saputra,Warung Makan Bu Tini,0,
+b00b69a9-6052-417d-adbc-3d75ddbb666e,22000.0,Supermarket Berkah Jaya,GoPay,2024-02-22T21:41:07.952593,IOS-5A3AC3CB,Jakarta Barat,Oka Hidayat,Laundry Kilat Bu Wati,0,
+b72c1aba-2052-459d-887c-8c85ec0a750c,16000.0,Supermarket Berkah Jaya,OVO,2024-03-02T02:22:42.703357,ANDROID-22ECB5F8,Jakarta Barat,Sari Purnama,Bengkel Las Pak Slamet,0,
+6391c5ae-c690-4c70-9ec6-464d5da5ff60,4264000.0,FAKE-Warung Makan Bu Tini,QRIS,2024-07-05T17:06:41.639272,ANDROID-EAA0BBA3,Bandung,Andi Wibowo,Kios Pulsa Mas Feri,1,invoice_manipulation
+55f214f1-68ee-4635-8bf4-dc668800c6cd,391000.0,Jasa Print Pak Hendra,ShopeePay,2024-11-26T22:26:58.850364,ANDROID-90ABB8BF,Jakarta Selatan,Putri Kurniawan,Kios Pulsa Mas Feri,0,
+543d874f-e9c7-4cbc-ac93-eaa012c807b8,98000.0,Laundry Kilat Bu Wati,Mandiri,2024-05-26T10:28:07.541213,WEB-467ADBA1,Bekasi,Yanto Hidayat,Kios Pulsa Mas Feri,0,
+37df7969-e32b-44a4-843a-7283436db9e1,202000.0,Jasa Print Pak Hendra,BRI,2024-05-07T13:56:03.801596,IOS-B0399294,Yogyakarta,Andi Susanto,Bengkel Las Pak Slamet,0,
+52d4a6c8-f782-4ec8-988d-350651b1a843,304000.0,Toko Buah Bu Lastri,LinkAja,2024-05-23T16:16:55.882957,IOS-EEB46E42,Medan,Tono Setiawan,Warung Pak Budi,0,
+c4bea64c-a351-460f-8245-fe27e4e073f6,382000.0,Warung Pak Budi,Mandiri,2024-08-10T19:45:06.847519,ANDROID-0BCC8633,Semarang,Reza Wibowo,Bengkel Motor Mas Agus,0,
+bf15d168-db28-436b-a4d5-313d8d2e9b46,357000.0,Warung Makan Bu Tini,ShopeePay,2024-02-04T14:19:16.078213,WEB-931D0EF7,Jakarta Selatan,Putri Handoko,Warung Pak Budi,0,
+d5375f0b-bea2-43a3-93e7-b9e3657565b2,36000.0,Salon Cantik Bu Dewi,BCA,2024-03-13T15:13:44.102946,IOS-4477E778,Jakarta Selatan,Mira Rahayu,Bakso Pak Soleh,0,
+3d5e3e96-538d-4954-9871-34b68210fca9,404000.0,Supermarket Berkah Jaya,BRI,2024-06-17T18:54:46.015357,WEB-D403BE7D,Jakarta Utara,Umi Lestari,Toko Elektronik Mas Dedi,0,
+b6275854-8c33-4034-95ff-90271e94bfe7,71000.0,Apotek Sehat Sejahtera,Mandiri,2024-12-12T18:36:03.857835,WEB-4504231E,Tangerang,Zahra Ariani,Bakso Pak Soleh,0,
+47c7a08c-7499-4658-b4d8-7f3b45a3e338,460000.0,Warung Kopi Mas Rizky,BRI,2024-02-22T15:42:40.421973,WEB-CC9622FE,Yogyakarta,Oka Nugroho,Toko Baju Murah Pak Rahmat,0,
+2673526f-d77c-4370-b839-5a002f29f342,351000.0,Supermarket Berkah Jaya,BRI,2024-11-10T21:31:26.711190,ANDROID-BB6F2DF8,Jakarta Barat,Reza Wibowo,Bengkel Motor Mas Agus,0,
+187d09ed-04a9-4dc3-8af9-b2075cb84566,630000.0,Bengkel Motor Mas Agus,BNI,2024-08-17T20:58:52.089119,ANDROID-BBAB60FD,Semarang,Umi Saputra,Kios Pulsa Mas Feri,0,
+400c4954-fd42-4fef-8c16-210ddff87347,1836000.0,Warung Pak Budi,ShopeePay,2024-05-09T15:06:44.810063,IOS-1B4ACCA5,Jakarta Barat,Budi Nugroho,Warung Makan Bu Tini,0,
+6c05d274-96a3-44cb-91af-1c55885e0803,56000.0,Supermarket Berkah Jaya,BNI,2024-08-21T11:06:23.924218,WEB-89074A4C,Surabaya,Irwan Suharto,Kios Pulsa Mas Feri,0,
+d65c2b9e-d774-4603-89af-770d95b89e65,42000.0,Minimarket Bu Endah,LinkAja,2024-05-17T12:59:06.141792,IOS-D01F7E49,Jakarta Barat,Oka Purnama,Apotek Sehat Sejahtera,0,
+5be85d79-d46a-4a13-a338-1885758138db,3056000.0,Bengkel Las Pak Slamet,BCA,2024-09-10T04:58:20.728612,WEB-2CB02B1F,Bekasi,Reza Susanto,Toko Online Bu Sari,1,suspicious_pattern
+1a048094-9202-47c5-b5a8-ff3bfab29cf4,1881000.0,Toko Buah Bu Lastri,GoPay,2024-12-17T07:57:03.162310,WEB-69CC0F31,Semarang,Yanto Kusuma,Toko Baju Murah Pak Rahmat,0,
+4d68bc14-ade1-455b-b45d-fe9a8bf1e165,1573000.0,Bengkel Motor Mas Agus,QRIS,2024-02-09T20:51:03.258335,ANDROID-F22C1AF4,Jakarta Pusat,Gilang Kusuma,Konter HP Bu Nurul,0,
+294be902-13b6-4726-ac9a-629293e6f99d,2474000.0,Toko Buah Bu Lastri,Dana,2024-09-18T11:03:23.661908,WEB-D5A176D2,Jakarta Barat,Andi Purnama,Toko Elektronik Mas Dedi,0,
+62241aa5-06a1-4dce-95f1-c2d03d266a83,77000.0,Toko Alat Tulis Mas Erwan,BCA,2024-12-06T08:40:17.568831,WEB-36E624D8,Medan,Anonim-9924,Salon Cantik Bu Dewi,1,identity_fraud
+95c948b1-0141-4eff-bb23-2bfacef5ae22,336000.0,Apotek Sehat Sejahtera,BRI,2024-06-14T06:23:51.096139,ANDROID-5366CFE1,Makassar,Anonim-1348,Konter HP Bu Nurul,1,identity_fraud
+e4124f12-2415-4fdd-bd65-bdf73988f5b2,210000.0,Minimarket Bu Endah,QRIS,2024-02-16T15:57:17.634650,WEB-CA624998,Jakarta Pusat,Irwan Prasetyo,Toko Alat Tulis Mas Erwan,0,
+eb282a82-6e6b-4efd-96cf-d6d031a7ae0e,69000.0,Toko Baju Murah Pak Rahmat,BCA,2024-07-05T12:23:57.010177,IOS-3408E032,Depok,Wahyu Wijaya,Kios Pulsa Mas Feri,0,
+5c294d7d-be8d-420a-8fc9-676f75a0653f,232000.0,Toko Sembako Bu Yanti,Dana,2024-09-04T14:44:26.002047,ANDROID-030316F1,Depok,Reza Hidayat,Kios Pulsa Mas Feri,0,
+bd5467f9-a09e-422c-be16-1345bca102e1,286000.0,Toko Sembako Bu Yanti,LinkAja,2024-11-06T20:22:50.821816,WEB-26C5E965,Jakarta Pusat,Hani Santoso,Laundry Kilat Bu Wati,0,
+3e72c613-84f3-4dfe-9729-1c42d23df486,1850000.0,Toko Alat Tulis Mas Erwan,BNI,2024-11-14T17:15:58.141115,WEB-37976E93,Bandung,Lina Santoso,Warung Kopi Mas Rizky,0,
+2738187b-caa7-4afb-bb0d-5941efc62d32,63000.0,Laundry Kilat Bu Wati,BRI,2024-06-13T19:03:05.459478,ANDROID-B1E5C1A8,Jakarta Pusat,Eko Nugroho,Toko Sembako Bu Yanti,0,
+ea8719f3-1c43-4caa-ae93-27afa8d051ff,1405000.0,Bakso Pak Soleh,BCA,2024-02-14T20:28:24.170660,IOS-4EE4AB45,Yogyakarta,Yanto Rahayu,Supermarket Berkah Jaya,0,
+e70746a2-bf8d-4a38-81cc-4b9ad6707fe7,3329000.0,Laundry Kilat Bu Wati,BRI,2024-11-09T14:08:12.124054,WEB-67B4A99B,Bandung,Eko Rahayu,Toko Alat Tulis Mas Erwan,0,
+3e85b50d-1eca-4b7a-9ade-9a206ff4672e,69000.0,Salon Cantik Bu Dewi,BRI,2024-12-11T22:28:15.293019,ANDROID-2561FDC2,Jakarta Selatan,Oka Santoso,Toko Alat Tulis Mas Erwan,0,
+f5a7554b-a712-4fe5-a1d6-05a77f45fd84,35000.0,Toko Baju Murah Pak Rahmat,LinkAja,2024-10-11T12:31:28.971553,ANDROID-BDC7FE54,Medan,Kartini Wijaya,Jasa Print Pak Hendra,0,
+dd032284-bf2b-4eb4-a4dd-b298e98856ed,3077000.0,Toko Elektronik Mas Dedi,OVO,2024-12-14T22:24:02.989127,ANDROID-9094BD95,Makassar,Dewi Purnama,Jasa Print Pak Hendra,0,
+127c69fb-313c-4ab4-b9a1-916cbe0e11cd,338000.0,Bengkel Las Pak Slamet,BRI,2024-01-19T20:04:41.875398,ANDROID-9A5821A4,Medan,Nanda Lestari,Kios Pulsa Mas Feri,0,
+d4600acb-0f3f-4bf9-a98f-9e05d300d03f,1951000.0,Laundry Kilat Bu Wati,GoPay,2024-06-13T23:53:38.121899,WEB-BF9446AA,Jakarta Pusat,Oka Suharto,Bengkel Las Pak Slamet,0,
+70c17758-b73b-4243-a63c-b8275d2a0359,470000.0,Toko Baju Murah Pak Rahmat,BNI,2024-04-01T21:06:15.805175,ANDROID-6B97BE69,Medan,Budi Kusuma,Salon Cantik Bu Dewi,0,
+77ad4a47-13e9-4fa5-8d55-aa97d7a05846,415000.0,Toko Buah Bu Lastri,LinkAja,2024-11-14T17:54:46.147466,WEB-71CD769D,Palembang,Nanda Setiawan,Salon Cantik Bu Dewi,0,
+3fdc508d-3416-483c-9579-880b918620ca,35000.0,Bengkel Motor Mas Agus,QRIS,2024-06-03T14:21:41.545673,WEB-B2241390,Bandung,Hani Saputra,Toko Alat Tulis Mas Erwan,0,
+318207b0-e13d-4370-91a3-d7807d32be77,48000.0,Bakso Pak Soleh,Mandiri,2024-03-02T19:35:07.686480,ANDROID-4ECE2BEB,Jakarta Timur,Putri Santoso,Minimarket Bu Endah,0,
+1f7a9731-7359-4aa1-a76d-6793b2c60084,1641000.0,Toko Elektronik Mas Dedi,Mandiri,2024-05-13T08:30:46.680611,ANDROID-9107D666,Yogyakarta,Kartini Suharto,Toko Online Bu Sari,0,
+23f6d685-bcff-4edd-b352-f8d41af1c2a4,242000.0,Toko Alat Tulis Mas Erwan,QRIS,2024-09-13T09:18:58.876585,WEB-CD309391,Makassar,Dewi Wibowo,Kios Pulsa Mas Feri,0,
+aafd3d52-332c-4743-8fe3-60ea4065f1d8,1735000.0,Toko Buah Bu Lastri,Dana,2024-11-30T20:12:12.307978,WEB-34B1CD80,Bandung,Budi Nugroho,Laundry Kilat Bu Wati,0,
+088fcc15-ac11-417b-833f-744d207b571a,2495000.0,Salon Cantik Bu Dewi,LinkAja,2024-12-22T11:08:38.992608,IOS-C6F22229,Jakarta Barat,Eko Lestari,Bengkel Las Pak Slamet,0,
+04e50402-6ef3-4105-ac59-870936668fe5,443000.0,Laundry Kilat Bu Wati,OVO,2024-12-19T20:55:25.924568,WEB-BD293CE3,Medan,Kartini Setiawan,Toko Elektronik Mas Dedi,0,
+0d74e2b3-f42c-4a57-97d8-7d5d905cba01,39000.0,Toko Online Bu Sari,ShopeePay,2024-08-22T21:15:38.654603,IOS-44C363BA,Makassar,Yanto Setiawan,Toko Elektronik Mas Dedi,0,
+cf1c6655-d03e-4851-a0e2-fe94f4276d6d,94341000.0,Jasa Print Pak Hendra,GoPay,2024-03-02T22:43:35.469602,ANDROID-7722A3E9,Jakarta Pusat,Irwan Handoko,Toko Baju Murah Pak Rahmat,1,amount_anomaly
+c6500347-a5fd-4cd3-9385-2fcfd55bfce7,51000.0,Supermarket Berkah Jaya,ShopeePay,2024-02-12T08:46:02.641874,IOS-E7D77DB9,Surabaya,Eko Handoko,Toko Buah Bu Lastri,0,
+b79a575f-7ad7-42c1-afbb-949cba2800ae,498000.0,Toko Elektronik Mas Dedi,Mandiri,2024-04-15T11:32:48.775825,IOS-229284F2,Jakarta Utara,Nanda Susanto,Toko Sembako Bu Yanti,0,
+c2d8fc9c-fc62-4692-bb90-04e4f6c38f19,62745000.0,Warung Makan Bu Tini,BNI,2024-11-07T05:49:44.660410,IOS-8E8F7F18,Surabaya,Putri Saputra,Toko Buah Bu Lastri,1,amount_anomaly
+af78144d-5cb5-4a2f-85cb-8c0fe48d5f6e,97000.0,Bengkel Las Pak Slamet,BNI,2024-06-12T17:11:07.015650,WEB-41B69743,Bekasi,Mira Firmansyah,Bakso Pak Soleh,0,
+fe896747-1143-4cff-9bec-50d416cb2f9c,41000.0,Bengkel Las Pak Slamet,Mandiri,2024-03-05T20:50:27.478400,ANDROID-2D77E97A,Medan,Reza Purnama,Toko Elektronik Mas Dedi,0,
+a64e88cf-8b1e-4fb0-b2a4-53ca64db5bb2,85000.0,Bengkel Las Pak Slamet,LinkAja,2024-10-03T07:26:54.656688,WEB-5EC0C082,Bandung,Citra Santoso,Bengkel Motor Mas Agus,0,
+6210e9b9-44ad-4ab1-bf4a-51b7c9371890,2650000.0,Toko Alat Tulis Mas Erwan,Dana,2024-07-07T07:46:20.883037,IOS-EB1E2717,Jakarta Utara,Yanto Rahayu,Apotek Sehat Sejahtera,0,
+791e03c3-a7f1-4273-9ce1-163836767417,1273000.0,Jasa Print Pak Hendra,OVO,2024-07-26T12:45:48.630267,WEB-CC3BA5B6,Jakarta Pusat,Umi Firmansyah,Toko Baju Murah Pak Rahmat,0,
+9c902fe7-df4a-4641-9a52-a3e797e86d44,153000.0,Warung Makan Bu Tini,GoPay,2024-12-01T08:24:50.096265,ANDROID-B3568254,Depok,Vina Prasetyo,Kios Pulsa Mas Feri,0,
+57c863f2-193b-4272-a9bf-832d71a77143,90000.0,Toko Sembako Bu Yanti,Dana,2024-04-13T21:32:13.929496,IOS-F1CA184C,Jakarta Utara,Sari Suharto,Toko Sembako Bu Yanti,0,
+22cd7d80-2e90-4489-8afa-ebbb719d1038,54000.0,Salon Cantik Bu Dewi,BCA,2024-07-02T08:14:16.497756,IOS-A023E0DC,Palembang,Citra Handoko,Bengkel Las Pak Slamet,0,
+2f2dec44-e50f-424e-8681-5b59fdab0289,4818000.0,Toko Alat Tulis Mas Erwan,QRIS,2024-01-22T14:40:12.963094,ANDROID-AC2694E5,Jakarta Timur,Putri Handoko,Salon Cantik Bu Dewi,0,
+7e52b156-ee2a-443f-8d23-46ca68049c24,241000.0,Toko Elektronik Mas Dedi,GoPay,2024-07-03T22:33:39.697602,ANDROID-3710E975,Jakarta Selatan,Tono Firmansyah,Konter HP Bu Nurul,0,
+6b0b5ceb-6775-4c60-aeb3-1ed1cf1128c0,80000.0,Bengkel Las Pak Slamet,BNI,2024-06-18T09:57:05.864067,IOS-18E380A6,Bandung,Yanto Ariani,Laundry Kilat Bu Wati,0,
+30795663-1a8c-4c3e-8289-8f379e321fb7,1429000.0,Bakso Pak Soleh,QRIS,2024-07-21T11:02:02.991454,IOS-00DA9702,Jakarta Utara,Fajar Setiawan,Supermarket Berkah Jaya,0,
+e1f31e8a-9326-4e8f-8d45-b0f08e306b90,225000.0,Apotek Sehat Sejahtera,BRI,2024-08-13T16:05:49.455553,ANDROID-7AD9D62E,Jakarta Utara,Umi Suharto,Bakso Pak Soleh,0,
+bd976e47-59c2-40a5-9962-e486a5a77a7c,374000.0,Konter HP Bu Nurul,Dana,2024-04-24T10:08:48.321515,IOS-0DAC305C,Yogyakarta,Tono Lestari,Toko Baju Murah Pak Rahmat,0,
+af4626c4-da88-48d1-93bb-e33dcf10fcbf,80000.0,Toko Sembako Bu Yanti,ShopeePay,2024-01-09T13:10:28.062960,ANDROID-20C69B26,Palembang,Sari Nugroho,Toko Online Bu Sari,0,
+f616625e-6b59-418a-b92a-0d8bcda00003,234000.0,Toko Online Bu Sari,ShopeePay,2024-09-11T13:57:41.969442,WEB-CA9847B6,Surabaya,Wahyu Suharto,Toko Online Bu Sari,0,
+e1f35d10-3120-43cf-988f-aeff1bed9187,754000.0,Bakso Pak Soleh,LinkAja,2024-06-03T17:12:56.436203,IOS-A1FE5DC3,Semarang,Lina Santoso,Warung Makan Bu Tini,0,
+3537cd8e-8749-4def-ba7c-a192afd0c85a,12000.0,Bengkel Las Pak Slamet,LinkAja,2024-05-14T19:10:19.823993,WEB-8133E09A,Jakarta Barat,Tono Wibowo,Jasa Print Pak Hendra,0,
+709cdf4b-adbd-41cc-b926-59ea8912d633,49000.0,Minimarket Bu Endah,GoPay,2024-05-29T10:58:45.278608,WEB-0F31CB84,Palembang,Mira Hidayat,Toko Buah Bu Lastri,0,
+669bc69b-1737-4faa-8f70-fcf0f7bad4ff,428000.0,Warung Makan Bu Tini,Mandiri,2024-07-05T03:10:48.237417,ANDROID-8921A297,Jakarta Utara,Lina Handoko,Minimarket Bu Endah,0,
+1673987c-3152-4676-97fc-beef0eb4a905,171000.0,Toko Elektronik Mas Dedi,LinkAja,2024-11-01T09:00:23.247156,WEB-DD0C40CA,Palembang,Budi Kusuma,Toko Alat Tulis Mas Erwan,0,
+9fa5af63-2054-47c7-9f1e-98c23163230a,64000.0,Bengkel Las Pak Slamet,ShopeePay,2024-12-15T11:45:03.046274,ANDROID-3BA6FC2D,Jakarta Timur,Dewi Wijaya,Supermarket Berkah Jaya,0,
+6a282ea9-53db-4627-a09b-f08a40da6178,222000.0,Kios Pulsa Mas Feri,BRI,2024-10-16T16:25:34.464705,WEB-AB9AC8EA,Yogyakarta,Oka Kusuma,Toko Buah Bu Lastri,0,
+0646c2e8-8d3b-43e6-af46-aba4f48f8462,87000.0,Toko Baju Murah Pak Rahmat,OVO,2024-02-03T14:44:48.677806,IOS-DA42B98B,Jakarta Timur,Zahra Firmansyah,Warung Makan Bu Tini,0,
+597ef658-f628-4455-b3a9-7be9e676331d,4286000.0,Salon Cantik Bu Dewi,BCA,2024-06-14T14:37:10.802798,WEB-9127FF94,Jakarta Timur,Yanto Nugroho,Salon Cantik Bu Dewi,0,
+2c70d0c5-3259-4804-8158-ab722b9e6c66,4899000.0,Bakso Pak Soleh,ShopeePay,2024-10-27T10:57:46.065899,WEB-552E60E2,Semarang,Andi Ariani,Toko Alat Tulis Mas Erwan,0,
+23943ebb-33ed-4444-85b9-7a15f1df01af,466000.0,Toko Baju Murah Pak Rahmat,LinkAja,2024-07-29T12:55:24.906432,IOS-7A2A0CDB,Makassar,Putri Ariani,Toko Buah Bu Lastri,0,
+a352a249-4982-492e-b410-7796d510af62,995000.0,FAKE-Bengkel Las Pak Slamet,GoPay,2024-02-15T11:40:54.916683,WEB-BEC046A8,Jakarta Pusat,Nanda Suharto,Bakso Pak Soleh,1,invoice_manipulation
+76b26fc1-04f1-4e33-8b36-61d8bd3aa926,77000.0,Toko Baju Murah Pak Rahmat,Mandiri,2024-04-08T10:13:40.441121,ANDROID-AF47C276,Palembang,Yanto Susanto,Toko Buah Bu Lastri,0,
+0b514dce-3982-4dc7-a82a-792d3d7acf93,65000.0,Kios Pulsa Mas Feri,QRIS,2024-07-27T12:55:24.890287,IOS-366AC9BE,Tangerang,Irwan Firmansyah,Laundry Kilat Bu Wati,0,
+dcee358c-1851-48e9-9320-849ad13e2c47,947000.0,Toko Elektronik Mas Dedi,Dana,2024-04-23T16:55:41.526714,WEB-3E4CC50C,Yogyakarta,Fajar Suharto,Toko Alat Tulis Mas Erwan,0,
+fd8f0f0f-83fe-46db-8335-cc92d37153b3,93000.0,Toko Online Bu Sari,GoPay,2024-10-17T22:19:46.673726,IOS-A3F69D45,Jakarta Barat,Putri Hidayat,Toko Sembako Bu Yanti,0,
+2e6b274c-3f9e-4e0c-ab11-8ffcac9bbf17,191932000.0,Salon Cantik Bu Dewi,Dana,2024-04-19T17:15:20.897316,ANDROID-E101FE38,Semarang,Joko Purnama,Toko Buah Bu Lastri,1,amount_anomaly
+d2d5c5fc-23ae-47af-99d6-d9d9cccdc924,960000.0,Minimarket Bu Endah,Mandiri,2024-11-03T16:06:46.600479,IOS-BE1719BE,Surabaya,Tono Prasetyo,Toko Elektronik Mas Dedi,0,
+4ed0cb83-c4e7-47bd-ba09-a905a8b402e3,72000.0,Toko Baju Murah Pak Rahmat,BCA,2024-06-13T13:45:36.318457,ANDROID-247FFE3E,Jakarta Pusat,Oka Suharto,Warung Kopi Mas Rizky,0,
+363d7d45-b96c-492d-82af-58bfff777310,48000.0,Toko Elektronik Mas Dedi,QRIS,2024-01-19T22:50:23.331662,WEB-56085F81,Bandung,Eko Wijaya,Laundry Kilat Bu Wati,1,duplicate
+57c029b3-e4ea-4022-b884-188e9e6924d0,85000.0,Bengkel Las Pak Slamet,Mandiri,2024-10-12T04:31:13.588633,WEB-AA559FEE,Tangerang,Xena Kusuma,Bengkel Motor Mas Agus,1,suspicious_pattern
+442343be-fb2b-4fc5-ab93-bcd36d6cb42e,384000.0,Toko Sembako Bu Yanti,BRI,2024-06-08T09:17:01.164076,ANDROID-611022DC,Bandung,Kartini Kurniawan,Warung Pak Budi,0,
+06064473-ed02-4739-b958-c3d0ae5ed2aa,365000.0,Toko Alat Tulis Mas Erwan,QRIS,2024-11-01T10:17:31.413352,WEB-797372BA,Jakarta Selatan,Dewi Suharto,Toko Buah Bu Lastri,0,
+1d4b7aed-3d47-49f2-aae9-38587b60ab89,415000.0,Jasa Print Pak Hendra,BCA,2024-09-02T22:56:29.160681,ANDROID-ED6E3F67,Jakarta Timur,Zahra Firmansyah,Toko Online Bu Sari,1,duplicate
+3933727d-b3cf-4f53-9951-8eecf7029ca8,36000.0,Warung Kopi Mas Rizky,LinkAja,2024-01-12T16:20:23.213158,WEB-11A144D7,Depok,Budi Nugroho,Toko Buah Bu Lastri,0,
+1c422624-572f-4a9d-81df-78e5c7fdf68f,895000.0,FAKE-Jasa Print Pak Hendra,BCA,2024-02-12T05:26:38.744764,WEB-AAA5619E,Surabaya,Kartini Susanto,Warung Makan Bu Tini,1,invoice_manipulation
+237f6c33-3f88-48ac-bc92-769ee3c02289,3196000.0,FAKE-Toko Baju Murah Pak Rahmat,Dana,2024-03-06T22:37:05.366999,IOS-C156B120,Jakarta Pusat,Andi Purnama,Toko Online Bu Sari,1,invoice_manipulation
+256c56a4-c34c-47f7-9f8f-1e3586675389,1427000.0,Toko Alat Tulis Mas Erwan,QRIS,2024-04-17T08:09:19.717780,WEB-656A7C27,Tangerang,Wahyu Setiawan,Supermarket Berkah Jaya,1,duplicate
+22d6915f-040b-48df-b72f-7ac36cc837f6,1346000.0,FAKE-Toko Elektronik Mas Dedi,LinkAja,2024-03-27T12:59:56.814227,WEB-A29C9CD9,Jakarta Barat,Gilang Prasetyo,Konter HP Bu Nurul,1,invoice_manipulation
+c957ab8b-d6b8-4966-90db-fb33077668ef,19000.0,Toko Online Bu Sari,Dana,2024-10-06T14:37:42.151518,WEB-46459FF1,Makassar,Andi Wibowo,Toko Online Bu Sari,0,
+55f7aba6-324b-48a1-8c7c-3b1dc5dc5373,125000.0,Toko Sembako Bu Yanti,BRI,2024-09-07T15:22:05.117233,IOS-328EEE60,Jakarta Timur,Joko Nugroho,Toko Buah Bu Lastri,0,
+ed593b23-e308-4385-b1ba-9f4d51b3a991,390000.0,Apotek Sehat Sejahtera,OVO,2024-01-31T12:00:13.856328,WEB-C18A68D6,Jakarta Pusat,Budi Firmansyah,Bengkel Motor Mas Agus,0,
+0eb5853a-9f5c-47f9-8e76-f84d4ce55db0,916000.0,Toko Online Bu Sari,OVO,2024-09-09T17:51:36.965693,IOS-C1CEF09F,Surabaya,Irwan Hidayat,Toko Online Bu Sari,0,
+18a7c6af-7f9a-486e-a4f8-0d93ca931d21,1398000.0,Toko Buah Bu Lastri,QRIS,2024-08-10T12:34:44.587914,ANDROID-2557073F,Tangerang,Sari Ariani,Bakso Pak Soleh,0,
+54a80754-19f6-4ec0-b318-41574802a564,345000.0,Konter HP Bu Nurul,BCA,2024-04-05T18:12:56.678986,IOS-67AA87AF,Surabaya,Reza Setiawan,Warung Kopi Mas Rizky,0,
+18f15e5e-7ba9-4450-90ec-51f9ad1cc30e,2604000.0,Toko Buah Bu Lastri,QRIS,2024-06-03T16:27:13.016881,IOS-885FFA0A,Depok,Joko Saputra,Toko Sembako Bu Yanti,1,duplicate
+0f8bc0bd-878d-4db6-a635-21c7166a7fd3,15000.0,Supermarket Berkah Jaya,LinkAja,2024-05-17T11:04:27.941821,IOS-87912C08,Jakarta Selatan,Reza Wijaya,Warung Kopi Mas Rizky,0,
+1d8e9a93-aac8-4d78-9b8e-49144d7dffc2,67000.0,Toko Elektronik Mas Dedi,BCA,2024-09-11T08:03:10.912907,WEB-D179D717,Palembang,Hani Hidayat,Supermarket Berkah Jaya,0,
+2b3d0ff0-5e75-42f9-938e-90ec85247695,164000.0,Bengkel Las Pak Slamet,OVO,2024-08-19T19:28:27.781453,ANDROID-EDCD71C1,Depok,Yanto Ariani,Toko Baju Murah Pak Rahmat,0,
+c467716c-9cc9-45dd-a2a0-86d0f50c38af,4311000.0,Warung Pak Budi,LinkAja,2024-06-02T12:45:52.416185,ANDROID-99D9A9A6,Jakarta Selatan,Zahra Lestari,Minimarket Bu Endah,0,
+ffb77694-ec7f-4bc3-983c-e38e74bd4089,78000.0,Toko Baju Murah Pak Rahmat,ShopeePay,2024-08-09T02:10:37.555449,WEB-141F2E42,Tangerang,Lina Purnama,Kios Pulsa Mas Feri,1,suspicious_pattern
+d4227b44-aaa0-4e9a-a3e1-e2d7d6a3dc79,386000.0,Bengkel Motor Mas Agus,GoPay,2024-04-13T11:34:28.386318,WEB-4934FE50,Makassar,Reza Kusuma,Jasa Print Pak Hendra,0,
+d29e80e2-29cd-43d6-a731-7f09596403f5,2254000.0,Laundry Kilat Bu Wati,OVO,2024-12-10T07:09:52.724331,ANDROID-BFC4D94A,Bandung,Xena Ariani,Toko Online Bu Sari,0,
+aa0c3474-2212-48cb-b226-97c3d0724ae5,1918000.0,Jasa Print Pak Hendra,Mandiri,2024-09-04T16:58:50.294063,IOS-B3299738,Jakarta Pusat,Oka Handoko,Jasa Print Pak Hendra,0,
+c0ced438-9e42-4a03-b8f4-293980cbdf41,1807000.0,Apotek Sehat Sejahtera,QRIS,2024-03-22T21:31:09.716520,WEB-A277691F,Jakarta Barat,Lina Rahayu,Kios Pulsa Mas Feri,0,
+2ea1d658-210c-41af-b3dd-e7026ccb8d6e,1389000.0,Laundry Kilat Bu Wati,Mandiri,2024-12-18T22:32:59.588324,ANDROID-472E6B46,Jakarta Timur,Oka Kurniawan,Warung Kopi Mas Rizky,0,
+b3770d87-3efd-4f5c-aef8-b94fb684ef53,22000.0,Toko Elektronik Mas Dedi,Mandiri,2024-01-31T09:34:41.132051,WEB-E7A6C1E7,Bandung,Putri Rahayu,Toko Elektronik Mas Dedi,0,
+87688a45-6512-4b0c-945f-4a0307f151ff,421000.0,Warung Kopi Mas Rizky,BCA,2024-03-22T19:54:32.914651,IOS-6A850B3D,Medan,Hani Suharto,Laundry Kilat Bu Wati,0,
+5826b838-3df2-4ef1-bd61-08002f7ce268,482000.0,Kios Pulsa Mas Feri,Dana,2024-03-28T03:19:36.559838,WEB-F7A778B3,Bandung,Zahra Suharto,Minimarket Bu Endah,1,suspicious_pattern
+e48ac543-f922-453a-84d8-a5aa1c011f09,53000.0,Bakso Pak Soleh,Dana,2024-09-12T17:37:26.690455,IOS-FA5F703D,Bekasi,Oka Lestari,Toko Baju Murah Pak Rahmat,0,
+6878305b-7767-4569-91a9-f111da2b320b,4061000.0,Toko Alat Tulis Mas Erwan,BCA,2024-06-16T10:04:02.197125,IOS-BCF32A2E,Medan,Andi Rahayu,Toko Online Bu Sari,0,
+ef17c182-d9e7-4a81-946a-124e1ea0f2f7,45000.0,Bakso Pak Soleh,BCA,2024-01-13T08:55:50.239437,WEB-2553CD41,Bekasi,Xena Wibowo,Apotek Sehat Sejahtera,0,
+b110c260-8468-4dbe-bdf0-68230891b046,454000.0,Kios Pulsa Mas Feri,BNI,2024-04-24T09:48:20.959200,ANDROID-F8A83CAA,Jakarta Pusat,Nanda Handoko,Konter HP Bu Nurul,0,
+580256be-f053-43e2-ae4c-df1ba6e179f1,583000.0,Bengkel Motor Mas Agus,ShopeePay,2024-08-21T11:35:41.356507,ANDROID-24CC8450,Jakarta Timur,Nanda Ariani,Toko Baju Murah Pak Rahmat,0,
+3fa2419e-35b9-496a-9a89-86ba4b690de0,25000.0,Minimarket Bu Endah,BCA,2024-08-04T22:49:18.763107,IOS-00349252,Jakarta Selatan,Tono Purnama,Kios Pulsa Mas Feri,0,
+e2634b05-3c54-44b6-ae17-8a8ae7310610,44000.0,Toko Elektronik Mas Dedi,Mandiri,2024-04-22T14:30:50.353830,ANDROID-F323CB5B,Bandung,Umi Suharto,Supermarket Berkah Jaya,0,
+697fcd9c-293e-4780-912a-36affecbc56d,378000.0,Laundry Kilat Bu Wati,ShopeePay,2024-09-17T11:04:30.715624,IOS-11312FF4,Jakarta Timur,Xena Hidayat,Toko Sembako Bu Yanti,1,duplicate
+078c96aa-656e-46de-a4be-53296b03ec26,403000.0,Warung Makan Bu Tini,GoPay,2024-05-13T16:15:42.840964,IOS-D25CAEF9,Medan,Andi Santoso,Bengkel Las Pak Slamet,0,
+15b96639-53f0-4e1c-9ad4-4e253695675f,372000.0,Warung Pak Budi,Dana,2024-03-09T14:02:03.521985,IOS-120AB649,Jakarta Timur,Budi Firmansyah,Toko Sembako Bu Yanti,0,
+6215bf64-a06d-492f-93de-7132ff893b4a,69000.0,Konter HP Bu Nurul,ShopeePay,2024-06-04T17:50:00.145784,WEB-27AFDEB6,Depok,Oka Purnama,Supermarket Berkah Jaya,0,
+c437ed42-b201-4441-a126-1098fb36f575,271000.0,Bengkel Motor Mas Agus,BNI,2024-09-29T18:54:33.754235,ANDROID-F500A7BD,Yogyakarta,Wahyu Saputra,Kios Pulsa Mas Feri,0,
+a9770cf0-1310-428b-bb18-6ddd8fde1d1a,77000.0,Warung Pak Budi,BCA,2024-12-02T12:40:07.263302,WEB-EDA3DC90,Yogyakarta,Eko Firmansyah,Supermarket Berkah Jaya,0,
+c217713a-11d3-4dbc-a049-a668a8af105d,17000.0,Apotek Sehat Sejahtera,BNI,2024-12-16T13:33:10.405168,WEB-DFF06E3B,Jakarta Pusat,Vina Susanto,Toko Baju Murah Pak Rahmat,0,
+eb5b1424-560e-428e-953e-0a87d6c00190,77000.0,Toko Buah Bu Lastri,BNI,2024-10-17T12:43:13.922538,ANDROID-D5E9802E,Jakarta Barat,Umi Susanto,Toko Baju Murah Pak Rahmat,0,
+2a3e373e-220e-4ce5-838b-a52685c60b1b,1820000.0,Toko Sembako Bu Yanti,OVO,2024-12-12T17:44:58.927500,IOS-911AB947,Medan,Eko Santoso,Minimarket Bu Endah,0,
+04ddb969-d2a9-423b-ab3a-fa0291f46f08,92171000.0,Bengkel Motor Mas Agus,OVO,2024-03-09T04:53:44.383700,ANDROID-11646AED,Medan,Irwan Wibowo,Bengkel Motor Mas Agus,1,amount_anomaly
+e767fefd-94ea-470b-b672-efad928ab236,110000.0,Apotek Sehat Sejahtera,LinkAja,2024-06-08T20:46:03.521594,WEB-CF2B5F6C,Jakarta Selatan,Yanto Setiawan,Minimarket Bu Endah,0,
+fcb06c5d-b691-479e-888e-4b9be48326d0,175000.0,Kios Pulsa Mas Feri,BRI,2024-10-11T16:46:26.961658,WEB-B3ABD1C8,Jakarta Selatan,Gilang Ariani,Apotek Sehat Sejahtera,0,
+3701e183-9de8-4d24-822f-3297351c0938,100483000.0,Laundry Kilat Bu Wati,GoPay,2024-08-08T14:17:41.229140,WEB-C58349AA,Bandung,Kartini Wibowo,Kios Pulsa Mas Feri,1,amount_anomaly
+157c050f-ea84-459a-97e8-b8e1b398c873,924000.0,Toko Online Bu Sari,BCA,2024-12-13T11:50:55.261834,WEB-3E400DB4,Semarang,Gilang Wijaya,Kios Pulsa Mas Feri,0,
+4b13ddc8-fc2a-4d19-8bf8-353218f2abe0,1708000.0,FAKE-Bengkel Motor Mas Agus,QRIS,2024-04-18T04:08:45.227925,WEB-C6A56621,Jakarta Barat,Fajar Wibowo,Toko Elektronik Mas Dedi,1,invoice_manipulation
+403eb1d4-3b19-4d11-932c-ac45b516dc45,77000.0,Supermarket Berkah Jaya,LinkAja,2024-12-15T04:42:33.326293,IOS-D9A1C182,Bekasi,Kartini Purnama,Apotek Sehat Sejahtera,0,
+55c45266-0fed-49c6-9efb-88618c699995,144435000.0,Minimarket Bu Endah,GoPay,2024-03-15T08:57:46.716155,WEB-6137825B,Makassar,Vina Susanto,Salon Cantik Bu Dewi,1,amount_anomaly
+4193ae9a-4907-45cc-ab63-41178bc75516,61000.0,Toko Alat Tulis Mas Erwan,BNI,2024-10-09T11:30:49.812406,IOS-000A3AE1,Surabaya,Vina Prasetyo,Supermarket Berkah Jaya,0,
+d60570e7-1428-4027-b386-252a32bc1d49,323000.0,Toko Online Bu Sari,BNI,2024-02-15T11:53:15.332428,WEB-3A077303,Palembang,Putri Handoko,Minimarket Bu Endah,1,duplicate
+3d1d6b87-769f-42ed-b516-35eb6536a55d,39000.0,Toko Alat Tulis Mas Erwan,Mandiri,2024-02-16T19:34:18.029921,WEB-16F61B23,Semarang,Zahra Wijaya,Bengkel Motor Mas Agus,0,
+e2a6142e-4bab-4057-8860-ebbfa4a70301,213000.0,Warung Kopi Mas Rizky,OVO,2024-05-10T16:27:11.575558,IOS-E9B59362,Bekasi,Wahyu Rahayu,Warung Pak Budi,0,
+c26269eb-4337-446e-8c16-8c78a9a073ff,100000.0,Bengkel Las Pak Slamet,GoPay,2024-04-21T22:21:53.366182,IOS-CD201160,Palembang,Sari Ariani,Warung Kopi Mas Rizky,0,
+42de964f-23f4-408a-bc0b-71e255a64271,247000.0,Toko Elektronik Mas Dedi,QRIS,2024-09-06T04:47:19.681452,WEB-58A90A2F,Tangerang,Eko Handoko,Toko Alat Tulis Mas Erwan,0,
+08fbe2e3-dcd7-45f9-8168-420d0c55ce3a,4576000.0,FAKE-Bengkel Motor Mas Agus,BCA,2024-12-08T08:01:02.763052,WEB-8B991748,Jakarta Selatan,Citra Kusuma,Toko Alat Tulis Mas Erwan,1,invoice_manipulation
+13b67d78-2dbd-4d58-a2d9-6bc3ab68bdb4,1049000.0,Kios Pulsa Mas Feri,QRIS,2024-11-05T15:13:47.715048,WEB-2B5CB3E8,Yogyakarta,Yanto Handoko,Supermarket Berkah Jaya,0,
+02ac1402-4597-4e77-baa9-7b7564b1f7c3,323000.0,Warung Pak Budi,BCA,2024-02-13T07:52:19.286363,WEB-7A8DEB4D,Semarang,Dewi Firmansyah,Toko Elektronik Mas Dedi,0,
+159ac020-eb0e-4d55-b834-272479be8608,164000.0,Salon Cantik Bu Dewi,Mandiri,2024-01-05T14:12:37.313547,IOS-29A638C9,Jakarta Utara,Budi Kusuma,Salon Cantik Bu Dewi,1,duplicate
+42ad8c0a-15d9-45ed-9312-39fa0886814f,4783000.0,Warung Makan Bu Tini,QRIS,2024-02-14T22:15:09.379122,WEB-A57ECD1A,Yogyakarta,Zahra Prasetyo,Salon Cantik Bu Dewi,0,
+93c3074b-20ef-4c46-b67b-4321629de9c9,17000.0,Toko Sembako Bu Yanti,BCA,2024-05-03T22:57:39.113480,IOS-F4A8343F,Semarang,Lina Ariani,Toko Baju Murah Pak Rahmat,0,
+835402e9-5fbb-49ed-98e7-ee4c49dd09d7,924000.0,Minimarket Bu Endah,BRI,2024-01-17T15:55:37.924692,WEB-8041B594,Jakarta Utara,Yanto Handoko,Bengkel Motor Mas Agus,1,duplicate
+f9da9244-2bf3-4575-bb52-2df27eae8cfb,3217000.0,FAKE-Salon Cantik Bu Dewi,QRIS,2024-05-29T13:55:13.456683,ANDROID-DBD5809B,Jakarta Utara,Lina Firmansyah,Laundry Kilat Bu Wati,1,invoice_manipulation
+9a9b8fd8-3f49-4b58-b892-56827e4cdedf,63000.0,Konter HP Bu Nurul,QRIS,2024-05-04T19:50:34.219103,ANDROID-A0746670,Jakarta Utara,Zahra Purnama,Laundry Kilat Bu Wati,0,
+3e7a56f7-9a9f-4635-9eca-90fcc189e0e8,416000.0,Warung Makan Bu Tini,LinkAja,2024-05-15T14:03:14.481588,IOS-75974A8F,Jakarta Selatan,Joko Rahayu,Toko Elektronik Mas Dedi,0,
+772fc448-8923-4def-b6b4-ad2c434481f4,3391000.0,Warung Makan Bu Tini,OVO,2024-06-24T21:53:55.155114,ANDROID-8F28537C,Depok,Tono Santoso,Bakso Pak Soleh,0,
+ee86a7cd-2169-4723-91ff-ac12c317e322,4679000.0,Warung Kopi Mas Rizky,BNI,2024-11-13T13:38:18.679388,IOS-1FB0A883,Bekasi,Kartini Kurniawan,Toko Baju Murah Pak Rahmat,0,
+fd0f281b-06f7-4366-92ac-04c75bdfdf1b,1333000.0,Kios Pulsa Mas Feri,Mandiri,2024-03-06T14:49:46.717135,ANDROID-DB7EA9CE,Depok,Dewi Nugroho,Warung Makan Bu Tini,0,
+12f00959-de8e-4b59-80f2-7aca3b5f4d7f,471000.0,Toko Alat Tulis Mas Erwan,OVO,2024-04-04T12:10:12.673271,ANDROID-BFCD1D1E,Makassar,Oka Suharto,Toko Buah Bu Lastri,0,
+34688524-0f44-4c65-b050-f31e5470000e,227000.0,Konter HP Bu Nurul,BRI,2024-06-14T21:03:21.317752,IOS-8D9663C7,Palembang,Gilang Susanto,Bakso Pak Soleh,0,
+5bf9998c-820e-48f0-98e2-5b86a845811c,72000.0,Bengkel Motor Mas Agus,OVO,2024-03-11T22:15:09.625823,ANDROID-DD62CDDE,Jakarta Utara,Mira Wibowo,Salon Cantik Bu Dewi,0,
+dfca9a77-fb92-4a30-9c0e-3ef2f8a1434c,84000.0,Konter HP Bu Nurul,QRIS,2024-10-08T22:58:04.796066,ANDROID-74160AB4,Makassar,Vina Wijaya,Warung Makan Bu Tini,0,
+43484044-3d3a-427d-a231-e60040c38110,345000.0,Kios Pulsa Mas Feri,BCA,2024-04-14T11:56:47.510263,ANDROID-42B095C4,Jakarta Utara,Fajar Setiawan,Laundry Kilat Bu Wati,0,
+d5e78c1d-2819-4adc-bb85-a5fbe9004f3a,30000.0,Salon Cantik Bu Dewi,ShopeePay,2024-12-18T20:15:55.908220,WEB-30DCDC8D,Palembang,Dewi Santoso,Konter HP Bu Nurul,0,
+e7bc3ba1-e586-431c-90bb-33ebe6b7bd02,297000.0,Bengkel Las Pak Slamet,BCA,2024-05-19T04:31:08.812930,WEB-CEF5A9C8,Palembang,Hani Firmansyah,Toko Sembako Bu Yanti,1,suspicious_pattern
+059937e2-35dc-4e4c-ba83-524f5ef1d8d1,1629000.0,Toko Sembako Bu Yanti,OVO,2024-11-10T09:14:47.002280,ANDROID-7B3162B3,Makassar,Eko Prasetyo,Warung Kopi Mas Rizky,0,
+f16620bb-2501-4296-b499-3bda4b49e2b9,1710000.0,Toko Alat Tulis Mas Erwan,BNI,2024-07-05T07:12:32.622090,WEB-52B1732B,Jakarta Utara,Wahyu Wibowo,Warung Kopi Mas Rizky,0,
+3ebbeb91-cc56-4e80-8d61-648cf0df763c,262000.0,Warung Pak Budi,BRI,2024-11-29T15:28:43.002429,ANDROID-94A6C28B,Bandung,Hani Susanto,Salon Cantik Bu Dewi,0,
+fbc3bb59-a953-4ef0-bfa6-47ac4053e695,100000.0,Toko Buah Bu Lastri,BCA,2024-03-21T21:14:16.832126,IOS-56B1D935,Bandung,Zahra Ariani,Jasa Print Pak Hendra,0,
+01606c24-3cf6-442a-802a-673eec288be8,167000.0,Toko Online Bu Sari,Dana,2024-06-13T21:15:35.749504,IOS-E77D5926,Semarang,Umi Rahayu,Minimarket Bu Endah,0,
+8d5fbe08-378f-43aa-8d46-e234dd7219a8,269000.0,Toko Sembako Bu Yanti,GoPay,2024-06-27T17:05:52.057906,WEB-0D204683,Jakarta Utara,Putri Nugroho,Toko Sembako Bu Yanti,0,
+98a1b23c-e0e6-427c-af33-378b82076f8b,2387000.0,Toko Sembako Bu Yanti,Dana,2024-07-08T20:20:15.066454,WEB-64AD9474,Jakarta Pusat,Mira Hidayat,Kios Pulsa Mas Feri,0,
+48416333-13eb-486c-8799-a3a37d5d8066,496000.0,Salon Cantik Bu Dewi,ShopeePay,2024-12-24T12:41:51.685361,WEB-0A75E840,Jakarta Utara,Budi Wibowo,Bakso Pak Soleh,0,
+14bac384-581a-48b8-bfe8-1bdd1f747e19,1732000.0,Salon Cantik Bu Dewi,Mandiri,2024-11-02T22:50:47.159428,ANDROID-B5EDC669,Depok,Hani Setiawan,Toko Alat Tulis Mas Erwan,0,
+0fc65932-d2e2-4e9e-aa84-aca01fb3e574,99000.0,Konter HP Bu Nurul,BNI,2024-11-02T11:32:43.761817,IOS-AC325F4E,Jakarta Timur,Fajar Wibowo,Bakso Pak Soleh,0,
+feaae0b7-1da6-4ae7-bdb1-dbba690323ec,2504000.0,Jasa Print Pak Hendra,GoPay,2024-12-07T09:23:06.257527,IOS-74B20307,Jakarta Selatan,Hani Handoko,Minimarket Bu Endah,0,
+2ca948e1-ea78-439d-a66e-4ee99c26ba4a,157000.0,Bakso Pak Soleh,BRI,2024-09-04T11:36:11.018877,WEB-B899302B,Palembang,Kartini Suharto,Kios Pulsa Mas Feri,0,
+11fd2453-e07c-472a-af4c-62eef2ae3623,427000.0,Bengkel Motor Mas Agus,BCA,2024-05-07T03:41:47.568055,IOS-CAC568A7,Depok,Citra Hidayat,Toko Sembako Bu Yanti,1,suspicious_pattern
+f5ea1fdf-f217-4877-b545-82054b3581ca,56353000.0,Warung Kopi Mas Rizky,Mandiri,2024-09-06T16:31:27.020960,ANDROID-4FA9E0FD,Jakarta Pusat,Fajar Ariani,Bakso Pak Soleh,1,amount_anomaly
+f21f9d4c-1f18-4cdd-bb41-2edfebae2412,564000.0,Bengkel Motor Mas Agus,Mandiri,2024-12-18T17:11:22.074688,WEB-6F6CAE77,Makassar,Budi Setiawan,Salon Cantik Bu Dewi,0,
+e5aab174-0d53-4977-839c-83aceb88f8f6,415000.0,Salon Cantik Bu Dewi,ShopeePay,2024-08-30T18:53:33.371736,ANDROID-68788D82,Bandung,Citra Ariani,Toko Buah Bu Lastri,0,
+df1f641b-6600-4082-b183-0cae06183068,49000.0,Minimarket Bu Endah,QRIS,2024-05-29T11:01:45.278608,ANDROID-CE8261A4,Jakarta Timur,Mira Hidayat,Toko Baju Murah Pak Rahmat,1,duplicate
+fc5d59f0-ef6b-4572-806a-c9ee7a2af4f4,365000.0,Jasa Print Pak Hendra,Mandiri,2024-12-18T12:00:28.971090,ANDROID-CE2EDC0F,Bandung,Andi Prasetyo,Bengkel Motor Mas Agus,0,
+5d24986e-0e91-4a4a-a2ed-ca9515d533e2,84000.0,Toko Elektronik Mas Dedi,BCA,2024-02-27T16:51:44.105218,ANDROID-2344FC09,Jakarta Timur,Umi Ariani,Bengkel Motor Mas Agus,0,
+7b358dd1-8f67-41bf-a504-dce16dddfcc9,387000.0,Supermarket Berkah Jaya,BRI,2024-11-20T11:52:59.928132,WEB-4DF18CA1,Medan,Irwan Rahayu,Minimarket Bu Endah,0,
+9f3686db-a9d3-4a3c-ba73-c50d534978c4,485000.0,Toko Online Bu Sari,BCA,2024-01-05T07:55:12.832452,WEB-79E95E43,Makassar,Oka Firmansyah,Bakso Pak Soleh,0,
+79ae3c26-b995-4437-a212-d5ea2aebf08d,173000.0,Warung Kopi Mas Rizky,BNI,2024-09-26T07:00:04.177768,ANDROID-2A9853E2,Bandung,Zahra Wijaya,Supermarket Berkah Jaya,0,
+f70f5262-1ad4-4da4-8a47-13e9f21d96c7,258000.0,Warung Kopi Mas Rizky,GoPay,2024-03-24T16:11:20.936536,WEB-7FBE5B0D,Semarang,Xena Nugroho,Salon Cantik Bu Dewi,0,
+b39fae5e-e163-49bc-9471-26fb8b095ce1,433000.0,Salon Cantik Bu Dewi,ShopeePay,2024-02-07T14:10:49.572353,WEB-701704CD,Yogyakarta,Gilang Purnama,Bengkel Motor Mas Agus,0,
+571338b7-08eb-445e-81ec-14d43f31cd48,79000.0,Toko Elektronik Mas Dedi,LinkAja,2024-01-04T00:51:28.399767,ANDROID-33D23A63,Depok,Zahra Lestari,Warung Pak Budi,0,
+45d39bcb-8bbe-46ae-9e1c-a9d3c1622b10,27000.0,Warung Makan Bu Tini,Mandiri,2024-07-09T07:05:38.704890,ANDROID-4CF489A7,Jakarta Pusat,Citra Lestari,Toko Baju Murah Pak Rahmat,0,
+2aaaee32-5ed8-4591-8d36-3bdb1c86c065,99000.0,Toko Sembako Bu Yanti,LinkAja,2024-08-08T03:52:55.815874,ANDROID-DD3CB286,Jakarta Pusat,Mira Santoso,Minimarket Bu Endah,1,suspicious_pattern
+2f03845b-b30d-49ec-99d7-5a7dbe38f321,1698000.0,Toko Elektronik Mas Dedi,QRIS,2024-11-11T19:00:41.077412,IOS-5C44510C,Bandung,Hani Ariani,Toko Sembako Bu Yanti,0,
+848d2d2d-33ca-4079-9982-3bf829a741c2,21000.0,Toko Baju Murah Pak Rahmat,Dana,2024-04-04T20:37:22.128987,IOS-33B18363,Palembang,Sari Santoso,Kios Pulsa Mas Feri,0,
+5e295be9-3e5e-439f-ba94-aab3791d38c5,495000.0,Toko Buah Bu Lastri,BCA,2024-03-23T02:25:51.423000,WEB-CC29EB45,Jakarta Utara,Anonim-5484,Kios Pulsa Mas Feri,1,identity_fraud
+842ab49a-9cd3-4322-b0c3-64ed30399dbe,785000.0,Toko Buah Bu Lastri,ShopeePay,2024-10-10T09:54:18.482076,ANDROID-2D584349,Semarang,Wahyu Purnama,Toko Elektronik Mas Dedi,0,
+255a14b1-eef5-4695-aeed-b29fd28ca11d,60000.0,Jasa Print Pak Hendra,ShopeePay,2024-02-10T08:04:00.922952,WEB-DE111627,Depok,Lina Handoko,Supermarket Berkah Jaya,0,
+710d22a5-7410-43f1-b1f7-04c17eb49c08,14000.0,Toko Online Bu Sari,BRI,2024-08-19T16:08:18.096111,IOS-3DBEF028,Jakarta Pusat,Vina Kurniawan,Bengkel Motor Mas Agus,0,
+fb5e628f-b7a0-4c04-9597-d1e5398fd350,66000.0,Toko Online Bu Sari,QRIS,2024-02-26T14:43:45.896505,IOS-D0F74953,Makassar,Fajar Lestari,Warung Makan Bu Tini,0,
+93c9146e-9a3c-49cf-8960-285d6cd7d38c,3071000.0,Apotek Sehat Sejahtera,BCA,2024-04-16T10:07:02.522913,IOS-D4C4BB29,Semarang,Gilang Lestari,Jasa Print Pak Hendra,0,
+c255f0c1-64d5-4512-b4b6-1fbef24f1a56,359000.0,Toko Baju Murah Pak Rahmat,QRIS,2024-06-19T10:51:42.971382,WEB-D278984F,Surabaya,Kartini Hidayat,Toko Elektronik Mas Dedi,0,
+58c72d81-b0fa-49cc-b565-af36c059c769,62000.0,Toko Online Bu Sari,Mandiri,2024-10-01T09:45:23.692265,WEB-AFDDF293,Depok,Anonim-2586,Warung Pak Budi,1,identity_fraud
+271ac221-71f3-42ea-8b03-da1a7f85f858,361000.0,Toko Alat Tulis Mas Erwan,OVO,2024-12-25T15:01:07.094051,ANDROID-28E5E3E1,Jakarta Selatan,Xena Santoso,Bengkel Motor Mas Agus,0,
+b487e44a-6d0f-44d5-902d-cf79ea6ef260,940000.0,Bakso Pak Soleh,OVO,2024-06-10T07:37:26.805204,ANDROID-AD9AF04A,Jakarta Barat,Budi Setiawan,Salon Cantik Bu Dewi,0,
+7f20155f-2a44-49ff-a789-99aa15309f6e,26000.0,Warung Pak Budi,ShopeePay,2024-08-09T08:02:53.639747,IOS-E5602741,Bandung,Putri Santoso,Minimarket Bu Endah,0,
+74347b22-2d99-4d29-9210-882d8d6c5651,90000.0,Toko Online Bu Sari,LinkAja,2024-08-14T19:12:10.807355,ANDROID-968003C9,Jakarta Timur,Wahyu Handoko,Toko Baju Murah Pak Rahmat,0,
+2124d102-83e3-4ad4-ae4e-cf131c665b0b,1806000.0,Warung Pak Budi,BNI,2024-08-29T02:30:59.496001,ANDROID-A06F0C0D,Jakarta Barat,Eko Handoko,Jasa Print Pak Hendra,1,suspicious_pattern
+f7214240-6aae-40c2-a5c7-7f5bf1fa9fe4,124000.0,Minimarket Bu Endah,Dana,2024-04-19T08:17:57.968391,WEB-DD2B0CDC,Jakarta Pusat,Mira Kusuma,Warung Kopi Mas Rizky,0,
+86f8bc9a-fb77-4de8-9b7a-ad6e55b09705,55000.0,Apotek Sehat Sejahtera,OVO,2024-10-25T02:19:13.876659,ANDROID-5BE82A35,Surabaya,Andi Kurniawan,Apotek Sehat Sejahtera,0,
+ff9f72aa-6a17-4018-b268-5b5d5fa756ba,66000.0,Warung Kopi Mas Rizky,QRIS,2024-02-17T16:00:20.277699,ANDROID-E21880A8,Tangerang,Kartini Wijaya,Toko Baju Murah Pak Rahmat,0,
+a425a362-e373-4818-bfbb-e00b461e3bcd,27000.0,Bengkel Las Pak Slamet,Dana,2024-10-13T20:38:53.738842,ANDROID-B8428846,Bekasi,Nanda Prasetyo,Apotek Sehat Sejahtera,0,
+cc9ca688-ac47-47ba-9472-65c19070f231,67000.0,Toko Buah Bu Lastri,QRIS,2024-01-28T08:59:06.042973,ANDROID-F5DF3D66,Depok,Anonim-2595,Toko Elektronik Mas Dedi,1,identity_fraud
+ccca882c-0d59-495a-9e82-6cbe88e50fd2,391000.0,Salon Cantik Bu Dewi,Dana,2024-10-07T02:32:47.753710,ANDROID-298BD250,Surabaya,Zahra Setiawan,Toko Elektronik Mas Dedi,1,suspicious_pattern
+848a5df3-2eeb-4136-8a21-e92aae534ac2,3883000.0,FAKE-Kios Pulsa Mas Feri,GoPay,2024-12-23T21:32:40.742325,IOS-80CF0CC3,Palembang,Reza Susanto,Bakso Pak Soleh,1,invoice_manipulation
+8cb58a84-7f5c-4f61-a274-7efd1e378a12,307000.0,Bengkel Las Pak Slamet,GoPay,2024-12-01T23:45:48.675958,WEB-6BEF5E2A,Medan,Yanto Wijaya,Salon Cantik Bu Dewi,0,
+d918c445-2264-44b7-ab15-1a323cbe0498,1801000.0,Toko Online Bu Sari,ShopeePay,2024-08-23T13:03:36.533182,ANDROID-4E64D107,Jakarta Pusat,Nanda Lestari,Toko Elektronik Mas Dedi,0,
+cbffb97e-ddca-4a93-9b11-d883c15a7695,41000.0,Bengkel Las Pak Slamet,OVO,2024-11-01T11:48:35.527312,WEB-0E294441,Jakarta Barat,Zahra Kusuma,Bengkel Las Pak Slamet,0,
+ad6c4aec-9b9c-4d01-89c7-f5e1b89fa842,74000.0,Toko Sembako Bu Yanti,OVO,2024-03-19T17:54:29.309079,WEB-EE7E9BCB,Bandung,Mira Ariani,Jasa Print Pak Hendra,0,
+c92188b8-b3a1-4ca4-a9f0-115a97aefaee,171000.0,Bengkel Motor Mas Agus,ShopeePay,2024-06-20T12:06:01.930711,WEB-D0BEF0E1,Bandung,Fajar Santoso,Toko Baju Murah Pak Rahmat,0,
+0e24bc06-0a54-487b-92fc-8a13c816ba0a,1208000.0,Toko Alat Tulis Mas Erwan,OVO,2024-02-28T16:03:53.856025,ANDROID-BFF3E8E4,Jakarta Pusat,Andi Suharto,Minimarket Bu Endah,0,
+c2835295-0490-423a-88cf-cebf796755b2,172000.0,Toko Alat Tulis Mas Erwan,OVO,2024-05-06T16:48:32.111845,IOS-7731E896,Bandung,Mira Hidayat,Toko Baju Murah Pak Rahmat,0,
+67daa521-d215-4858-9dc0-742e75230d4b,185000.0,Toko Baju Murah Pak Rahmat,BNI,2024-11-17T14:37:11.893195,IOS-D6622440,Semarang,Citra Ariani,Bengkel Motor Mas Agus,0,
+7ca1a8cf-8df8-455a-b048-7c5e958c2915,1178000.0,Apotek Sehat Sejahtera,OVO,2024-06-21T08:07:17.195526,ANDROID-25C7D3FC,Jakarta Timur,Gilang Wibowo,Toko Sembako Bu Yanti,0,
+d358884a-5d49-4d09-adb3-89db2f6d0cfc,458000.0,Bengkel Las Pak Slamet,BRI,2024-07-31T17:22:58.565279,IOS-EF857AD3,Depok,Xena Kurniawan,Warung Pak Budi,0,
+6165a4c8-0232-4d97-8522-2669458a2cab,291000.0,Salon Cantik Bu Dewi,LinkAja,2024-08-05T07:07:10.802516,IOS-587ECB1F,Palembang,Lina Suharto,Bakso Pak Soleh,0,
+936a3f1b-eb60-429c-93e0-44bf0670283c,855000.0,Toko Baju Murah Pak Rahmat,BNI,2024-08-31T20:20:12.037802,IOS-813A5A47,Jakarta Selatan,Umi Prasetyo,Toko Baju Murah Pak Rahmat,0,
+a41da82e-ad4a-4c8a-9da0-342a7a9592e1,4658000.0,Supermarket Berkah Jaya,BCA,2024-04-29T15:28:55.543868,IOS-179ED5BA,Depok,Eko Ariani,Toko Alat Tulis Mas Erwan,0,
+d13641be-71dd-4c76-b55c-ff0605561beb,722000.0,Toko Sembako Bu Yanti,QRIS,2024-08-25T13:43:15.153898,ANDROID-B5FC99C8,Jakarta Utara,Citra Rahayu,Warung Makan Bu Tini,0,
+9f74b7a0-8691-4be3-ab09-e60551bab0e0,317000.0,Warung Kopi Mas Rizky,GoPay,2024-11-11T22:40:58.114467,ANDROID-FCC5A492,Palembang,Lina Setiawan,Apotek Sehat Sejahtera,0,
+c74d2ecc-4856-427e-91b3-2e35ad8a061a,86000.0,Warung Makan Bu Tini,QRIS,2024-10-13T18:57:14.282916,IOS-B5DC7DEE,Depok,Oka Wijaya,Kios Pulsa Mas Feri,0,
+e99d989b-a1a9-4d1b-a5ae-93a99f8cce97,88000.0,Toko Online Bu Sari,BNI,2024-03-30T21:52:16.192823,WEB-05374AED,Jakarta Timur,Hani Purnama,Apotek Sehat Sejahtera,0,
+52e45c3c-6727-44f4-99b7-1f9181c9d8ad,3546000.0,Bengkel Las Pak Slamet,Dana,2024-01-14T13:58:40.807740,IOS-A6322A2C,Jakarta Selatan,Budi Setiawan,Supermarket Berkah Jaya,0,
+216fc444-fc66-489f-872e-b002b495c774,337000.0,Toko Buah Bu Lastri,Mandiri,2024-01-03T16:48:35.857308,WEB-F92ED8BA,Tangerang,Yanto Wibowo,Bengkel Las Pak Slamet,0,
+6fd753f4-aae4-4614-b4e9-fd46dafd439c,88000.0,Toko Alat Tulis Mas Erwan,Mandiri,2024-05-30T12:34:23.955694,IOS-E3807012,Tangerang,Fajar Hidayat,Konter HP Bu Nurul,0,
+0ac7d9ca-d153-4b1c-9798-91685b75f19c,280000.0,Salon Cantik Bu Dewi,GoPay,2024-07-10T09:05:38.170728,ANDROID-BA2243BE,Tangerang,Eko Setiawan,Bengkel Las Pak Slamet,0,
+9a135d03-f171-4657-bc38-a1db4e2c7615,302000.0,Toko Sembako Bu Yanti,ShopeePay,2024-11-23T08:41:08.585564,IOS-36D04837,Medan,Budi Lestari,Bengkel Motor Mas Agus,0,
+b04416ce-e424-4e3c-8ea3-49aa1a94c887,67000.0,Laundry Kilat Bu Wati,Dana,2024-04-28T19:20:36.915418,ANDROID-ADBCDB7C,Surabaya,Wahyu Prasetyo,Warung Pak Budi,0,
+0e81905b-1916-4f45-b745-d3a4d6c421b5,1984000.0,Bakso Pak Soleh,Dana,2024-02-20T14:11:15.036277,WEB-420883EA,Depok,Vina Purnama,Toko Buah Bu Lastri,0,
+43916411-6721-4639-ae67-9eda25e0abdc,55000.0,Salon Cantik Bu Dewi,QRIS,2024-02-14T23:24:00.386259,WEB-C8495A85,Tangerang,Oka Ariani,Toko Sembako Bu Yanti,0,
+a0398009-03c7-41aa-b0dc-71278cecdd9d,122193000.0,Toko Sembako Bu Yanti,BNI,2024-06-29T09:14:55.439407,WEB-025EBEC6,Tangerang,Umi Setiawan,Apotek Sehat Sejahtera,1,amount_anomaly
+66eaa11f-df62-4edc-963a-6501131e97d1,953000.0,Minimarket Bu Endah,BCA,2024-06-10T20:39:53.683767,WEB-95D679E3,Surabaya,Gilang Prasetyo,Minimarket Bu Endah,0,
+9fd94371-2f12-4554-aa53-3d5125bb9d83,264000.0,Toko Buah Bu Lastri,GoPay,2024-08-01T17:30:32.719099,IOS-AE9E5A33,Bandung,Nanda Saputra,Warung Pak Budi,0,
+afc630ba-013d-446d-ab65-2cff7ca949ac,19000.0,Bengkel Las Pak Slamet,BCA,2024-08-21T15:22:43.516168,WEB-E0929586,Bandung,Hani Wibowo,Toko Online Bu Sari,0,
+b2fc3093-547d-4702-98cc-70bee2247fe5,1866000.0,Toko Baju Murah Pak Rahmat,BRI,2024-10-27T10:49:32.150854,WEB-F6711356,Medan,Fajar Kusuma,Salon Cantik Bu Dewi,0,
+579e156c-ea9d-4309-ba81-65d7717ea080,12000.0,Toko Online Bu Sari,ShopeePay,2024-08-20T15:10:48.488317,ANDROID-7105E8D3,Jakarta Utara,Xena Lestari,Bengkel Motor Mas Agus,0,
+ac393c26-0876-4440-9307-a404eebff55b,70670000.0,Warung Makan Bu Tini,OVO,2024-01-21T09:22:59.639045,IOS-8A06A2F0,Jakarta Selatan,Mira Santoso,Bengkel Motor Mas Agus,1,amount_anomaly
+68fb9a23-2d16-4caf-b6e2-20c264ad2fa2,519000.0,Toko Alat Tulis Mas Erwan,LinkAja,2024-07-20T11:59:40.985522,WEB-DC7382BE,Depok,Reza Saputra,Toko Sembako Bu Yanti,0,
+ba07f50f-3d9f-42b2-80e1-79bb1f234e8a,719000.0,Apotek Sehat Sejahtera,QRIS,2024-11-27T20:59:22.593956,ANDROID-16EC5777,Bandung,Anonim-5483,Apotek Sehat Sejahtera,1,identity_fraud
+5fe96937-4e86-4a4e-b156-a26e2a5b6151,598000.0,Warung Makan Bu Tini,BNI,2024-08-29T05:33:37.242974,ANDROID-FDC16FEE,Jakarta Barat,Umi Kurniawan,Bengkel Las Pak Slamet,0,
+2521d09a-6fda-4ce2-b905-76bb2fbcfc58,85000.0,Jasa Print Pak Hendra,BCA,2024-05-08T21:00:49.932547,WEB-7B2E9FA5,Semarang,Oka Wijaya,Salon Cantik Bu Dewi,0,
+96072679-5cfd-4293-943d-876e145ec513,453000.0,Toko Buah Bu Lastri,QRIS,2024-06-11T14:03:36.476873,ANDROID-4857EFB9,Jakarta Timur,Vina Rahayu,Kios Pulsa Mas Feri,0,
+f2cb218e-f347-4d71-8815-c72e3e360d23,2979000.0,Minimarket Bu Endah,Dana,2024-01-20T09:22:50.677893,IOS-1F2FE805,Jakarta Barat,Kartini Firmansyah,Bakso Pak Soleh,0,
+32f0de37-ee39-4919-bfcf-584826decfd2,70000.0,Toko Alat Tulis Mas Erwan,GoPay,2024-07-05T12:53:03.165437,ANDROID-51BF51E0,Bekasi,Wahyu Suharto,Apotek Sehat Sejahtera,0,
+1d78585d-95e5-4fbb-b384-53810aeaab02,47000.0,Laundry Kilat Bu Wati,QRIS,2024-09-11T23:25:11.955835,IOS-C7D0CC2F,Jakarta Pusat,Anonim-8274,Warung Makan Bu Tini,1,identity_fraud
+4c450a14-35ae-4fcd-b684-52ca3d17db97,307000.0,Bengkel Motor Mas Agus,Mandiri,2024-10-02T16:07:23.241107,ANDROID-4A4FDDDC,Jakarta Pusat,Mira Handoko,Laundry Kilat Bu Wati,0,
+e813fddd-67b2-4f09-87ad-1d7ba16278d7,23000.0,Jasa Print Pak Hendra,OVO,2024-08-02T21:25:46.242268,WEB-4D7B7325,Depok,Irwan Susanto,Apotek Sehat Sejahtera,0,
+b79b8b2e-b126-4664-b4e2-1db66a3b30c6,3433000.0,Jasa Print Pak Hendra,OVO,2024-06-20T12:55:02.055329,IOS-D1D5A4BC,Jakarta Pusat,Budi Nugroho,Konter HP Bu Nurul,0,
+b6496a78-8b80-4e90-9679-3e87ed6f88d2,1054000.0,Warung Kopi Mas Rizky,BCA,2024-10-16T15:58:50.029279,ANDROID-F6D1FA3D,Medan,Hani Saputra,Warung Makan Bu Tini,0,
+e142a6a4-1c10-4dbe-8778-9029aec5d6ef,77000.0,Supermarket Berkah Jaya,OVO,2024-03-16T07:34:46.403090,ANDROID-F7BBD65B,Jakarta Selatan,Citra Saputra,Minimarket Bu Endah,0,
+baa453e5-6466-4629-b79b-1f8b49a0f5ab,194000.0,Toko Elektronik Mas Dedi,BCA,2024-01-23T20:13:03.415676,IOS-9FA66C36,Tangerang,Sari Lestari,Toko Online Bu Sari,0,
+7d846451-00c4-461f-953d-b88f03443e0c,4592000.0,Toko Sembako Bu Yanti,Mandiri,2024-04-07T10:03:06.725587,ANDROID-3D22249C,Bekasi,Budi Rahayu,Laundry Kilat Bu Wati,0,
+8d22ea65-1b3d-4cf4-8eec-f98148376dbd,4328000.0,FAKE-Bengkel Motor Mas Agus,Dana,2024-10-30T13:55:23.941541,IOS-1E8D7A24,Jakarta Timur,Joko Rahayu,Supermarket Berkah Jaya,1,invoice_manipulation
+05d9cf52-8de3-4b95-9e20-9130e96d3188,1791000.0,Jasa Print Pak Hendra,GoPay,2024-08-02T02:41:46.945676,WEB-A1E314E9,Makassar,Zahra Kusuma,Kios Pulsa Mas Feri,0,
+78c695c8-86c1-4016-b383-565b01dfdd2a,217000.0,Toko Alat Tulis Mas Erwan,QRIS,2024-04-05T12:28:54.754354,IOS-BA945CEE,Medan,Tono Wijaya,Jasa Print Pak Hendra,0,
+02068f8a-41f3-420d-b9dc-cf6c87add26d,20000.0,Toko Baju Murah Pak Rahmat,Dana,2024-07-28T19:33:17.201538,WEB-B9C443B8,Bandung,Kartini Nugroho,Bengkel Las Pak Slamet,0,
+2736a93a-359e-4767-be63-0f443e04b0c6,45000.0,Toko Baju Murah Pak Rahmat,QRIS,2024-12-04T14:49:32.749362,IOS-B6186287,Makassar,Reza Rahayu,Bakso Pak Soleh,0,
+6e647a78-f410-4ca3-9370-7d6e2b5f38ce,26000.0,Kios Pulsa Mas Feri,QRIS,2024-08-01T07:34:28.813678,ANDROID-E055C54A,Bandung,Dewi Saputra,Toko Elektronik Mas Dedi,0,
+0f19d9a6-7bab-47ba-acbd-7ffb9bd96a2a,88000.0,Salon Cantik Bu Dewi,BNI,2024-05-04T16:24:55.156084,ANDROID-FB1689DA,Palembang,Zahra Setiawan,Toko Online Bu Sari,0,
+ab2f1164-4813-41d8-9323-dfb70eb38603,100000.0,Warung Makan Bu Tini,ShopeePay,2024-09-28T20:06:12.539241,IOS-0A49A298,Jakarta Pusat,Tono Firmansyah,Toko Online Bu Sari,0,
+f2096a6d-abf0-4b3b-8fb8-429aa660b1a4,36000.0,Supermarket Berkah Jaya,Dana,2024-11-20T18:52:17.789792,IOS-F55934AA,Medan,Oka Kurniawan,Apotek Sehat Sejahtera,0,
+0591ac40-d9b6-465a-a402-e346ab2fbabd,1011000.0,Toko Baju Murah Pak Rahmat,GoPay,2024-01-08T17:34:09.089125,ANDROID-A7683BB8,Jakarta Selatan,Umi Susanto,Warung Makan Bu Tini,0,
+7ed33247-4d0a-4d84-85fe-90b2916e6651,86000.0,Warung Pak Budi,BCA,2024-09-02T19:52:27.117836,IOS-ED5A4C92,Surabaya,Umi Handoko,Supermarket Berkah Jaya,0,
+0794266e-4462-4218-8a6d-38cd55b68166,1378000.0,Supermarket Berkah Jaya,BRI,2024-09-26T22:43:23.347423,WEB-40311BD7,Bekasi,Putri Santoso,Kios Pulsa Mas Feri,0,
+f4bd38db-c18b-47c7-878b-d925ea3ff952,414000.0,Toko Sembako Bu Yanti,LinkAja,2024-06-24T19:02:14.042145,IOS-4FD29503,Bekasi,Anonim-6811,Warung Pak Budi,1,identity_fraud
+9c15894a-6d9c-48e9-95ba-10a598120163,513000.0,Toko Elektronik Mas Dedi,BRI,2024-03-10T11:01:39.881747,IOS-C92E52AC,Depok,Zahra Purnama,Kios Pulsa Mas Feri,0,
+0916b4a7-54d7-474b-9a47-e603464c7581,342000.0,Apotek Sehat Sejahtera,Mandiri,2024-09-28T04:05:04.181770,WEB-CD6A4FE8,Bandung,Anonim-5521,Jasa Print Pak Hendra,1,identity_fraud
+cf93c15d-284a-43c1-bf83-8cae6b742ffd,54000.0,Apotek Sehat Sejahtera,GoPay,2024-08-22T22:10:21.925336,IOS-1233A574,Jakarta Selatan,Putri Hidayat,Salon Cantik Bu Dewi,0,
+396a4384-80ae-4eeb-9417-b271635550fd,131000.0,Toko Alat Tulis Mas Erwan,BCA,2024-12-25T00:09:10.438640,ANDROID-3D2F1F2C,Medan,Zahra Nugroho,Jasa Print Pak Hendra,0,
+933709d7-b4a9-4cc3-9f10-7402fccec182,18000.0,Warung Kopi Mas Rizky,BCA,2024-08-09T14:24:16.547907,WEB-768D34D8,Bandung,Zahra Nugroho,Supermarket Berkah Jaya,0,
+14c2cd7f-1b7d-46c1-b6a2-bb1ac8d56b7c,99000.0,Toko Alat Tulis Mas Erwan,BCA,2024-09-02T13:41:24.266691,IOS-CA63B8EA,Bandung,Eko Santoso,Konter HP Bu Nurul,0,
+230c8d02-8eef-49b4-8889-ab5e943abe2b,82000.0,Toko Sembako Bu Yanti,BRI,2024-10-28T22:44:32.045720,ANDROID-5C9335FC,Jakarta Pusat,Anonim-4190,Jasa Print Pak Hendra,1,identity_fraud
+2519eb72-87c4-46ef-af02-ca3d56707106,84000.0,Toko Elektronik Mas Dedi,BRI,2024-09-09T22:54:01.751536,IOS-F699C344,Bekasi,Irwan Handoko,Toko Buah Bu Lastri,0,
+2ee28547-630b-42eb-981a-914c7de8f9df,97000.0,Salon Cantik Bu Dewi,LinkAja,2024-10-10T16:20:31.271580,WEB-561293A3,Makassar,Umi Setiawan,Warung Makan Bu Tini,0,
+298fc749-edee-4c45-91a1-a4cce4f7465f,2773000.0,Warung Pak Budi,OVO,2024-09-28T18:38:11.800500,ANDROID-F415FE53,Surabaya,Sari Purnama,Toko Alat Tulis Mas Erwan,0,
+b2af7e91-406b-42f9-b280-27012738ecf7,1740000.0,Toko Elektronik Mas Dedi,BRI,2024-10-06T12:40:44.260702,WEB-53936C2D,Palembang,Sari Setiawan,Bakso Pak Soleh,0,
+224701ea-888a-4403-b44e-437c8d52cc85,464000.0,Toko Sembako Bu Yanti,BNI,2024-03-24T10:10:07.592470,WEB-14F07972,Jakarta Pusat,Andi Susanto,Toko Baju Murah Pak Rahmat,0,
+49f4abff-c877-48f2-8fe5-0e41f74bb8d8,20000.0,Warung Kopi Mas Rizky,OVO,2024-08-04T10:46:29.404501,ANDROID-AB39EF3B,Yogyakarta,Vina Santoso,Minimarket Bu Endah,0,
+8ad4feb7-793f-4358-929f-13d149e71e48,413000.0,Laundry Kilat Bu Wati,BCA,2024-03-09T10:52:48.679165,IOS-52524CD7,Jakarta Selatan,Mira Susanto,Konter HP Bu Nurul,0,
+b8c67c2f-44de-40d6-a5e9-8d5188314826,75000.0,Minimarket Bu Endah,OVO,2024-10-03T23:35:56.055215,IOS-499A3701,Jakarta Timur,Umi Purnama,Warung Kopi Mas Rizky,0,
+8d58b789-9ac2-404c-bc95-63f3206af5e4,376000.0,Toko Buah Bu Lastri,GoPay,2024-04-11T16:05:45.701789,IOS-021D5328,Surabaya,Zahra Rahayu,Bengkel Las Pak Slamet,0,
+b8515365-d360-4169-ba46-e469a1c34fc5,674000.0,Toko Baju Murah Pak Rahmat,Dana,2024-09-21T18:45:07.360442,IOS-243D6312,Medan,Budi Nugroho,Toko Elektronik Mas Dedi,0,
+bf71f9da-53b8-4440-9790-08ab563ef801,881000.0,Warung Kopi Mas Rizky,Dana,2024-08-10T13:42:04.044426,IOS-46B98D21,Jakarta Selatan,Mira Purnama,Toko Online Bu Sari,0,
+379e56b4-b118-4381-9e69-4b10e79455e6,555000.0,Warung Makan Bu Tini,Dana,2024-06-16T11:19:27.822947,WEB-79C02507,Jakarta Selatan,Yanto Wibowo,Toko Buah Bu Lastri,0,
+11a92f1c-6875-4f0f-a411-1012eaaba215,399000.0,Konter HP Bu Nurul,BCA,2024-01-17T20:33:58.779215,WEB-7DE34964,Jakarta Utara,Xena Handoko,Kios Pulsa Mas Feri,0,
+ac5bddac-1423-4009-a4a3-07b2f2512119,249000.0,Warung Makan Bu Tini,ShopeePay,2024-01-25T09:05:16.005397,ANDROID-AEBA164A,Semarang,Nanda Kusuma,Bengkel Las Pak Slamet,0,
+4bf99eeb-36c4-43ef-b826-7ff9f35751af,42000.0,Laundry Kilat Bu Wati,Dana,2024-01-02T14:19:38.251713,IOS-A7006D21,Medan,Xena Kurniawan,Bakso Pak Soleh,0,
+9f7b87ec-4b03-48c2-b28f-cdfdcf4e065d,126392000.0,Bengkel Las Pak Slamet,OVO,2024-06-08T18:38:44.536024,WEB-D3C1DC8E,Jakarta Timur,Zahra Firmansyah,Supermarket Berkah Jaya,1,amount_anomaly
+06360a20-39b8-4efe-8ce1-ea4dd6ec218d,497000.0,Toko Elektronik Mas Dedi,QRIS,2024-11-07T19:13:07.024308,WEB-28D23D8E,Bandung,Tono Handoko,Minimarket Bu Endah,0,
+9be48244-1b31-4f71-8f48-534297d81151,362000.0,Laundry Kilat Bu Wati,BRI,2024-02-25T19:07:26.231567,IOS-81B964B8,Palembang,Tono Wibowo,Toko Buah Bu Lastri,0,
+2c43c49a-11ee-4be5-a0d1-071757528642,179000.0,Supermarket Berkah Jaya,BRI,2024-11-28T18:37:14.387397,IOS-96119005,Jakarta Utara,Zahra Purnama,Jasa Print Pak Hendra,0,
+b032ae93-6456-4494-9044-f323f399f507,2279000.0,FAKE-Toko Elektronik Mas Dedi,BNI,2024-03-23T12:35:39.264553,WEB-DFD6C512,Depok,Lina Kurniawan,Minimarket Bu Endah,1,invoice_manipulation
+6584cc19-24d4-4e50-8cb8-49a8944edc07,1758000.0,FAKE-Apotek Sehat Sejahtera,LinkAja,2024-11-13T04:29:10.563892,WEB-E5501453,Makassar,Lina Saputra,Toko Buah Bu Lastri,1,invoice_manipulation
+55fb78e8-c911-40aa-9d51-61ed85b4a102,23000.0,Supermarket Berkah Jaya,Mandiri,2024-03-17T18:31:57.893111,ANDROID-1DD5A901,Semarang,Xena Kurniawan,Bakso Pak Soleh,0,
+b8e1dd5b-0a14-4607-b44f-12d79f7b7f95,94000.0,Toko Online Bu Sari,GoPay,2024-07-31T11:47:01.688822,ANDROID-258ABCDC,Makassar,Budi Rahayu,Apotek Sehat Sejahtera,0,
+19109889-c3fc-4a9d-b878-8fd3831ae72a,1166000.0,Warung Pak Budi,Dana,2024-04-20T08:18:29.865612,WEB-369BACA1,Jakarta Utara,Zahra Susanto,Supermarket Berkah Jaya,0,
+466e898b-9819-47fa-a825-b6a9dbf2c53a,83000.0,Bengkel Motor Mas Agus,LinkAja,2024-11-02T16:59:04.900974,WEB-3A5D7231,Palembang,Gilang Purnama,Bengkel Las Pak Slamet,0,
+c330a7e3-98e7-477a-adbc-fcdb2aa4721a,278000.0,Bakso Pak Soleh,ShopeePay,2024-10-29T08:06:49.081764,IOS-ADC3C72F,Semarang,Nanda Prasetyo,Bengkel Las Pak Slamet,0,
+4bd410df-8b5e-4878-a414-d6d7061e3ef6,61000.0,Warung Pak Budi,Mandiri,2024-07-13T19:54:50.661371,WEB-AA9B4EBA,Bandung,Gilang Setiawan,Jasa Print Pak Hendra,0,
+b913938c-48ef-4464-a13f-3cba6a669378,4748000.0,Minimarket Bu Endah,OVO,2024-05-15T15:40:53.939859,ANDROID-EF5DE820,Depok,Putri Hidayat,Konter HP Bu Nurul,0,
+e7307a4f-367b-49b5-a525-9ce473eaaecc,73000.0,Salon Cantik Bu Dewi,ShopeePay,2024-03-08T02:36:16.109407,IOS-C5F68856,Jakarta Timur,Oka Ariani,Apotek Sehat Sejahtera,1,suspicious_pattern
+811090ae-b8f6-4303-a3e5-975c1d7f0191,1751000.0,Warung Makan Bu Tini,BNI,2024-07-25T12:05:32.749346,WEB-B45B34CE,Makassar,Mira Lestari,Warung Kopi Mas Rizky,0,
+0e5e785b-2c9e-4605-b6ea-928bacdd2f30,4854000.0,Kios Pulsa Mas Feri,Mandiri,2024-12-11T07:20:22.074360,ANDROID-34822A35,Palembang,Putri Ariani,Supermarket Berkah Jaya,0,
+688e3f28-eeb6-4974-adfa-9d5226ebeb29,128000.0,Jasa Print Pak Hendra,Dana,2024-11-19T03:43:59.973726,WEB-8669F6D7,Bandung,Nanda Wibowo,Bengkel Motor Mas Agus,1,suspicious_pattern
+ebfa0f70-c9aa-44eb-b48e-2b4af22df8ce,411000.0,Konter HP Bu Nurul,LinkAja,2024-05-17T12:27:46.778265,ANDROID-033C53CB,Tangerang,Lina Rahayu,Toko Online Bu Sari,0,
+ab26fde8-5479-4f05-8328-8f5d8c4c3226,277000.0,Toko Alat Tulis Mas Erwan,LinkAja,2024-08-09T13:56:21.248809,ANDROID-0DEA0C5A,Jakarta Barat,Tono Lestari,Bengkel Las Pak Slamet,0,
+ab1e50af-d819-490d-8b3e-c83f69fc173b,4635000.0,Supermarket Berkah Jaya,LinkAja,2024-01-26T10:37:57.089710,WEB-40B9F5E2,Depok,Eko Purnama,Laundry Kilat Bu Wati,0,
+719844b7-a1a6-4795-a909-4d4843aec542,855000.0,Salon Cantik Bu Dewi,BRI,2024-03-23T07:29:25.603017,IOS-DDBF21DC,Tangerang,Tono Lestari,Bengkel Las Pak Slamet,0,
+a0234be6-1d14-40c2-b4a1-0d6a983c4412,29000.0,Bakso Pak Soleh,GoPay,2024-08-16T00:08:18.866157,ANDROID-EEED0BC4,Jakarta Selatan,Mira Kurniawan,Kios Pulsa Mas Feri,0,
+32600eb2-8696-47f5-b13e-7205acfe4206,307000.0,Bengkel Las Pak Slamet,GoPay,2024-12-01T23:49:48.675958,WEB-79D38A76,Jakarta Utara,Yanto Wijaya,Toko Sembako Bu Yanti,1,duplicate
+ccd66aec-e93e-47fb-9dbd-58ac97b08122,219000.0,Warung Kopi Mas Rizky,Mandiri,2024-01-31T02:17:34.714051,WEB-93F9604D,Tangerang,Nanda Ariani,Minimarket Bu Endah,1,suspicious_pattern
+a0843fb6-cbc3-4408-a58c-7c787db3464c,232000.0,Toko Sembako Bu Yanti,OVO,2024-09-04T14:48:26.002047,WEB-9435D1AD,Semarang,Reza Hidayat,Jasa Print Pak Hendra,1,duplicate
+957a5d9d-acae-4d06-ae9a-ba6e7d66bd66,985000.0,Konter HP Bu Nurul,BCA,2024-12-29T14:24:35.994206,ANDROID-19E5DBC4,Makassar,Citra Nugroho,Toko Sembako Bu Yanti,0,
+3a735bcc-31e5-4c4b-8e21-c7118e89aafc,4048000.0,Laundry Kilat Bu Wati,OVO,2024-02-11T14:57:51.459422,ANDROID-1EBC8232,Bandung,Vina Wibowo,Minimarket Bu Endah,0,
+d8547781-da9e-4be6-a222-b46c2337ee6f,278000.0,Warung Pak Budi,GoPay,2024-01-01T11:30:57.673222,ANDROID-F3DF3CC1,Bekasi,Tono Wibowo,Toko Sembako Bu Yanti,0,
+9defa1b0-8403-41cb-b614-dd2da63e61e8,2279000.0,Toko Elektronik Mas Dedi,GoPay,2024-07-27T21:11:43.707383,IOS-1F935141,Tangerang,Yanto Handoko,Kios Pulsa Mas Feri,0,
+0c63bf71-54fe-4d77-814e-78c2d34a9c13,199000.0,Toko Alat Tulis Mas Erwan,LinkAja,2024-05-08T11:27:07.955122,WEB-CD798957,Semarang,Hani Nugroho,Toko Elektronik Mas Dedi,0,
+98d12aec-1ada-4537-ae72-fb55efe8f794,67000.0,Toko Elektronik Mas Dedi,BCA,2024-11-27T14:53:13.102076,IOS-EE4DE274,Semarang,Xena Prasetyo,Toko Baju Murah Pak Rahmat,0,
+0c7e7629-1e50-4cc2-8d0c-07a19562fe5c,151000.0,Kios Pulsa Mas Feri,LinkAja,2024-11-02T12:01:44.866370,WEB-11CFC1E2,Tangerang,Xena Hidayat,Laundry Kilat Bu Wati,0,
+0f8c2558-90a8-4e2d-9265-6923377bab30,183000.0,Toko Alat Tulis Mas Erwan,OVO,2024-12-23T07:17:49.552076,IOS-196981EA,Jakarta Selatan,Oka Kusuma,Laundry Kilat Bu Wati,0,
+25a01e7d-4902-4dde-a43f-24bee0d1ebda,3119000.0,Toko Buah Bu Lastri,BRI,2024-09-23T19:01:45.492622,WEB-538E295C,Semarang,Nanda Firmansyah,Jasa Print Pak Hendra,0,
+b29cc60d-6869-4077-b217-ad9e8a7eee94,18000.0,Salon Cantik Bu Dewi,BCA,2024-04-30T09:05:15.640379,WEB-F77FEA18,Palembang,Dewi Lestari,Bengkel Motor Mas Agus,0,
+0bd9a31c-c528-4222-81fc-b4544ef1b929,188705000.0,Jasa Print Pak Hendra,BNI,2024-05-11T13:55:23.343666,IOS-38240317,Yogyakarta,Budi Prasetyo,Laundry Kilat Bu Wati,1,amount_anomaly
+0c310a40-debc-421e-85c2-104038b4c980,21000.0,Konter HP Bu Nurul,Mandiri,2024-08-22T07:19:52.078667,ANDROID-C18E2D5B,Bekasi,Budi Setiawan,Bengkel Las Pak Slamet,0,
+e9de9874-e87a-4a68-a11d-c1b41a2c3ed2,167000.0,Apotek Sehat Sejahtera,ShopeePay,2024-01-31T13:02:13.901598,IOS-D419FA7D,Tangerang,Eko Handoko,Bengkel Las Pak Slamet,0,
+86c5d286-f2b3-405e-97ad-437b882798ac,323000.0,Toko Online Bu Sari,QRIS,2024-02-15T11:53:15.332428,ANDROID-84732F1C,Yogyakarta,Putri Handoko,Laundry Kilat Bu Wati,1,duplicate
+588085a9-31f7-4e86-bc44-65eb440dfc45,799000.0,Salon Cantik Bu Dewi,OVO,2024-05-23T17:35:47.484609,WEB-E16B9307,Jakarta Selatan,Sari Handoko,Toko Online Bu Sari,0,
+aa538af3-6216-463a-b4c8-ab004b6eb324,126000.0,Warung Pak Budi,OVO,2024-05-20T08:01:35.160816,WEB-8DC6FD1E,Jakarta Barat,Kartini Saputra,Warung Pak Budi,0,
+d539afb0-2bb5-49a6-9c4d-7a3372041e05,26000.0,Apotek Sehat Sejahtera,Dana,2024-03-04T11:37:02.299775,ANDROID-608BA6CE,Depok,Wahyu Saputra,Salon Cantik Bu Dewi,0,
+3ccb4dcc-e4aa-4801-ac75-2d6967c496be,469000.0,Toko Sembako Bu Yanti,ShopeePay,2024-01-27T23:56:04.515723,ANDROID-3904C2B3,Depok,Putri Firmansyah,Bakso Pak Soleh,0,
+a29180a9-e817-4b53-a317-6704ddda669e,275000.0,Toko Buah Bu Lastri,GoPay,2024-08-01T17:30:21.489779,ANDROID-FFB3CA8F,Palembang,Eko Hidayat,Bengkel Las Pak Slamet,0,
+079a1ac7-4373-4318-9b33-9cc6c6449f25,401000.0,Supermarket Berkah Jaya,Mandiri,2024-02-20T10:26:05.535122,IOS-6D265D7A,Surabaya,Vina Lestari,Minimarket Bu Endah,0,
+5bdcdfb6-f8e7-4576-8f24-dfe5d6d49f0f,453000.0,Konter HP Bu Nurul,Dana,2024-03-27T13:55:14.149461,ANDROID-0CEF82B1,Depok,Sari Prasetyo,Toko Buah Bu Lastri,0,
+848a2a8f-6310-4840-af71-71ac41191d50,17000.0,Toko Elektronik Mas Dedi,Mandiri,2024-11-02T22:11:56.030983,IOS-30AF7072,Surabaya,Vina Wibowo,Laundry Kilat Bu Wati,0,
+3ddbd406-20f4-49d4-b63e-5c2bd540bf77,117599000.0,Supermarket Berkah Jaya,QRIS,2024-12-12T04:42:49.710240,WEB-65C34F8B,Jakarta Utara,Fajar Susanto,Supermarket Berkah Jaya,1,amount_anomaly
+de0eca0c-0246-46e8-a405-89003dea845f,1418000.0,Minimarket Bu Endah,LinkAja,2024-02-25T11:08:37.710784,WEB-3EA78ACE,Semarang,Fajar Santoso,Apotek Sehat Sejahtera,0,
+0eeccb67-330d-4c99-80b5-9e2a53ea3163,17000.0,Jasa Print Pak Hendra,OVO,2024-06-27T15:39:30.380476,WEB-7E0AFA53,Palembang,Vina Kurniawan,Minimarket Bu Endah,0,
+baab720b-4f8e-4426-975d-be0e4e935c97,3451000.0,Toko Alat Tulis Mas Erwan,BRI,2024-03-17T08:14:43.565555,IOS-2B813EE8,Semarang,Dewi Ariani,Laundry Kilat Bu Wati,0,
+31cd8c92-69de-4d74-9967-0ffbc12c6494,381000.0,Toko Sembako Bu Yanti,Mandiri,2024-01-11T07:01:25.112199,IOS-E03D8BB6,Semarang,Sari Susanto,Minimarket Bu Endah,0,
+d923cac1-f107-426e-ae12-21194022557a,3856000.0,FAKE-Kios Pulsa Mas Feri,LinkAja,2024-02-08T20:26:18.013140,WEB-8FB33398,Jakarta Barat,Vina Nugroho,Warung Kopi Mas Rizky,1,invoice_manipulation
+cfc5ce74-1fd1-4b21-8675-96df090edd18,1912000.0,Warung Kopi Mas Rizky,BRI,2024-11-03T18:16:15.395267,WEB-51AE4394,Palembang,Dewi Wijaya,Warung Pak Budi,0,
+8514dae8-7ac3-4798-a906-77a46c35efbf,52000.0,Warung Makan Bu Tini,Mandiri,2024-04-13T22:03:27.181289,ANDROID-F21F2EF7,Jakarta Selatan,Citra Setiawan,Salon Cantik Bu Dewi,0,
+9575c979-147b-495e-93ec-0caf48afe783,60000.0,Toko Online Bu Sari,LinkAja,2024-07-26T16:57:05.415943,IOS-783B79DB,Jakarta Selatan,Citra Hidayat,Toko Baju Murah Pak Rahmat,0,
+45c1318d-f295-429d-8d84-5bb253eedf2a,254000.0,Toko Alat Tulis Mas Erwan,Dana,2024-11-10T12:15:41.359248,WEB-B822C739,Jakarta Timur,Wahyu Kurniawan,Bengkel Las Pak Slamet,0,
+b10fd3e8-0d6f-4810-9635-8f217a8d8755,32000.0,Supermarket Berkah Jaya,GoPay,2024-06-05T17:25:42.139299,ANDROID-BA8A7E5A,Depok,Anonim-7089,Laundry Kilat Bu Wati,1,identity_fraud
+070cfb48-4100-42d9-8420-48938f365bc7,224000.0,Warung Pak Budi,ShopeePay,2024-06-08T10:53:49.174203,IOS-2825674F,Jakarta Pusat,Andi Wibowo,Apotek Sehat Sejahtera,0,
+fbccc0e4-241d-4d42-9375-a2c1d854d279,436000.0,Toko Baju Murah Pak Rahmat,GoPay,2024-02-09T16:10:05.295473,WEB-53DE68E7,Bandung,Anonim-3291,Warung Pak Budi,1,identity_fraud
+a3d79c2e-8614-4834-8f1f-1dbc7e384c2a,186000.0,Bengkel Las Pak Slamet,BRI,2024-04-14T18:38:30.453144,WEB-B03D365F,Palembang,Oka Nugroho,Minimarket Bu Endah,0,
+0312ddd8-98bd-4c3d-88ee-d971bba324a0,99000.0,Minimarket Bu Endah,Dana,2024-06-26T19:12:58.532214,IOS-858E20E4,Bandung,Budi Hidayat,Bengkel Las Pak Slamet,0,
+25ed1150-9243-4bc0-a3ac-e88ff90785e0,14000.0,Toko Buah Bu Lastri,Mandiri,2024-10-30T11:55:46.803513,WEB-3773C9A2,Tangerang,Lina Kurniawan,Toko Buah Bu Lastri,0,
+57e88ada-3f23-4f22-a968-212a9c3cdec4,76000.0,Kios Pulsa Mas Feri,OVO,2024-07-19T20:20:19.804746,ANDROID-66D10CCA,Jakarta Timur,Mira Wibowo,Jasa Print Pak Hendra,0,
+85f6e6d1-1f24-4a40-b13d-332025db0d4e,13000.0,Warung Pak Budi,BRI,2024-03-08T22:38:02.203048,IOS-B555C032,Jakarta Barat,Eko Hidayat,Supermarket Berkah Jaya,0,
+67bf70c7-1a9c-4cd6-9d31-27d0aa6dcbdc,269000.0,Laundry Kilat Bu Wati,ShopeePay,2024-06-26T22:14:39.894188,ANDROID-078B7C95,Jakarta Timur,Hani Wijaya,Toko Sembako Bu Yanti,0,
+11b0ba15-203d-455e-a55b-44b3d44ac49f,3268000.0,Kios Pulsa Mas Feri,BCA,2024-11-02T04:22:20.177618,IOS-1ECF53CC,Tangerang,Fajar Handoko,Apotek Sehat Sejahtera,1,suspicious_pattern
+5d49f455-1660-45e8-878d-1567323a2d2e,1527000.0,Toko Buah Bu Lastri,BNI,2024-02-18T17:40:04.825805,ANDROID-6C46A03A,Jakarta Pusat,Vina Hidayat,Warung Kopi Mas Rizky,0,
+c4f3f643-3ac0-4a77-ab3f-9cdc4482728e,4259000.0,Konter HP Bu Nurul,ShopeePay,2024-07-02T08:02:17.187064,ANDROID-5D1C899D,Jakarta Barat,Wahyu Firmansyah,Toko Sembako Bu Yanti,0,
+acc9d506-5f41-4b17-bd89-742398ae0283,365000.0,Minimarket Bu Endah,LinkAja,2024-06-22T07:42:42.925504,WEB-4D5F0976,Palembang,Joko Kurniawan,Warung Makan Bu Tini,0,
+99e4b8d5-a391-45bc-9bff-5cd2dd425111,1379000.0,Toko Sembako Bu Yanti,BCA,2024-07-01T04:42:58.175872,WEB-E1F4F60F,Semarang,Zahra Suharto,Bakso Pak Soleh,1,suspicious_pattern
+fae00cdd-fb6b-4efc-bd86-98f8791487e8,920000.0,Toko Alat Tulis Mas Erwan,LinkAja,2024-05-12T19:42:29.798179,ANDROID-C8C8D52D,Jakarta Utara,Reza Saputra,Bengkel Motor Mas Agus,0,
+ad303254-6cbc-4fcb-9f74-235276903d31,17000.0,Bakso Pak Soleh,BCA,2024-02-21T03:57:40.738427,IOS-BC7FDE8F,Depok,Gilang Firmansyah,Warung Pak Budi,1,suspicious_pattern
+63bffc03-4c10-42b0-8f43-edd0a76f3081,55000.0,Bengkel Las Pak Slamet,BCA,2024-03-06T09:59:44.892865,IOS-700A2FAF,Tangerang,Lina Suharto,Apotek Sehat Sejahtera,0,
+263d59d2-9ad2-41c7-a111-ccc9175aba00,1471000.0,Supermarket Berkah Jaya,BRI,2024-01-19T02:56:35.287024,WEB-D72E2C9D,Bandung,Zahra Susanto,Salon Cantik Bu Dewi,0,
+531a94d2-42b8-4d4e-8964-5a973d4053cd,80000.0,Bengkel Las Pak Slamet,Dana,2024-06-18T09:58:05.864067,ANDROID-7C8605FF,Medan,Yanto Ariani,Toko Baju Murah Pak Rahmat,1,duplicate
+30b33358-6201-4ff7-a721-6bc31c95c9d8,27000.0,Warung Pak Budi,GoPay,2024-06-24T17:20:12.404259,ANDROID-C3FF66F1,Jakarta Pusat,Yanto Firmansyah,Bakso Pak Soleh,0,
+f5d158bd-a2b3-4833-82d6-29a98d892ba1,351000.0,Bengkel Motor Mas Agus,BCA,2024-02-26T02:34:12.174104,WEB-EABF357C,Jakarta Timur,Andi Wijaya,Bengkel Motor Mas Agus,1,suspicious_pattern
+1c9e68ec-0451-4f9b-85bf-6030815ea655,887000.0,Jasa Print Pak Hendra,BCA,2024-02-16T20:23:21.653065,IOS-85B0F943,Yogyakarta,Gilang Prasetyo,Kios Pulsa Mas Feri,0,
+62d127e5-03f7-4212-a303-88a9b292a5a5,76000.0,Bengkel Las Pak Slamet,OVO,2024-10-28T14:36:30.565929,WEB-7EA0A970,Depok,Reza Purnama,Toko Online Bu Sari,0,
+53cd4b58-d38f-4a13-a688-f20d6a23cc5b,274000.0,Toko Online Bu Sari,Mandiri,2024-01-11T16:41:18.820735,ANDROID-D9ADC7D3,Jakarta Timur,Oka Lestari,Warung Makan Bu Tini,0,
+f28aeae8-acf9-4a58-a8d8-cd9aa96eec2c,78000.0,Konter HP Bu Nurul,Mandiri,2024-04-04T03:30:15.769069,IOS-7F402DA2,Yogyakarta,Dewi Wijaya,Salon Cantik Bu Dewi,0,
+276e51af-3957-4f8e-b69f-2978999773a4,48000.0,Toko Baju Murah Pak Rahmat,LinkAja,2024-01-19T08:21:40.930044,WEB-1AB449B5,Makassar,Dewi Firmansyah,Warung Kopi Mas Rizky,0,
+828f1b13-cc81-49c2-96af-43620b17d858,50000.0,Minimarket Bu Endah,GoPay,2024-12-24T14:33:44.228805,IOS-B902DB01,Semarang,Andi Nugroho,Konter HP Bu Nurul,0,
+c243eaaf-69a0-4d64-8d09-20acae21043e,58000.0,Warung Kopi Mas Rizky,GoPay,2024-12-19T18:16:58.750854,WEB-02F42163,Palembang,Citra Firmansyah,Minimarket Bu Endah,0,
+b068a924-b176-480b-951b-2ae51fbcd5ea,489000.0,Kios Pulsa Mas Feri,BCA,2024-05-11T15:39:33.742963,WEB-9242BA22,Jakarta Timur,Budi Saputra,Toko Alat Tulis Mas Erwan,0,
+4e8a8e7a-6b05-4a6a-a802-be8620d04015,147515000.0,Konter HP Bu Nurul,OVO,2024-12-23T19:13:27.897964,ANDROID-C57EC61F,Jakarta Selatan,Nanda Prasetyo,Bengkel Motor Mas Agus,1,amount_anomaly
+02b054da-1c4f-4fe8-8b1b-6814db8925df,23000.0,Minimarket Bu Endah,LinkAja,2024-12-01T13:03:32.761179,IOS-E4E13342,Surabaya,Fajar Handoko,Toko Baju Murah Pak Rahmat,0,
+6bcecfd3-4d3b-4d14-b397-db5409654511,304000.0,Toko Online Bu Sari,BNI,2024-11-02T18:54:44.789071,WEB-D53F796F,Yogyakarta,Vina Susanto,Konter HP Bu Nurul,0,
+4618bc3a-b9d4-4884-a753-fb0ed0b7b51c,54000.0,Jasa Print Pak Hendra,QRIS,2024-12-11T13:36:52.269168,ANDROID-188E102E,Semarang,Putri Purnama,Apotek Sehat Sejahtera,0,
+aed627e6-9c1f-49e1-9393-ea3a16424b1e,118000.0,Supermarket Berkah Jaya,BRI,2024-12-27T02:34:12.580579,WEB-ABCF98FD,Surabaya,Nanda Purnama,Bakso Pak Soleh,1,suspicious_pattern
+08b9bae6-d47a-4b82-900a-2713f3e45a26,78000.0,Apotek Sehat Sejahtera,QRIS,2024-08-06T18:34:19.515541,IOS-BE97D131,Surabaya,Xena Saputra,Toko Elektronik Mas Dedi,0,
+df81ce15-8cb1-4496-926f-97dfc26bd7d8,32000.0,Laundry Kilat Bu Wati,BRI,2024-12-17T22:47:57.809626,IOS-34C8B5F5,Medan,Hani Susanto,Bengkel Las Pak Slamet,0,
+5b694b22-9ce2-48e2-b968-763799adeac9,348000.0,Kios Pulsa Mas Feri,BNI,2024-07-29T22:04:38.307973,WEB-821DAFA9,Jakarta Barat,Fajar Ariani,Toko Online Bu Sari,0,
+0c3e78d4-6446-435f-a6c0-e5ab91507e71,32000.0,Jasa Print Pak Hendra,BCA,2024-11-04T04:05:05.489753,WEB-2BBCAC13,Jakarta Timur,Fajar Wijaya,Bengkel Las Pak Slamet,1,suspicious_pattern
+9cdc6c66-24b9-41d1-b15e-67832dea09c5,1356000.0,Kios Pulsa Mas Feri,BNI,2024-04-12T19:49:47.463629,WEB-67DBB894,Jakarta Pusat,Vina Purnama,Toko Elektronik Mas Dedi,0,
+c549b530-82b1-44db-9e7b-7f3f20fb10de,466000.0,Toko Sembako Bu Yanti,Mandiri,2024-05-12T20:26:02.788302,IOS-63B6E170,Jakarta Barat,Fajar Wijaya,Toko Sembako Bu Yanti,0,
+2da8d2ee-1bb4-4cb9-a65a-23b34659af08,127000.0,Toko Online Bu Sari,OVO,2024-11-20T22:08:28.055966,IOS-331751E2,Semarang,Andi Kusuma,Toko Elektronik Mas Dedi,0,
+05681b46-56c0-4486-9ee5-40cf52090a16,263000.0,Warung Pak Budi,BCA,2024-02-07T20:32:49.875475,IOS-E1287A85,Yogyakarta,Oka Purnama,Jasa Print Pak Hendra,0,
+ab99ec0a-7ca7-426f-9408-f15a57647d08,28000.0,Supermarket Berkah Jaya,BCA,2024-01-21T08:06:09.288241,IOS-81E45E57,Jakarta Barat,Nanda Handoko,Toko Buah Bu Lastri,0,
+3aaffa85-bea6-488e-9bc9-8ea8d05b7a47,75000.0,Warung Kopi Mas Rizky,LinkAja,2024-02-11T04:26:46.443914,ANDROID-9394A576,Jakarta Selatan,Eko Saputra,Supermarket Berkah Jaya,1,suspicious_pattern
+295a363a-0c4b-4a51-acad-f4cbf3f80cea,640000.0,Warung Makan Bu Tini,LinkAja,2024-06-22T08:36:50.633596,WEB-7D2301CB,Bekasi,Sari Ariani,Warung Pak Budi,0,
+95eeeab1-0ec9-48ba-9e5c-57e88a8fe199,1935000.0,Bengkel Las Pak Slamet,LinkAja,2024-02-08T16:37:58.864796,IOS-329C5FFF,Palembang,Kartini Kusuma,Warung Kopi Mas Rizky,0,
+b55f5f0b-a206-4071-9783-ed44e0bab6c9,117000.0,Apotek Sehat Sejahtera,QRIS,2024-04-10T21:33:06.563791,IOS-ECF23B20,Tangerang,Putri Handoko,Toko Sembako Bu Yanti,0,
+ed79354f-4353-4555-a805-85e11be8cd2e,219000.0,Bengkel Motor Mas Agus,GoPay,2024-01-22T12:05:03.536335,ANDROID-37A2C3FD,Bandung,Fajar Santoso,Laundry Kilat Bu Wati,0,
+9d640781-f512-4afd-bd0f-80b3897f0ae6,36000.0,Warung Makan Bu Tini,GoPay,2024-02-26T19:15:12.280037,WEB-A119E033,Tangerang,Joko Wibowo,Warung Makan Bu Tini,1,duplicate
+b9c97270-fa84-4ca5-96f9-7534c71a1d7c,113158000.0,Laundry Kilat Bu Wati,Mandiri,2024-02-18T19:02:22.939430,IOS-14AA686F,Makassar,Budi Hidayat,Minimarket Bu Endah,1,amount_anomaly
+877c3213-2616-421b-959a-83ffc6dc753a,2191000.0,Kios Pulsa Mas Feri,Mandiri,2024-07-26T19:21:07.743446,IOS-1AE69BB3,Jakarta Pusat,Mira Susanto,Laundry Kilat Bu Wati,0,
+47b6d0ba-69f1-4f03-ac70-ab4a9d2c57fc,1394000.0,Minimarket Bu Endah,BNI,2024-03-16T14:41:54.831252,ANDROID-D87B3610,Yogyakarta,Kartini Prasetyo,Minimarket Bu Endah,0,
+22ae63f0-8c84-41ce-8c56-5fc2525438ba,241000.0,Toko Elektronik Mas Dedi,BRI,2024-10-30T10:36:00.066477,ANDROID-61B2032A,Jakarta Selatan,Reza Kusuma,Warung Pak Budi,0,
+d18b5eed-0556-4b47-a81a-4572fcf5e942,32000.0,Bengkel Las Pak Slamet,OVO,2024-08-17T11:56:39.814438,WEB-3A4A096F,Semarang,Tono Rahayu,Toko Alat Tulis Mas Erwan,0,
+92c24c2b-221a-4ca4-9119-4bd9217ccd46,269000.0,Toko Buah Bu Lastri,ShopeePay,2024-09-10T20:30:14.779570,WEB-E6829DAA,Tangerang,Umi Prasetyo,Toko Baju Murah Pak Rahmat,0,
+a581c3d7-f192-4f9d-9f91-307c683aa5b4,122000.0,Konter HP Bu Nurul,BNI,2024-04-09T09:33:00.044593,IOS-F3CC878D,Jakarta Utara,Putri Saputra,Minimarket Bu Endah,0,
+f27f713c-4f58-4625-90df-baeebaa8cb16,2444000.0,Warung Kopi Mas Rizky,ShopeePay,2024-03-08T08:11:24.244104,ANDROID-32EFC030,Yogyakarta,Wahyu Setiawan,Toko Elektronik Mas Dedi,0,
+490702de-210d-47e2-a27a-3184de7ba7b9,49000.0,Laundry Kilat Bu Wati,OVO,2024-03-06T04:15:14.650815,WEB-632F514D,Yogyakarta,Irwan Wijaya,Bengkel Motor Mas Agus,0,
+48570803-1dea-4447-bdec-58a79e511e4b,56000.0,Laundry Kilat Bu Wati,GoPay,2024-10-17T12:03:20.472324,WEB-0E5C6B3C,Makassar,Yanto Hidayat,Supermarket Berkah Jaya,0,
+617b46b4-4385-4f50-8836-6f28d65f5d3d,71000.0,Toko Buah Bu Lastri,ShopeePay,2024-03-19T18:23:02.890891,WEB-6F2DF3F8,Jakarta Timur,Nanda Kusuma,Toko Online Bu Sari,0,
+b3ea3c2b-e725-4e35-9ff6-bc475be89241,729000.0,Supermarket Berkah Jaya,QRIS,2024-01-22T11:11:53.785032,ANDROID-8D9004C1,Bekasi,Anonim-4687,Toko Buah Bu Lastri,1,identity_fraud
+b415c85d-3d6b-42e7-93b7-222f86d982f8,4698000.0,FAKE-Jasa Print Pak Hendra,BNI,2024-08-29T12:46:11.372762,IOS-6B05ED4A,Jakarta Utara,Andi Prasetyo,Kios Pulsa Mas Feri,1,invoice_manipulation
+c9ff6821-75ea-49b1-ad30-50a98ab093e6,10000.0,Jasa Print Pak Hendra,Dana,2024-09-10T13:36:13.225584,WEB-CA2C5094,Makassar,Oka Lestari,Bakso Pak Soleh,0,
+7bec40ae-8edc-43fa-a81c-f5189e499aa3,469000.0,Warung Kopi Mas Rizky,QRIS,2024-06-08T22:23:32.024362,ANDROID-F47ADCDF,Jakarta Utara,Zahra Prasetyo,Toko Online Bu Sari,0,
+9640a869-21d8-4dde-8a19-4170ccba5fe3,52000.0,Toko Online Bu Sari,BRI,2024-08-04T09:58:50.572202,IOS-49E9CD99,Surabaya,Vina Kurniawan,Supermarket Berkah Jaya,0,
+d9e3cbee-1fe2-467b-b1d3-ee7fd18c7bf5,455000.0,Kios Pulsa Mas Feri,Mandiri,2024-08-23T00:22:59.120984,IOS-EDE6DD63,Jakarta Pusat,Umi Saputra,Toko Online Bu Sari,0,
+7b0782c5-6aed-4c9c-a33b-ccd40fc1f9dd,1582000.0,Toko Elektronik Mas Dedi,LinkAja,2024-07-24T20:20:47.121183,IOS-DE1B7BCD,Surabaya,Lina Kurniawan,Bengkel Motor Mas Agus,0,
+9f1cb31b-07c0-4b27-8376-111c8f847f50,683000.0,Apotek Sehat Sejahtera,OVO,2024-01-27T13:19:47.733606,IOS-E75DB337,Jakarta Barat,Irwan Firmansyah,Toko Online Bu Sari,0,
+323df17d-15a1-4435-baab-8c7dcd154ea7,145000.0,Toko Buah Bu Lastri,BCA,2024-07-29T08:50:47.808873,ANDROID-956A9631,Palembang,Tono Lestari,Salon Cantik Bu Dewi,0,
+89989ae0-bbfd-41cd-ac02-6bfea923769f,742000.0,FAKE-Toko Sembako Bu Yanti,BNI,2024-03-08T04:31:32.947008,ANDROID-54E456A1,Surabaya,Kartini Rahayu,Toko Sembako Bu Yanti,1,invoice_manipulation
+abe21f4a-6fea-41f0-8c00-04d2b7bd6811,79000.0,Toko Sembako Bu Yanti,BCA,2024-06-27T17:35:35.361046,IOS-8D0883F2,Medan,Sari Purnama,Laundry Kilat Bu Wati,0,
+cdf0abea-f5f6-4ca5-84ad-0b74e30fb204,19000.0,Konter HP Bu Nurul,OVO,2024-12-15T15:10:07.772135,IOS-1D73CA26,Depok,Kartini Nugroho,Apotek Sehat Sejahtera,0,
+3c61a6c9-7981-4860-8f9c-ff9c21e09983,1377000.0,Warung Makan Bu Tini,BCA,2024-04-26T09:11:08.234776,ANDROID-1ED1EF32,Medan,Gilang Prasetyo,Warung Kopi Mas Rizky,0,
+828329d2-f17a-4ede-b819-dcec5c625d1d,80000.0,Toko Sembako Bu Yanti,QRIS,2024-04-22T09:04:19.615142,ANDROID-6DE6D544,Jakarta Pusat,Nanda Kusuma,Toko Online Bu Sari,0,
+c8ad9d6c-7619-4944-8811-0f736b2694d1,317000.0,Kios Pulsa Mas Feri,GoPay,2024-12-06T15:12:55.018772,ANDROID-81B803EA,Jakarta Timur,Joko Kusuma,Toko Online Bu Sari,0,
+0cf4acff-a0f8-4cd7-b291-83d8188ac4e7,91000.0,Jasa Print Pak Hendra,QRIS,2024-05-19T02:36:53.860394,WEB-068068C8,Jakarta Timur,Oka Hidayat,Konter HP Bu Nurul,1,suspicious_pattern
+544eec83-7cc4-4cd5-b9a9-b5888ff15b39,58000.0,Toko Baju Murah Pak Rahmat,GoPay,2024-01-29T08:10:47.445642,WEB-500DA115,Medan,Sari Ariani,Bengkel Motor Mas Agus,0,
+a226db7f-ed2f-491c-ac35-9e0c21591093,119000.0,Warung Kopi Mas Rizky,OVO,2024-03-17T18:50:03.592854,ANDROID-693DD8AA,Tangerang,Irwan Kusuma,Toko Sembako Bu Yanti,0,
+f87240ed-935e-4c4d-b1a6-73a82517c905,98000.0,Warung Pak Budi,QRIS,2024-02-13T07:13:35.563508,IOS-C7417FFD,Medan,Mira Ariani,Bengkel Las Pak Slamet,0,
+c8fdc281-9ad7-4260-8dd3-fa69c6e82884,79000.0,Salon Cantik Bu Dewi,BCA,2024-02-04T21:03:02.081835,ANDROID-B46FF27D,Jakarta Timur,Putri Purnama,Toko Alat Tulis Mas Erwan,0,
+83e3653e-33bb-4d1d-9322-44f45a82d7cd,60000.0,Toko Baju Murah Pak Rahmat,Mandiri,2024-04-13T15:43:25.478030,ANDROID-1270D0FB,Jakarta Utara,Yanto Hidayat,Minimarket Bu Endah,0,
+0f8da860-d5f9-4692-90a9-f06d9aa1955e,2121000.0,Toko Buah Bu Lastri,Mandiri,2024-02-28T11:47:18.171350,ANDROID-E307B2CA,Jakarta Timur,Yanto Lestari,Bakso Pak Soleh,0,
+897bafd5-0e41-40b6-87ff-777353c452a6,328000.0,Toko Sembako Bu Yanti,BCA,2024-07-24T13:02:49.668287,ANDROID-948C7310,Depok,Tono Santoso,Toko Buah Bu Lastri,0,
+37f1379e-d64c-4f7a-8e26-d513e4e93a92,436000.0,Warung Makan Bu Tini,LinkAja,2024-06-08T17:55:23.340607,WEB-668F7E9F,Jakarta Selatan,Wahyu Firmansyah,Kios Pulsa Mas Feri,0,
+f387d7c4-7d9f-4c10-b1d7-cc0b8d3ef0b7,2839000.0,Bakso Pak Soleh,Mandiri,2024-11-19T22:13:29.089057,IOS-711D6DAF,Medan,Umi Kurniawan,Apotek Sehat Sejahtera,0,
+39f7bcd0-f5f8-4c96-b04c-5408af24002c,347000.0,Konter HP Bu Nurul,QRIS,2024-06-07T10:17:57.492384,WEB-5D128CA0,Bekasi,Sari Santoso,Jasa Print Pak Hendra,0,
+f626bb1e-0e0c-40f0-9a38-6c2704cc8133,3259000.0,Toko Online Bu Sari,BNI,2024-11-05T10:17:32.830596,WEB-A982974C,Jakarta Timur,Gilang Ariani,Jasa Print Pak Hendra,0,
+78bad9fa-82ea-46e6-8d49-7252d6c70865,1259000.0,Toko Baju Murah Pak Rahmat,QRIS,2024-06-13T18:36:20.124756,WEB-B02A29C3,Bekasi,Oka Santoso,Bakso Pak Soleh,0,
+45b1f32f-77ff-4a3e-8cba-9acd0de45183,752000.0,Toko Alat Tulis Mas Erwan,BCA,2024-06-21T13:23:41.617997,ANDROID-311CD42C,Jakarta Timur,Oka Nugroho,Bengkel Motor Mas Agus,0,
+56b8ea03-2760-478c-8438-338dc3d256f0,81000.0,Toko Buah Bu Lastri,Mandiri,2024-06-01T20:54:48.907864,WEB-ECE43DDD,Jakarta Barat,Reza Kusuma,Minimarket Bu Endah,0,
+32f579c5-8166-43e1-ab42-1e0340452e0b,32000.0,Toko Baju Murah Pak Rahmat,Dana,2024-10-16T19:41:42.109370,IOS-D8DAB563,Jakarta Pusat,Tono Kurniawan,Laundry Kilat Bu Wati,0,
+be901bbf-617c-42c6-9f1e-141ea42f1e80,15000.0,Apotek Sehat Sejahtera,Mandiri,2024-09-30T17:49:33.529518,WEB-0DE40BC3,Bekasi,Kartini Wibowo,Kios Pulsa Mas Feri,0,
+b55d5040-88c7-46fd-9c15-6ea319cd0060,169000.0,Toko Elektronik Mas Dedi,LinkAja,2024-07-17T15:33:05.520587,IOS-A7D01D6F,Yogyakarta,Eko Rahayu,Warung Kopi Mas Rizky,0,
+3eb1bfc5-3442-4a83-ab89-aca6c6fc86f9,495000.0,Konter HP Bu Nurul,GoPay,2024-10-13T18:59:11.517362,WEB-0E6B2ECA,Bandung,Sari Purnama,Warung Makan Bu Tini,0,
+5b7cb1de-e057-4c63-bfe3-9202ba27a474,499000.0,Supermarket Berkah Jaya,BCA,2024-02-12T21:35:10.753794,ANDROID-CCC6CA50,Bekasi,Gilang Rahayu,Jasa Print Pak Hendra,0,
+77d11501-3ff1-4c7f-9749-cd6823d53329,171020000.0,Bengkel Motor Mas Agus,LinkAja,2024-08-02T22:07:29.845370,IOS-CAD99C83,Yogyakarta,Reza Handoko,Minimarket Bu Endah,1,amount_anomaly
+371b1757-5968-4a0b-a0c6-b4952a48bb91,24000.0,Toko Buah Bu Lastri,Mandiri,2024-04-12T21:19:24.056991,IOS-AA465064,Bandung,Yanto Santoso,Toko Elektronik Mas Dedi,0,
+6d926f11-617a-4bb7-96a8-cfa9a2ab8f47,378000.0,Laundry Kilat Bu Wati,BCA,2024-09-17T11:00:30.715624,IOS-F8D9A3A6,Yogyakarta,Xena Hidayat,Toko Buah Bu Lastri,0,
+8c52cb80-9262-4596-a30b-e8ac8f1344ea,4240000.0,Toko Sembako Bu Yanti,BCA,2024-11-14T09:04:30.836680,WEB-DABD37AA,Palembang,Hani Rahayu,Bengkel Motor Mas Agus,0,
+90b7c4a5-2654-454f-99b1-48cf384a1397,475000.0,Toko Alat Tulis Mas Erwan,QRIS,2024-09-09T15:03:32.321294,WEB-9FD299C8,Jakarta Utara,Reza Saputra,Toko Buah Bu Lastri,0,
+62cbb21d-bf97-4369-86df-9144f35da3fa,86000.0,Apotek Sehat Sejahtera,OVO,2024-12-18T21:54:33.456421,WEB-F6FCACF5,Bandung,Xena Handoko,Salon Cantik Bu Dewi,0,
+585c3d05-0a92-4b69-a6ea-a556a9a5e4dd,80000.0,Minimarket Bu Endah,BCA,2024-07-07T15:52:19.559420,ANDROID-0EC19309,Surabaya,Fajar Handoko,Toko Sembako Bu Yanti,0,
+126ddba1-17f2-4346-a743-99c84982a8ab,4911000.0,Warung Kopi Mas Rizky,BNI,2024-07-03T14:00:16.723921,ANDROID-AC06CA00,Bandung,Irwan Firmansyah,Toko Alat Tulis Mas Erwan,0,
+bad28010-b004-4d0e-b0aa-394ddddbe948,140243000.0,Apotek Sehat Sejahtera,QRIS,2024-07-08T17:01:19.593758,WEB-136AE92B,Bekasi,Dewi Firmansyah,Warung Kopi Mas Rizky,1,amount_anomaly
+e48a57fe-1144-4a32-bc47-22a323fc745d,497000.0,Laundry Kilat Bu Wati,ShopeePay,2024-09-25T13:35:09.140837,ANDROID-B4C87B78,Makassar,Reza Setiawan,Warung Pak Budi,0,
+3d540959-722f-4098-8702-5f26d59a467d,4957000.0,FAKE-Warung Makan Bu Tini,LinkAja,2024-01-15T00:05:23.785303,ANDROID-FE083BD4,Jakarta Pusat,Nanda Santoso,Toko Online Bu Sari,1,invoice_manipulation
+660ca375-d4e9-4e32-b799-fe4f17f5f547,450000.0,Toko Online Bu Sari,ShopeePay,2024-08-09T17:27:59.153006,ANDROID-C1410251,Medan,Mira Purnama,Warung Kopi Mas Rizky,0,
+9673f89f-48cd-4d0a-a93d-9e737a719291,71000.0,Salon Cantik Bu Dewi,BRI,2024-12-13T11:54:49.818286,WEB-D7B80709,Jakarta Selatan,Anonim-8374,Toko Alat Tulis Mas Erwan,1,identity_fraud
+285c7d24-bce4-42db-824c-f1c0ebb70230,56000.0,Toko Online Bu Sari,QRIS,2024-10-09T06:21:41.869944,ANDROID-727A1188,Jakarta Selatan,Wahyu Kusuma,Toko Buah Bu Lastri,0,
+4e35706c-32ca-4e58-a7d0-415af9443f7f,496000.0,Bakso Pak Soleh,OVO,2024-05-14T11:41:04.528230,WEB-4061BC40,Yogyakarta,Putri Prasetyo,Toko Buah Bu Lastri,0,
+6dadaeb4-5206-481a-8f0b-1dcd50d781e5,42000.0,Minimarket Bu Endah,QRIS,2024-12-25T04:52:19.859842,WEB-B320760C,Makassar,Fajar Nugroho,Konter HP Bu Nurul,1,suspicious_pattern
+b1117a93-4520-400f-bf27-c945ba8e253e,2689000.0,FAKE-Jasa Print Pak Hendra,OVO,2024-05-31T00:24:26.361859,IOS-E842AB38,Makassar,Gilang Kurniawan,Warung Kopi Mas Rizky,1,invoice_manipulation
+565f64d0-8074-45c9-93a9-901b214ae372,102654000.0,Toko Sembako Bu Yanti,QRIS,2024-04-12T09:40:12.147170,ANDROID-B6090C82,Jakarta Selatan,Hani Setiawan,Warung Pak Budi,1,amount_anomaly
+1a8a3dc9-9f02-4f19-a7ef-476b6f5a3b54,60000.0,Bengkel Motor Mas Agus,BRI,2024-07-29T22:33:58.395942,WEB-49C2CBD1,Jakarta Barat,Hani Kusuma,Toko Sembako Bu Yanti,0,
+6ed065e7-a3dd-4b91-808e-828843decdf4,18000.0,Supermarket Berkah Jaya,OVO,2024-06-22T21:04:44.708961,WEB-DA2CDD11,Bandung,Yanto Saputra,Supermarket Berkah Jaya,0,
+f729c2e7-b5d8-4a34-9248-b05e39e89ee1,38000.0,Minimarket Bu Endah,GoPay,2024-05-31T19:00:24.780635,ANDROID-C6CF04F4,Makassar,Nanda Kusuma,Toko Buah Bu Lastri,0,
+139763d9-0f3d-452e-b27b-131aa70265de,479000.0,Jasa Print Pak Hendra,OVO,2024-03-20T04:17:46.400763,IOS-EE0E00AE,Bekasi,Tono Kurniawan,Laundry Kilat Bu Wati,1,suspicious_pattern
+85b4f2d7-148e-4e71-ac05-06b4ea23ebd1,98000.0,Toko Online Bu Sari,BCA,2024-06-12T18:51:20.947361,WEB-B036CFC5,Makassar,Umi Kurniawan,Kios Pulsa Mas Feri,0,
+098c562a-c925-4a7f-9114-497788da69e8,81000.0,Konter HP Bu Nurul,GoPay,2024-10-18T07:58:51.939713,ANDROID-B4F0743D,Jakarta Utara,Eko Santoso,Minimarket Bu Endah,0,
+180ccca9-eb1f-4ae5-bdeb-51a81d9c3f42,88000.0,Toko Baju Murah Pak Rahmat,BNI,2024-06-26T11:20:51.888066,WEB-BE9ADAD2,Yogyakarta,Dewi Handoko,Minimarket Bu Endah,0,
+01684103-dd17-4381-8b69-e4bd8582880a,74000.0,Toko Sembako Bu Yanti,BRI,2024-07-02T20:50:16.619953,ANDROID-7A00FED5,Jakarta Timur,Oka Prasetyo,Bakso Pak Soleh,1,duplicate
+9fcf5f0b-4195-4564-bae1-3f3a66d155be,1801000.0,Bakso Pak Soleh,OVO,2024-02-11T10:39:54.221051,IOS-16B01DCD,Bandung,Dewi Kusuma,Toko Buah Bu Lastri,0,
+8a7bbf2e-f332-457d-9aff-e09b8e065d4f,177000.0,Bakso Pak Soleh,Dana,2024-09-02T14:31:12.381077,ANDROID-69F34A48,Jakarta Utara,Dewi Setiawan,Toko Sembako Bu Yanti,0,
+ea1eb0d4-43e8-4c4e-b73d-216e70d5fe88,35000.0,Toko Alat Tulis Mas Erwan,Dana,2024-12-11T14:14:21.709127,IOS-811555D7,Yogyakarta,Gilang Handoko,Warung Pak Budi,0,
+b9e73474-53bc-4194-9dbf-062d9f8867b2,36000.0,Warung Makan Bu Tini,BNI,2024-02-26T19:12:12.280037,WEB-AB539922,Bekasi,Joko Wibowo,Toko Baju Murah Pak Rahmat,0,
+a70ecfe0-021d-4bb1-ad80-269ed6a5c761,74000.0,Bakso Pak Soleh,OVO,2024-10-28T08:08:50.590865,WEB-8BFD61BF,Jakarta Selatan,Gilang Setiawan,Toko Elektronik Mas Dedi,0,
+e85616d5-12e1-4da2-b320-74ae98f7a24f,74000.0,Warung Kopi Mas Rizky,BCA,2024-01-01T22:26:21.588005,WEB-FF05D0B0,Jakarta Barat,Joko Wijaya,Minimarket Bu Endah,0,
+8d87e784-fd48-465c-85a6-6e8c89c96df8,189000.0,Supermarket Berkah Jaya,Mandiri,2024-03-09T02:13:23.882395,WEB-15BD0E1B,Depok,Anonim-9772,Kios Pulsa Mas Feri,1,identity_fraud
+d22f6167-7b82-4262-804b-d425b80e9956,81000.0,Bengkel Motor Mas Agus,OVO,2024-09-25T20:21:17.181268,ANDROID-5FC8147F,Jakarta Barat,Wahyu Wibowo,Warung Kopi Mas Rizky,1,duplicate
+217b36bb-ec46-4eb5-92b0-5355dfa2c721,1603000.0,Apotek Sehat Sejahtera,Dana,2024-08-19T08:25:21.235634,ANDROID-74EF38A6,Tangerang,Vina Firmansyah,Bakso Pak Soleh,0,
+5d149654-d3b6-42ca-853e-71d788c6dbd2,29000.0,Laundry Kilat Bu Wati,BRI,2024-08-08T01:35:49.610775,ANDROID-FC28E6B7,Jakarta Barat,Gilang Purnama,Supermarket Berkah Jaya,0,
+9cf0dabc-785c-4a97-9f92-afd912ca2741,91000.0,Toko Online Bu Sari,QRIS,2024-12-27T19:56:01.997460,WEB-89DE0C25,Yogyakarta,Eko Rahayu,Bakso Pak Soleh,0,
+ee2ba3af-4925-455c-b86a-c83df4ec5510,406000.0,Toko Sembako Bu Yanti,OVO,2024-07-09T11:04:53.655691,IOS-4A7A1F95,Bekasi,Hani Prasetyo,Jasa Print Pak Hendra,0,
+f83045bc-bd20-4fba-9e31-cdf88d0237fe,389000.0,Toko Buah Bu Lastri,BNI,2024-04-03T19:41:45.689433,IOS-FF7AF910,Bekasi,Tono Susanto,Konter HP Bu Nurul,0,
+fabbc758-4956-45c3-af8c-0b5793998a7d,441000.0,Bengkel Las Pak Slamet,OVO,2024-01-28T15:32:43.636614,WEB-040BB9F4,Jakarta Utara,Kartini Firmansyah,Bengkel Las Pak Slamet,1,duplicate
+5f217bb3-63f7-4ba0-9112-f13d6be45c9a,36000.0,Toko Alat Tulis Mas Erwan,ShopeePay,2024-05-27T13:56:00.606769,IOS-7F141A1D,Yogyakarta,Wahyu Setiawan,Warung Pak Budi,0,
+9de955d9-af87-4e17-99e7-37da844bb2c0,20000.0,Warung Pak Budi,BRI,2024-05-18T11:47:59.781880,IOS-C3450C5B,Surabaya,Yanto Firmansyah,Minimarket Bu Endah,0,
+309ed35c-0104-4d78-89ce-161b49e3168b,1427000.0,Toko Alat Tulis Mas Erwan,OVO,2024-04-17T08:08:19.717780,ANDROID-D0084AE8,Jakarta Utara,Wahyu Setiawan,Toko Baju Murah Pak Rahmat,0,
+9bc6d909-dbdc-4ff0-b6cb-bb1b5f7bec04,73000.0,Bengkel Las Pak Slamet,Mandiri,2024-12-29T21:56:20.908830,IOS-27C3E39F,Medan,Reza Kurniawan,Apotek Sehat Sejahtera,0,
+467f9353-c186-4812-bfc5-323c59b8e7d5,93000.0,Warung Kopi Mas Rizky,LinkAja,2024-08-12T13:55:20.489232,ANDROID-7FED360B,Jakarta Pusat,Xena Purnama,Warung Kopi Mas Rizky,0,
+f0c90eff-d4a9-434c-a576-bb4321844ac4,90000.0,Jasa Print Pak Hendra,BRI,2024-01-10T18:14:53.069425,IOS-E19EBE72,Palembang,Oka Purnama,Toko Buah Bu Lastri,0,
+a945c814-b5e6-48d7-8cb9-da5e00011111,385000.0,Toko Buah Bu Lastri,ShopeePay,2024-08-18T17:48:41.784458,WEB-5E2D4EEC,Makassar,Oka Wibowo,Salon Cantik Bu Dewi,0,
+b3b09adb-f707-4e2c-b56f-37e18d34d143,15000.0,Laundry Kilat Bu Wati,GoPay,2024-10-26T16:57:13.391880,IOS-3560D2AA,Bandung,Budi Firmansyah,Bengkel Motor Mas Agus,0,
+ebb38614-f188-4643-9937-affe0901f002,701000.0,Warung Pak Budi,LinkAja,2024-03-17T21:03:55.108169,IOS-2CE0C503,Jakarta Selatan,Kartini Santoso,Warung Pak Budi,0,
+c40dd36d-00d8-4372-906c-6d5f73d46a54,801000.0,Toko Online Bu Sari,Mandiri,2024-09-15T07:49:40.546819,ANDROID-BFF295B6,Medan,Fajar Susanto,Toko Online Bu Sari,0,
+5f1d1024-de55-4d66-b7a6-ec7d726a3111,30000.0,Toko Online Bu Sari,ShopeePay,2024-01-29T15:38:50.015911,ANDROID-01888FE5,Medan,Eko Saputra,Toko Online Bu Sari,0,
+93e167b9-8a10-4f4e-9b98-c9b38962b972,102832000.0,Bengkel Las Pak Slamet,GoPay,2024-05-29T18:59:18.466561,ANDROID-31622E2E,Tangerang,Nanda Ariani,Toko Baju Murah Pak Rahmat,1,amount_anomaly
+417d7dd2-fa35-4a22-bb21-d0fff736fc45,258000.0,Laundry Kilat Bu Wati,OVO,2024-02-10T07:57:26.122112,IOS-E51C2826,Bandung,Hani Kurniawan,Toko Sembako Bu Yanti,0,
+d68f9482-f8fc-4976-8ad1-c8b2f8b9071d,52000.0,Toko Alat Tulis Mas Erwan,BNI,2024-01-20T04:20:51.769160,IOS-A9498520,Medan,Dewi Kurniawan,Bakso Pak Soleh,1,suspicious_pattern
+91d4f932-9cdd-419c-8ea6-0d833cd99450,339000.0,Toko Online Bu Sari,OVO,2024-11-01T10:44:59.987360,ANDROID-EB474767,Tangerang,Mira Rahayu,Apotek Sehat Sejahtera,0,
+35e8a31c-7545-4413-80e4-af1e4e72e8c9,249000.0,Toko Buah Bu Lastri,OVO,2024-02-04T11:30:02.412527,IOS-6E6A3984,Tangerang,Andi Prasetyo,Toko Baju Murah Pak Rahmat,0,
+376c6a10-b193-407c-973a-543babb689d3,2488000.0,FAKE-Toko Buah Bu Lastri,Mandiri,2024-07-29T15:53:56.050979,ANDROID-3593A865,Depok,Joko Prasetyo,Supermarket Berkah Jaya,1,invoice_manipulation
+fb043c22-897c-44a7-9290-61162b2692da,847000.0,Warung Makan Bu Tini,QRIS,2024-12-10T07:50:52.274832,ANDROID-DE675756,Yogyakarta,Nanda Prasetyo,Warung Kopi Mas Rizky,0,
+2d593909-995e-4874-bf82-90c84360366f,47000.0,Toko Online Bu Sari,BCA,2024-10-11T11:28:45.194192,IOS-98063A27,Makassar,Putri Lestari,Laundry Kilat Bu Wati,0,
+4e0fc6e2-deed-496c-a343-19a69fadd832,4352000.0,FAKE-Toko Sembako Bu Yanti,Mandiri,2024-05-11T12:22:16.593397,ANDROID-51903274,Semarang,Budi Firmansyah,Toko Alat Tulis Mas Erwan,1,invoice_manipulation
+1ac3896d-a848-4a9f-977a-607ec12765b2,73000.0,Minimarket Bu Endah,GoPay,2024-10-26T09:31:08.912622,WEB-225ECF2A,Bandung,Joko Lestari,Salon Cantik Bu Dewi,0,
+69bbac7c-9e2f-4e1d-a969-c901b022ae3d,338000.0,Jasa Print Pak Hendra,ShopeePay,2024-10-03T13:23:26.102925,IOS-9F1B354C,Yogyakarta,Zahra Wibowo,Bakso Pak Soleh,0,
+7cbd4db5-c988-499e-9c99-5a3ab240aed5,88000.0,Toko Buah Bu Lastri,Dana,2024-07-07T14:58:01.137261,WEB-CEFF01F6,Jakarta Selatan,Reza Firmansyah,Salon Cantik Bu Dewi,0,
+f00ddea7-4409-4e8b-90fb-bf037f6bd886,2503000.0,FAKE-Warung Pak Budi,BCA,2024-08-18T19:14:29.712978,ANDROID-5DDEB8FB,Medan,Dewi Kusuma,Salon Cantik Bu Dewi,1,invoice_manipulation
+fb0f1d7a-35da-4170-8cf3-f929d1e246f1,371000.0,Apotek Sehat Sejahtera,OVO,2024-05-04T11:02:48.116228,ANDROID-80ED136C,Semarang,Citra Firmansyah,Warung Makan Bu Tini,0,
+f9aab205-ad59-4d1c-86c4-dd6f174ff350,78000.0,Warung Makan Bu Tini,BCA,2024-03-28T19:32:11.119580,WEB-296A5995,Palembang,Wahyu Purnama,Bakso Pak Soleh,0,
+677c8d75-a9b9-42c7-860f-2f60407a0ce9,60000.0,Warung Pak Budi,GoPay,2024-08-09T20:21:40.692832,IOS-08E9D760,Surabaya,Putri Rahayu,Toko Baju Murah Pak Rahmat,0,
+fbc0c64b-eec1-4d01-be4e-112f0e1eea6e,61000.0,Jasa Print Pak Hendra,BCA,2024-11-16T16:36:13.139032,WEB-0E5E10B7,Medan,Hani Wijaya,Jasa Print Pak Hendra,0,
+e7420e2d-0c47-43c5-bee2-b1f62be1776e,44000.0,Bengkel Las Pak Slamet,Dana,2024-08-26T14:43:29.652017,ANDROID-023DE6FB,Makassar,Zahra Wijaya,Warung Pak Budi,0,
+2b466efd-50a8-45c2-8898-dd235a9aade1,107000.0,Toko Elektronik Mas Dedi,Mandiri,2024-06-27T22:56:30.978223,IOS-8198B5DC,Palembang,Vina Lestari,Apotek Sehat Sejahtera,0,
+8df8f2eb-4686-4da8-8f03-41f708195be6,107000.0,Konter HP Bu Nurul,GoPay,2024-12-04T16:26:24.707264,IOS-91B4D724,Jakarta Pusat,Tono Setiawan,Warung Makan Bu Tini,0,
+0b19202e-a097-4828-ba2e-e04dbd2aefeb,48000.0,Bakso Pak Soleh,BCA,2024-03-02T19:38:07.686480,WEB-9040A36F,Surabaya,Putri Santoso,Bengkel Motor Mas Agus,1,duplicate
+92640285-82ac-4324-9da1-be23449fe3a5,162000.0,Toko Elektronik Mas Dedi,ShopeePay,2024-12-28T04:10:21.147968,WEB-24E1518B,Jakarta Timur,Oka Kusuma,Toko Sembako Bu Yanti,0,
+d77a4550-8e73-47ec-9d59-96dbc67b3cc0,446000.0,Warung Pak Budi,LinkAja,2024-05-03T21:37:17.211955,WEB-F09643F6,Depok,Yanto Nugroho,Toko Elektronik Mas Dedi,0,
+f43937eb-e729-4fcb-bfc5-db3f2473a4bc,60000.0,Konter HP Bu Nurul,LinkAja,2024-05-31T14:01:41.859368,WEB-72F2043D,Bandung,Yanto Prasetyo,Toko Elektronik Mas Dedi,0,
+a323b7ee-bd8e-454d-8358-d14f9ac784bf,1645000.0,Konter HP Bu Nurul,Mandiri,2024-05-18T20:59:34.214813,WEB-FD7B09B9,Jakarta Timur,Vina Wibowo,Warung Makan Bu Tini,0,
+6f8320a4-854f-4e35-a9a3-eb0e838f7435,498000.0,Toko Buah Bu Lastri,QRIS,2024-03-24T15:34:42.165071,IOS-00ECC4FB,Surabaya,Fajar Saputra,Bengkel Las Pak Slamet,0,
+fd96201e-f807-475a-bbbe-585c3fae5e9e,93000.0,Toko Baju Murah Pak Rahmat,Mandiri,2024-04-24T21:10:12.276004,ANDROID-F7893221,Jakarta Pusat,Umi Nugroho,Toko Alat Tulis Mas Erwan,0,
+8c7c67fb-5658-41cf-bee5-aadf99c364ae,1050000.0,Toko Online Bu Sari,Dana,2024-07-19T10:36:04.955592,WEB-920BC6D9,Jakarta Barat,Irwan Purnama,Toko Sembako Bu Yanti,0,
+a4dc137b-8baa-4f03-a9c1-98cbcdb84ab2,35000.0,Konter HP Bu Nurul,BNI,2024-09-17T09:39:07.866595,WEB-B23BE703,Palembang,Kartini Prasetyo,Toko Elektronik Mas Dedi,1,duplicate
+0e7e5c7f-ab66-469c-9cf6-8adc24a9b820,52000.0,Toko Sembako Bu Yanti,BNI,2024-02-16T08:22:30.211389,IOS-B7B1340C,Jakarta Barat,Irwan Prasetyo,Toko Elektronik Mas Dedi,0,
+74066102-5b5c-4a37-ab1d-fb099497ffcf,1568000.0,Bengkel Las Pak Slamet,Mandiri,2024-09-12T16:07:30.488516,ANDROID-EAD05730,Jakarta Barat,Xena Purnama,Toko Alat Tulis Mas Erwan,0,
+60ac51c7-0aab-49eb-a4d6-cfe3b4e73d30,92000.0,Warung Pak Budi,BNI,2024-06-29T17:04:44.294304,IOS-D9780E6A,Bekasi,Dewi Saputra,Warung Makan Bu Tini,0,
+278b7cfd-aae6-458a-b662-96ce3e1914e8,384000.0,Supermarket Berkah Jaya,BCA,2024-06-11T07:30:00.983459,WEB-6BC02547,Makassar,Zahra Nugroho,Toko Elektronik Mas Dedi,0,
+da998ff6-84c2-4b3c-bd27-8f3c7083eede,44000.0,Jasa Print Pak Hendra,ShopeePay,2024-04-17T10:23:58.023230,ANDROID-9BEE653C,Surabaya,Citra Setiawan,Toko Alat Tulis Mas Erwan,0,
+0c208b69-ff3c-4a39-a29d-81696493e2ef,1883000.0,Konter HP Bu Nurul,BNI,2024-05-30T22:12:29.816719,IOS-745E98B0,Jakarta Pusat,Dewi Purnama,Toko Alat Tulis Mas Erwan,0,
+4c5e68fa-f661-4313-bfa3-552b261dcc92,190000.0,Kios Pulsa Mas Feri,Dana,2024-02-23T19:01:05.624186,ANDROID-E0F118F2,Jakarta Pusat,Anonim-2841,Apotek Sehat Sejahtera,1,identity_fraud
+01670a78-5c23-4629-9b9f-bfcf1dd4135c,22000.0,Bengkel Las Pak Slamet,GoPay,2024-05-13T16:11:03.844786,WEB-A105F994,Yogyakarta,Kartini Kurniawan,Minimarket Bu Endah,0,
+3218f6cb-11ff-4acd-a110-8a62dcdfd911,325000.0,Toko Buah Bu Lastri,GoPay,2024-03-28T02:36:09.402624,ANDROID-D3A3FADE,Jakarta Timur,Budi Wijaya,Warung Pak Budi,1,suspicious_pattern
+f23f6086-bff1-4aab-9899-0082dcaaf59d,201000.0,Warung Kopi Mas Rizky,Dana,2024-04-15T11:43:03.028858,IOS-4827762A,Yogyakarta,Gilang Santoso,Warung Pak Budi,0,
+893acb53-0e99-47d4-9e99-fcbda01bcbd9,465000.0,Bakso Pak Soleh,QRIS,2024-01-11T16:57:14.677088,ANDROID-A8A544B7,Jakarta Barat,Oka Susanto,Supermarket Berkah Jaya,0,
+4a7d82df-9f88-4c7f-a8b1-23c0aaae75c5,75000.0,Toko Elektronik Mas Dedi,BNI,2024-08-04T13:26:40.216624,WEB-F3539052,Jakarta Barat,Hani Ariani,Apotek Sehat Sejahtera,0,
+fc4931da-cb30-4452-b9c0-dee7b3a073f9,22000.0,Minimarket Bu Endah,ShopeePay,2024-11-02T19:59:41.872792,ANDROID-7B1B513B,Makassar,Fajar Rahayu,Laundry Kilat Bu Wati,0,
+8345e2e6-369b-43b7-97e0-b0092b5d540e,638000.0,Laundry Kilat Bu Wati,BCA,2024-11-30T09:40:27.746549,ANDROID-833DA693,Medan,Gilang Saputra,Toko Online Bu Sari,0,
+5d9cdcb5-bca4-4521-b886-58ee9e54b844,353000.0,Toko Buah Bu Lastri,BNI,2024-04-04T18:37:18.998931,WEB-96DDBF7B,Jakarta Barat,Eko Lestari,Toko Elektronik Mas Dedi,0,
+c5707818-92af-434f-b82c-e7151c8b8618,83000.0,Toko Alat Tulis Mas Erwan,GoPay,2024-11-13T02:31:02.509890,WEB-E4058D99,Makassar,Umi Lestari,Kios Pulsa Mas Feri,0,
+a0ba5b07-0846-480d-b601-c86a9d098168,269000.0,Toko Alat Tulis Mas Erwan,QRIS,2024-03-10T16:05:20.321383,WEB-29CB5BF3,Yogyakarta,Zahra Rahayu,Warung Makan Bu Tini,0,
+24715355-cb45-43a9-9a4b-f412605ac05c,1593000.0,Warung Kopi Mas Rizky,GoPay,2024-04-30T22:01:06.454782,WEB-3C58CD5A,Jakarta Pusat,Joko Prasetyo,Toko Buah Bu Lastri,0,
+d2fca16a-4cd7-4750-a889-ecafce81e0e3,297000.0,Warung Kopi Mas Rizky,Dana,2024-10-24T13:17:29.904460,ANDROID-268262B0,Jakarta Pusat,Reza Lestari,Konter HP Bu Nurul,0,
+51b5b242-8b27-4107-98ef-b990b69d4991,544000.0,Warung Makan Bu Tini,BNI,2024-03-19T03:07:42.696882,IOS-94505848,Jakarta Timur,Hani Suharto,Toko Buah Bu Lastri,1,suspicious_pattern
+549b49ed-bb95-49fa-9f66-cb32e18e1a7a,73000.0,Toko Alat Tulis Mas Erwan,BRI,2024-07-28T18:56:09.751781,WEB-A84DE287,Depok,Joko Rahayu,Konter HP Bu Nurul,0,
+a18c6531-a218-4939-95f8-a7738997b6a4,16000.0,Warung Kopi Mas Rizky,BRI,2024-08-22T16:36:30.372059,IOS-C720F1E6,Semarang,Kartini Setiawan,Toko Online Bu Sari,0,
+cd4ffd04-d533-4a2d-aa60-cbc63340b23a,36000.0,Kios Pulsa Mas Feri,OVO,2024-07-04T17:53:27.168726,WEB-213628F6,Makassar,Umi Saputra,Bakso Pak Soleh,0,
+e8978b32-ee53-44c2-8305-aa3b64e91a29,200000.0,Toko Baju Murah Pak Rahmat,ShopeePay,2024-02-06T19:43:55.408344,WEB-5F1401D4,Yogyakarta,Gilang Susanto,Toko Sembako Bu Yanti,0,
+e2e40654-4b02-4a07-920a-024f652d2f48,340000.0,Warung Makan Bu Tini,BCA,2024-12-21T12:21:27.102704,IOS-3E89D2DA,Jakarta Utara,Budi Firmansyah,Konter HP Bu Nurul,0,
+d9932b4d-1285-4f3d-86b9-741588383aaa,184000.0,Bakso Pak Soleh,GoPay,2024-04-05T17:33:27.156587,IOS-60A89E30,Jakarta Timur,Lina Hidayat,Warung Kopi Mas Rizky,0,
+29ca25fd-d17a-4d1e-96da-9b76bb00434e,1389000.0,Laundry Kilat Bu Wati,QRIS,2024-12-18T22:35:59.588324,WEB-B49E6115,Medan,Oka Kurniawan,Laundry Kilat Bu Wati,1,duplicate
+db89d2fb-4c9b-40c9-9261-dc6a77889b5e,396000.0,Apotek Sehat Sejahtera,QRIS,2024-04-15T16:41:50.420283,ANDROID-37EE7C98,Jakarta Utara,Tono Rahayu,Minimarket Bu Endah,0,
+124ddccc-43c6-4679-8f69-8f056096156b,36000.0,Minimarket Bu Endah,Mandiri,2024-01-03T03:50:15.537074,ANDROID-5959C8A1,Tangerang,Joko Kurniawan,Toko Sembako Bu Yanti,1,suspicious_pattern
+6958b764-6dbd-4f81-a513-015802fd7ade,1517000.0,Warung Kopi Mas Rizky,QRIS,2024-05-12T12:36:19.816209,ANDROID-5CA36535,Jakarta Pusat,Andi Prasetyo,Apotek Sehat Sejahtera,0,
+42c15d48-3d44-4838-b761-9021dc522559,72731000.0,Warung Kopi Mas Rizky,Mandiri,2024-04-15T21:26:44.797956,ANDROID-F55C52C1,Depok,Citra Suharto,Warung Makan Bu Tini,1,amount_anomaly
+0cb3f8b4-6c2a-4641-9f10-c9285a42f0cb,3922000.0,Minimarket Bu Endah,BRI,2024-04-13T22:14:58.018777,WEB-3B999DA2,Palembang,Citra Setiawan,Toko Elektronik Mas Dedi,0,
+8b52cbcb-906b-4c1e-9c60-5e599cc662c3,121000.0,Laundry Kilat Bu Wati,BCA,2024-05-16T20:11:00.107547,IOS-D1723A4A,Jakarta Pusat,Zahra Setiawan,Bengkel Las Pak Slamet,0,
+2c2bde80-d68b-45a2-991a-f258dee885e6,80000.0,Jasa Print Pak Hendra,ShopeePay,2024-01-29T16:56:54.550859,WEB-BCFD441F,Jakarta Pusat,Yanto Setiawan,Salon Cantik Bu Dewi,0,
+25c7d977-8d4b-4d03-856e-511bae214867,162000.0,Jasa Print Pak Hendra,BCA,2024-06-09T18:27:34.541260,WEB-880D35DB,Jakarta Selatan,Hani Susanto,Apotek Sehat Sejahtera,0,
+51aa6cb3-bdaf-498e-b8e3-90d83656605d,322000.0,Konter HP Bu Nurul,BNI,2024-10-02T20:33:32.792617,ANDROID-4B275D2D,Jakarta Utara,Vina Nugroho,Kios Pulsa Mas Feri,0,
+1fa7a66d-bcc7-4232-92fb-4d44759edcaa,418000.0,Warung Kopi Mas Rizky,BCA,2024-10-10T10:16:20.142790,ANDROID-745E6D00,Bekasi,Budi Wibowo,Toko Buah Bu Lastri,0,
+b225c2d4-24cb-4ab7-a41a-b798475db12d,59798000.0,Toko Alat Tulis Mas Erwan,Mandiri,2024-07-16T16:08:05.766845,WEB-FE003A26,Jakarta Barat,Andi Rahayu,Toko Online Bu Sari,1,amount_anomaly
+6af69c5c-d701-46bd-b5d9-dc4c93aea428,26000.0,Jasa Print Pak Hendra,BNI,2024-02-03T05:22:47.084070,IOS-096F77B6,Bandung,Sari Hidayat,Toko Baju Murah Pak Rahmat,0,
+309ae48f-dc38-4475-8c0d-f465bc438755,1660000.0,Toko Elektronik Mas Dedi,GoPay,2024-12-24T05:11:07.613259,ANDROID-42818C61,Yogyakarta,Citra Saputra,Warung Kopi Mas Rizky,0,
+807f9c2e-86b3-464a-bc56-359ada9523d5,1368000.0,Konter HP Bu Nurul,Mandiri,2024-09-22T12:14:46.380078,ANDROID-D56FC88C,Yogyakarta,Reza Santoso,Minimarket Bu Endah,0,
+bd1f507a-5844-49d2-a0ac-4353f7a8a60a,174902000.0,Warung Kopi Mas Rizky,LinkAja,2024-01-04T23:11:59.885383,WEB-92FB3786,Jakarta Timur,Sari Nugroho,Apotek Sehat Sejahtera,1,amount_anomaly
+4ffbd8c8-8708-4b19-9eed-c47f2ccdf482,131000.0,Toko Alat Tulis Mas Erwan,Dana,2024-12-25T00:12:10.438640,IOS-C81B23A5,Depok,Zahra Nugroho,Laundry Kilat Bu Wati,1,duplicate
+39922ae5-86b4-4176-968d-eb1b893c20f6,71000.0,Warung Pak Budi,GoPay,2024-03-17T13:31:28.475959,ANDROID-CB348C41,Jakarta Timur,Anonim-7066,Toko Elektronik Mas Dedi,1,identity_fraud
+0b60a501-3ee0-455a-9348-c0d18072f50d,82000.0,Toko Sembako Bu Yanti,Mandiri,2024-04-14T10:23:53.202114,ANDROID-230977F8,Bekasi,Budi Setiawan,Apotek Sehat Sejahtera,1,duplicate
+0ea0ea78-380d-479a-b78d-33ccb9ad63ad,27000.0,Kios Pulsa Mas Feri,QRIS,2024-07-10T11:16:14.010715,ANDROID-5ADCCC3D,Jakarta Barat,Kartini Lestari,Warung Makan Bu Tini,0,
+c60a12f4-bdf3-4ce2-a50b-dccc7e64a24f,74000.0,Warung Pak Budi,BNI,2024-02-12T08:02:32.835583,IOS-189FC8A5,Surabaya,Joko Hidayat,Salon Cantik Bu Dewi,0,
+36d0adeb-4193-42d3-bd9a-2fed09e312b3,39000.0,Kios Pulsa Mas Feri,ShopeePay,2024-08-29T08:13:54.422562,ANDROID-D4B0781C,Makassar,Oka Suharto,Bengkel Las Pak Slamet,0,
+0419fdf5-21db-4ed8-bd22-0ee9d424183a,78000.0,Toko Baju Murah Pak Rahmat,BNI,2024-07-02T06:24:31.967873,ANDROID-84DC718C,Depok,Tono Prasetyo,Supermarket Berkah Jaya,0,
+ffeae9bb-5063-4abd-b74f-cbc983ad71d3,318000.0,Toko Alat Tulis Mas Erwan,Mandiri,2024-10-02T00:26:31.543873,IOS-25BDEF63,Jakarta Barat,Nanda Purnama,Minimarket Bu Endah,0,
+290d5916-38b0-47cc-abb6-4b37d36c629c,94000.0,Minimarket Bu Endah,QRIS,2024-11-04T11:33:33.167651,ANDROID-9FD7BBFD,Jakarta Timur,Umi Purnama,Toko Elektronik Mas Dedi,0,
+68d1fa71-7cde-44ef-bcc0-24e43dd0235a,1501000.0,Bengkel Las Pak Slamet,LinkAja,2024-06-18T10:27:25.159934,IOS-9779F383,Depok,Oka Prasetyo,Warung Kopi Mas Rizky,0,
+af44b1f0-86bb-422f-9445-1e9ea3e1c316,1711000.0,FAKE-Supermarket Berkah Jaya,BRI,2024-10-24T04:38:14.891439,ANDROID-913B39A6,Jakarta Utara,Yanto Firmansyah,Toko Buah Bu Lastri,1,invoice_manipulation
+d712bdb6-8537-4180-a6aa-b7135ac387ab,62000.0,Kios Pulsa Mas Feri,Dana,2024-03-21T12:47:52.687283,ANDROID-C29540A7,Palembang,Anonim-3550,Toko Sembako Bu Yanti,1,identity_fraud
+0d10592c-7687-40c1-8637-26eaa78099fe,491000.0,Bakso Pak Soleh,GoPay,2024-06-29T22:12:59.136131,ANDROID-069041C3,Bandung,Vina Suharto,Konter HP Bu Nurul,0,
+2ffe2dd6-9e73-4b68-ae46-e55a04cd422a,2598000.0,Warung Pak Budi,LinkAja,2024-08-25T08:15:44.124728,ANDROID-91325353,Jakarta Barat,Zahra Santoso,Warung Makan Bu Tini,0,
+874a61f7-9a56-4df2-ab9b-964a7f1c294f,1002000.0,FAKE-Warung Pak Budi,BNI,2024-05-02T00:18:41.793209,IOS-AD3F5EE6,Surabaya,Wahyu Purnama,Bakso Pak Soleh,1,invoice_manipulation
+c7a8ded7-aac1-4125-99f4-f50fe8ddcb40,914000.0,FAKE-Bengkel Las Pak Slamet,Dana,2024-03-13T17:19:14.826977,WEB-CFEF6657,Depok,Vina Rahayu,Toko Buah Bu Lastri,1,invoice_manipulation
+f4d637d2-8ad3-4ea0-9c74-2f3f31e4c12b,70000.0,Jasa Print Pak Hendra,LinkAja,2024-05-18T18:54:20.632835,WEB-51763139,Jakarta Utara,Fajar Handoko,Bengkel Las Pak Slamet,0,
+fc69b58a-bc43-431c-b28e-bfb0fd8928ad,100000.0,Toko Online Bu Sari,OVO,2024-09-22T07:17:43.897434,IOS-6286AB40,Jakarta Utara,Putri Prasetyo,Laundry Kilat Bu Wati,0,
+6c02d3e4-3a88-420b-8980-696bb0151814,60000.0,Warung Makan Bu Tini,QRIS,2024-12-28T18:36:37.925535,IOS-6C7D68A9,Surabaya,Anonim-2804,Warung Makan Bu Tini,1,identity_fraud
+a5dd670d-b177-4727-987e-3e546feec5c9,14000.0,Toko Online Bu Sari,Dana,2024-08-19T16:11:18.096111,ANDROID-3A684CC3,Jakarta Selatan,Vina Kurniawan,Bengkel Motor Mas Agus,1,duplicate
+4ef5eddd-aa7d-4b9d-b9da-6a49316f64bc,84000.0,Minimarket Bu Endah,OVO,2024-01-14T12:53:02.821835,IOS-31E5C36E,Medan,Irwan Purnama,Kios Pulsa Mas Feri,0,
+b583645c-55a6-4b7c-9e94-196fdad03359,121013000.0,Bakso Pak Soleh,OVO,2024-06-03T04:33:08.108532,ANDROID-A3D006DF,Yogyakarta,Zahra Firmansyah,Toko Elektronik Mas Dedi,1,amount_anomaly
+1dc35c1a-60e0-4b60-b1e7-66821c058377,3995000.0,FAKE-Apotek Sehat Sejahtera,Mandiri,2024-07-11T08:02:47.335891,IOS-E6C4383E,Jakarta Selatan,Xena Suharto,Supermarket Berkah Jaya,1,invoice_manipulation
+1d7b8b32-5c25-4551-a138-383872dc0488,139000.0,Toko Sembako Bu Yanti,BCA,2024-12-21T10:55:57.029590,WEB-4E04C08E,Depok,Anonim-9250,Warung Makan Bu Tini,1,identity_fraud
+152b212b-1526-4b0d-a66f-88bed921846a,83000.0,Supermarket Berkah Jaya,LinkAja,2024-01-22T16:46:27.123488,ANDROID-C3270E9D,Jakarta Selatan,Yanto Santoso,Toko Sembako Bu Yanti,0,
+c6ef1a4f-5d2e-4377-9113-fd1d0824d863,270000.0,Minimarket Bu Endah,Dana,2024-01-27T23:01:48.887321,IOS-E24E95E0,Jakarta Barat,Tono Rahayu,Kios Pulsa Mas Feri,0,
+8bac4cb2-81a5-44db-a687-de3187f058c0,1588000.0,Warung Pak Budi,LinkAja,2024-05-14T20:48:51.891927,IOS-7D8F5B20,Jakarta Timur,Tono Rahayu,Konter HP Bu Nurul,0,
+be2a3a71-8204-49c4-bfd3-5e63aa2ab921,318000.0,Bengkel Las Pak Slamet,QRIS,2024-04-12T18:25:45.418896,WEB-5C8A0798,Medan,Dewi Susanto,Supermarket Berkah Jaya,0,
+4e12ff4c-ff0b-4fc5-bf56-04fbc461e589,32000.0,Toko Online Bu Sari,LinkAja,2024-04-28T15:44:17.345903,WEB-281030E9,Medan,Tono Kusuma,Toko Alat Tulis Mas Erwan,0,
+66b3cb65-71a0-4fc6-bb01-fd30091a8d85,48000.0,Toko Alat Tulis Mas Erwan,Dana,2024-08-04T11:41:08.616431,ANDROID-D407E21E,Jakarta Barat,Vina Ariani,Warung Makan Bu Tini,0,
+09caa4b1-19ee-4e95-9e8a-569c658e70c9,499000.0,Toko Buah Bu Lastri,OVO,2024-07-08T15:57:29.501641,ANDROID-D71FF6B7,Jakarta Utara,Tono Lestari,Salon Cantik Bu Dewi,0,
+25afc581-cf07-41f1-8757-2c5ca27ce9ac,99000.0,Konter HP Bu Nurul,Mandiri,2024-09-12T04:39:47.270733,ANDROID-E9A02B0A,Jakarta Utara,Vina Prasetyo,Kios Pulsa Mas Feri,1,suspicious_pattern
+57f849fd-4909-4606-98aa-7109e035cca6,455000.0,Bakso Pak Soleh,BRI,2024-08-26T14:50:50.944258,WEB-5AADC752,Jakarta Timur,Yanto Rahayu,Warung Kopi Mas Rizky,0,
+d255c393-3968-4d0f-9914-63f96d8f0930,35000.0,Konter HP Bu Nurul,ShopeePay,2024-09-17T09:38:07.866595,WEB-16A23BA9,Surabaya,Kartini Prasetyo,Kios Pulsa Mas Feri,0,
+409692bf-016d-4a7d-be39-61ca60137a52,10000.0,Bakso Pak Soleh,Mandiri,2024-08-05T14:26:02.454338,WEB-97A7E582,Bandung,Xena Prasetyo,Toko Baju Murah Pak Rahmat,0,
+81a72358-37f8-48d7-b194-9fbe29d498ac,1653000.0,Laundry Kilat Bu Wati,BCA,2024-11-10T10:25:48.689667,IOS-71BB968A,Bandung,Wahyu Purnama,Toko Baju Murah Pak Rahmat,0,
+9034c4c8-8b8b-4aca-9428-492cae58a368,555000.0,Warung Makan Bu Tini,OVO,2024-06-16T11:21:27.822947,WEB-635A0E4D,Jakarta Selatan,Yanto Wibowo,Apotek Sehat Sejahtera,1,duplicate
+b0523971-851e-46be-a974-4903d5e496e3,1344000.0,FAKE-Bengkel Las Pak Slamet,LinkAja,2024-09-29T04:23:53.030256,IOS-4F25B156,Jakarta Barat,Zahra Hidayat,Bakso Pak Soleh,1,invoice_manipulation
+2a445a5d-fb82-4e13-bacd-c4374f3922d0,429000.0,Toko Alat Tulis Mas Erwan,BNI,2024-05-01T17:13:22.102067,IOS-32510BA4,Surabaya,Oka Setiawan,Toko Alat Tulis Mas Erwan,0,
+2028b25b-2134-4ede-89fa-7bb791706475,566000.0,Laundry Kilat Bu Wati,BNI,2024-11-26T09:44:51.582678,WEB-7E2A22D1,Jakarta Timur,Vina Kurniawan,Toko Baju Murah Pak Rahmat,0,
+69effbb6-ae8a-490a-a0f8-f5d06e5bd85d,411000.0,Salon Cantik Bu Dewi,LinkAja,2024-01-20T10:00:55.427270,ANDROID-DE08D779,Medan,Yanto Suharto,Salon Cantik Bu Dewi,0,
+4d81c556-0007-4d4f-a11a-e004feb34ab2,17000.0,Toko Elektronik Mas Dedi,ShopeePay,2024-01-25T22:16:59.672064,IOS-472E16D4,Bandung,Nanda Susanto,Bengkel Las Pak Slamet,0,
+e9d302fa-2583-4768-a5d6-db6f04856f7a,358000.0,Salon Cantik Bu Dewi,BNI,2024-09-30T03:04:41.159205,ANDROID-C2AA7A37,Jakarta Utara,Lina Susanto,Apotek Sehat Sejahtera,0,
+3ced76e1-35ce-44df-b9b0-ee77b5c0648e,4138000.0,FAKE-Warung Pak Budi,BNI,2024-12-05T07:11:58.924643,IOS-F5620397,Medan,Nanda Ariani,Salon Cantik Bu Dewi,1,invoice_manipulation
+274c0917-3012-4c37-8266-9ae94a4968a1,325000.0,Konter HP Bu Nurul,Dana,2024-03-13T09:06:03.573857,WEB-6E0FB37E,Tangerang,Fajar Lestari,Konter HP Bu Nurul,0,
+e1142865-a21a-4fec-9bb3-37dcae0de9e9,3565000.0,Warung Makan Bu Tini,OVO,2024-06-03T02:17:05.369426,WEB-3A911825,Jakarta Selatan,Yanto Susanto,Apotek Sehat Sejahtera,1,suspicious_pattern
+d1d1ac41-b29d-42d5-93b1-fda84a44f402,383000.0,Toko Alat Tulis Mas Erwan,BRI,2024-11-14T01:50:41.434254,ANDROID-84271042,Jakarta Pusat,Mira Susanto,Bengkel Las Pak Slamet,0,
+4d01626d-8ec9-4a1f-bd01-416c59da93b2,257000.0,Toko Elektronik Mas Dedi,QRIS,2024-01-01T19:34:21.135822,IOS-FE19C472,Tangerang,Anonim-9446,Toko Alat Tulis Mas Erwan,1,identity_fraud
+d6c44537-3440-4e28-b7a9-cf6f1eb6cb4b,1002000.0,FAKE-Warung Pak Budi,Dana,2024-05-02T00:19:41.793209,WEB-9A1B680A,Medan,Wahyu Purnama,Toko Sembako Bu Yanti,1,duplicate
+e4c98b51-be7d-443a-814f-b77e691dca1f,57000.0,Laundry Kilat Bu Wati,ShopeePay,2024-11-13T07:19:47.509327,WEB-A77C753B,Jakarta Utara,Vina Firmansyah,Laundry Kilat Bu Wati,0,
+892b6f70-1caa-4f89-9122-615ae2cffc98,868000.0,Konter HP Bu Nurul,Dana,2024-07-02T12:06:57.233505,ANDROID-D4ADC4CC,Depok,Andi Nugroho,Bengkel Las Pak Slamet,0,
+23b0700b-235a-4832-a3df-e6bf49a4528c,392000.0,Minimarket Bu Endah,BRI,2024-04-30T20:23:18.657219,IOS-A09CA864,Jakarta Barat,Nanda Purnama,Bengkel Motor Mas Agus,0,
+3ebe5738-75f5-4be1-96e6-b2b095a6198b,14000.0,Salon Cantik Bu Dewi,OVO,2024-11-23T20:26:52.897000,ANDROID-F6819951,Depok,Reza Kurniawan,Toko Buah Bu Lastri,0,
+4f9b1693-f6c8-46fa-9571-656144a7e505,1648000.0,Kios Pulsa Mas Feri,Dana,2024-06-19T20:29:48.830482,ANDROID-E92E332B,Surabaya,Mira Santoso,Toko Elektronik Mas Dedi,0,
+57b1c9a7-3f9d-4759-a3af-1a2a930c76d8,337000.0,Jasa Print Pak Hendra,BRI,2024-05-30T14:30:11.946267,ANDROID-6C1FDB64,Surabaya,Hani Wibowo,Toko Baju Murah Pak Rahmat,0,
+d0c9d6ae-28f3-4042-9615-3f0437a1f13a,351000.0,Bengkel Las Pak Slamet,GoPay,2024-12-02T22:10:14.676981,IOS-711EF9FD,Depok,Budi Prasetyo,Toko Sembako Bu Yanti,0,
+6f9512bb-a81e-478c-94be-5c9a5c1b5de1,354000.0,Bengkel Motor Mas Agus,QRIS,2024-12-01T15:57:07.802741,ANDROID-12B96BC0,Surabaya,Lina Saputra,Toko Buah Bu Lastri,0,
+ede2ec5a-dd38-4cb9-b04f-0c8dcd8934ff,1690000.0,Warung Pak Budi,OVO,2024-03-02T20:37:49.777844,IOS-9670649A,Bekasi,Zahra Prasetyo,Jasa Print Pak Hendra,0,
+cb0ecc8a-8379-4b1e-9832-70035b1a1812,610000.0,Konter HP Bu Nurul,Dana,2024-04-29T20:55:05.838365,ANDROID-772732D7,Tangerang,Gilang Firmansyah,Toko Sembako Bu Yanti,0,
+68dceb46-40d9-4268-9a50-ad46657c3a03,10000.0,Toko Elektronik Mas Dedi,LinkAja,2024-11-11T20:52:33.404140,WEB-A0C917D5,Makassar,Kartini Ariani,Toko Buah Bu Lastri,0,
+9747dfd0-e9ee-42c1-8089-0c0048d05481,3202000.0,Salon Cantik Bu Dewi,BRI,2024-03-21T08:42:26.434321,WEB-EB42104A,Semarang,Yanto Firmansyah,Toko Online Bu Sari,0,
+ba0cde13-a094-4051-820c-92da938bd31a,1725000.0,Warung Kopi Mas Rizky,GoPay,2024-11-20T21:22:17.305347,WEB-FEA03A38,Depok,Kartini Handoko,Toko Alat Tulis Mas Erwan,0,
+963b5ef1-8422-427b-9dce-17845d76d20c,116000.0,Jasa Print Pak Hendra,BRI,2024-07-10T22:30:10.735517,WEB-1D2A2F38,Tangerang,Putri Saputra,Warung Kopi Mas Rizky,0,
+d64a91c8-ef37-411a-ab3f-448d7e07f57d,1188000.0,Supermarket Berkah Jaya,Dana,2024-09-17T15:36:24.032870,IOS-00A1C1A4,Makassar,Nanda Firmansyah,Salon Cantik Bu Dewi,0,
+98c2482e-6e94-4640-86da-232e71e56470,33000.0,Laundry Kilat Bu Wati,OVO,2024-01-28T20:30:54.153827,WEB-1E978DB5,Bekasi,Wahyu Prasetyo,Laundry Kilat Bu Wati,0,
+837dd517-7245-4352-9400-8f3f12853c23,50000.0,Minimarket Bu Endah,Dana,2024-02-03T12:21:32.570438,IOS-7F2779C8,Jakarta Timur,Lina Firmansyah,Apotek Sehat Sejahtera,0,
+4cba6ef5-7e29-4058-8c43-ebfd6fa1030e,27000.0,Bengkel Motor Mas Agus,QRIS,2024-08-25T07:04:18.098171,WEB-732B4E53,Palembang,Oka Ariani,Jasa Print Pak Hendra,0,
+743f52ba-13c1-46f4-a6f8-a017a7871bf4,4548000.0,Salon Cantik Bu Dewi,ShopeePay,2024-06-21T20:21:58.805524,WEB-9CD162BF,Surabaya,Putri Prasetyo,Toko Buah Bu Lastri,0,
+5e0a249d-9a57-4b97-a360-80ef7ff38789,150590000.0,Warung Makan Bu Tini,BCA,2024-12-13T07:10:26.345753,WEB-A8C0C7C1,Surabaya,Sari Lestari,Apotek Sehat Sejahtera,1,amount_anomaly
+2f6f0b1a-5936-4fb3-b379-dc15c4fca9c0,66000.0,Jasa Print Pak Hendra,BRI,2024-05-11T01:24:38.955835,IOS-E0D0FAE3,Makassar,Anonim-5177,Toko Baju Murah Pak Rahmat,1,identity_fraud
+a8df846e-9c5c-4c19-a131-b7c60c3ef3a5,348000.0,Bengkel Las Pak Slamet,GoPay,2024-08-01T18:44:47.050343,WEB-2DFFD0E3,Jakarta Barat,Dewi Wibowo,Jasa Print Pak Hendra,0,
+d47060f1-e0cf-418f-9083-3fa605dcea29,326000.0,Toko Baju Murah Pak Rahmat,GoPay,2024-11-10T11:16:04.495589,ANDROID-D5BE24D0,Yogyakarta,Nanda Prasetyo,Bengkel Las Pak Slamet,0,
+e7f7a021-89e4-4dbb-baa5-8195211f9977,359000.0,Minimarket Bu Endah,BNI,2024-10-14T13:22:24.648331,ANDROID-E1E3002F,Jakarta Selatan,Nanda Kusuma,Toko Baju Murah Pak Rahmat,0,
+5c6f13c8-b58e-487e-afc2-f6fde6f17953,124000.0,Jasa Print Pak Hendra,QRIS,2024-01-08T14:15:36.423583,IOS-82DCB1A8,Jakarta Pusat,Andi Suharto,Salon Cantik Bu Dewi,0,
+f25cbf5b-a1c2-46f7-9304-2b5b82058287,924000.0,Minimarket Bu Endah,LinkAja,2024-01-17T15:51:37.924692,IOS-213C2434,Yogyakarta,Yanto Handoko,Laundry Kilat Bu Wati,0,
+ead03c09-e2b6-4bb4-a8b4-92cba4a502a6,168000.0,Bakso Pak Soleh,Dana,2024-06-04T08:43:04.828241,WEB-C4E978AD,Jakarta Timur,Andi Prasetyo,Jasa Print Pak Hendra,0,
+bc6af6d1-31cd-4720-9153-504c3b5d2f50,1410000.0,Laundry Kilat Bu Wati,Dana,2024-07-18T16:55:47.953447,IOS-859AA543,Medan,Gilang Kurniawan,Supermarket Berkah Jaya,0,
+70109d5b-9e1d-40e8-9afa-bb2e5c291b34,74000.0,Toko Buah Bu Lastri,BRI,2024-06-22T20:05:32.165845,ANDROID-FE2A36C3,Yogyakarta,Sari Wibowo,Toko Sembako Bu Yanti,0,
+7b8edf37-0976-4f27-b24e-cdcd7bfbe09d,232000.0,Toko Sembako Bu Yanti,Dana,2024-09-04T14:52:26.002047,WEB-80FD6AC6,Bekasi,Reza Hidayat,Toko Online Bu Sari,1,duplicate
+e2cfcc31-32c8-4465-962b-28106ba94721,52000.0,Jasa Print Pak Hendra,Dana,2024-10-20T10:01:57.276488,IOS-34C27362,Depok,Xena Hidayat,Toko Sembako Bu Yanti,0,
+eb2a5d0b-a791-4523-b6db-bfe2664d2282,70000.0,Toko Elektronik Mas Dedi,GoPay,2024-08-06T04:27:47.786721,ANDROID-F6BDE255,Jakarta Timur,Umi Rahayu,Toko Buah Bu Lastri,1,suspicious_pattern
+e67f3f2c-80ae-439c-9242-3418b7f1cc9d,93000.0,Bengkel Las Pak Slamet,Mandiri,2024-05-20T15:18:43.185959,IOS-793D0C8E,Bandung,Budi Kurniawan,Jasa Print Pak Hendra,0,
+35336e85-f741-4007-92a0-3cfc3286d2ab,127000.0,Jasa Print Pak Hendra,ShopeePay,2024-05-08T13:23:53.991611,IOS-94BB3F0E,Palembang,Reza Santoso,Bengkel Las Pak Slamet,0,
+53b25994-262a-4e47-9a54-a837a53dfe83,411000.0,Salon Cantik Bu Dewi,BNI,2024-01-20T10:03:55.427270,ANDROID-EC34BFB3,Palembang,Yanto Suharto,Toko Buah Bu Lastri,1,duplicate
+7879e985-95c7-49c0-9bf4-3deeb5a89682,157770000.0,Apotek Sehat Sejahtera,BRI,2024-07-09T00:24:33.307615,IOS-BCFACF8E,Depok,Joko Suharto,Laundry Kilat Bu Wati,1,amount_anomaly
+97b33cb6-604b-4b67-9b0f-3366e6cefb04,43000.0,Apotek Sehat Sejahtera,Dana,2024-10-30T12:34:57.707748,WEB-6C989C1D,Jakarta Timur,Yanto Saputra,Warung Kopi Mas Rizky,0,
+68145db0-52ea-48a0-b65d-09786226811b,39000.0,Apotek Sehat Sejahtera,QRIS,2024-05-05T17:44:20.001694,IOS-0A7779A6,Jakarta Selatan,Mira Nugroho,Toko Buah Bu Lastri,0,
+349cdd35-f5f9-4629-b053-0a8e29976fc1,82000.0,Toko Elektronik Mas Dedi,Dana,2024-12-12T08:43:20.696253,IOS-AFB6932C,Jakarta Selatan,Joko Santoso,Laundry Kilat Bu Wati,0,
+6e56068e-71c3-45f1-899b-2607b477d2fa,4201000.0,FAKE-Bengkel Las Pak Slamet,Dana,2024-05-23T04:28:07.671692,IOS-D3FF4FFD,Surabaya,Umi Suharto,Kios Pulsa Mas Feri,1,invoice_manipulation
+3ba7147e-8822-449d-b185-efcb11b89c4d,31000.0,Toko Elektronik Mas Dedi,BCA,2024-11-19T13:33:26.322935,ANDROID-A76F84FA,Bekasi,Xena Suharto,Bengkel Motor Mas Agus,0,
