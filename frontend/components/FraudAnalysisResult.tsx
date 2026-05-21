@@ -69,7 +69,7 @@ export default function FraudAnalysisResult({ result }: Props) {
             )}
           </div>
           <div>
-            <p className="text-white/50 text-xs uppercase tracking-wider font-medium">Fraud Analysis Result</p>
+            <p className="text-white/50 text-xs uppercase tracking-wider font-medium">Hasil Analisis Fraud</p>
             <p className="text-white/30 text-xs font-mono mt-0.5">{result.transactionId}</p>
           </div>
         </div>
@@ -88,23 +88,23 @@ export default function FraudAnalysisResult({ result }: Props) {
           },
           {
             icon: Percent,
-            label: 'Fraud Probability',
+            label: 'Probabilitas Fraud',
             value: `${result.fraudProbability.toFixed(1)}%`,
-            sub: 'ML prediction',
+            sub: 'Prediksi ML',
             color: isHighRisk ? 'text-red-400' : 'text-amber-400',
           },
           {
             icon: Eye,
-            label: 'OCR Confidence',
+            label: 'Akurasi OCR',
             value: `${result.ocrConfidence.toFixed(1)}%`,
-            sub: 'Text extraction',
+            sub: 'Ekstraksi teks',
             color: 'text-neon-cyan',
           },
           {
             icon: AlertTriangle,
-            label: 'Manipulation Score',
+            label: 'Skor Manipulasi',
             value: `${result.manipulationScore.toFixed(1)}%`,
-            sub: 'Image integrity',
+            sub: 'Integritas gambar',
             color: result.manipulationScore > 50 ? 'text-red-400' : 'text-amber-400',
           },
         ].map((metric) => {
@@ -127,10 +127,10 @@ export default function FraudAnalysisResult({ result }: Props) {
 
       {/* Metric bars */}
       <div className="space-y-3 mb-6 bg-white/3 rounded-xl p-4 border border-white/5">
-        <p className="text-white/40 text-xs uppercase tracking-wider font-medium mb-3">Score Breakdown</p>
-        <MetricBar label="Fraud Probability" value={result.fraudProbability} color="text-red-400" />
-        <MetricBar label="OCR Confidence" value={result.ocrConfidence} color="text-neon-cyan" />
-        <MetricBar label="Manipulation Score" value={result.manipulationScore} color="text-amber-400" />
+        <p className="text-white/40 text-xs uppercase tracking-wider font-medium mb-3">Rincian Skor</p>
+        <MetricBar label="Probabilitas Fraud" value={result.fraudProbability} color="text-red-400" />
+        <MetricBar label="Akurasi OCR" value={result.ocrConfidence} color="text-neon-cyan" />
+        <MetricBar label="Skor Manipulasi" value={result.manipulationScore} color="text-amber-400" />
       </div>
 
       {/* Detected Indicators */}
@@ -138,7 +138,7 @@ export default function FraudAnalysisResult({ result }: Props) {
         <div>
           <p className="text-white/40 text-xs uppercase tracking-wider font-medium mb-3 flex items-center gap-2">
             <AlertTriangle size={12} className="text-red-400" />
-            Detected Indicators ({result.indicators.length})
+            Indikator Terdeteksi ({result.indicators.length})
           </p>
           <div className="space-y-2">
             {result.indicators.map((indicator, i) => (
@@ -160,7 +160,7 @@ export default function FraudAnalysisResult({ result }: Props) {
       {result.indicators.length === 0 && (
         <div className="flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-xl p-4">
           <CheckCircle2 size={16} className="text-emerald-400" />
-          <span className="text-emerald-400 text-sm">No suspicious indicators detected</span>
+          <span className="text-emerald-400 text-sm">Tidak ada indikator mencurigakan terdeteksi</span>
         </div>
       )}
     </motion.div>

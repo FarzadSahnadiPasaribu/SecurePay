@@ -77,7 +77,7 @@ export default function TransactionTable({ transactions, loading, showActions = 
               onClick={() => handleSort('date')}
             >
               <span className="flex items-center gap-1">
-                Date <SortIcon col="date" />
+                Tanggal <SortIcon col="date" />
               </span>
             </th>
             <th
@@ -85,26 +85,26 @@ export default function TransactionTable({ transactions, loading, showActions = 
               onClick={() => handleSort('amount')}
             >
               <span className="flex items-center justify-end gap-1">
-                Amount <SortIcon col="amount" />
+                Nominal <SortIcon col="amount" />
               </span>
             </th>
             <th className="text-left py-3 px-4 text-white/40 font-medium text-xs uppercase tracking-wider">
-              Method
+              Metode
             </th>
             <th
               className="text-center py-3 px-4 text-white/40 font-medium text-xs uppercase tracking-wider cursor-pointer hover:text-white/70"
               onClick={() => handleSort('anomalyScore')}
             >
               <span className="flex items-center justify-center gap-1">
-                Score <SortIcon col="anomalyScore" />
+                Skor <SortIcon col="anomalyScore" />
               </span>
             </th>
             <th className="text-center py-3 px-4 text-white/40 font-medium text-xs uppercase tracking-wider">
-              Risk
+              Risiko
             </th>
             {showActions && (
               <th className="text-center py-3 px-4 text-white/40 font-medium text-xs uppercase tracking-wider">
-                Actions
+                Aksi
               </th>
             )}
           </tr>
@@ -179,7 +179,7 @@ export default function TransactionTable({ transactions, loading, showActions = 
 
       {sorted.length === 0 && (
         <div className="text-center py-12 text-white/30">
-          <p>No transactions found</p>
+          <p>Tidak ada transaksi ditemukan</p>
         </div>
       )}
     </div>

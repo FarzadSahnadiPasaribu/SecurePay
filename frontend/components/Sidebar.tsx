@@ -21,9 +21,9 @@ import {
 const navItems = [
   { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/scan', label: 'Scan Invoice', icon: ScanLine },
-  { href: '/analytics', label: 'Analytics', icon: BarChart3 },
-  { href: '/history', label: 'History', icon: History },
-  { href: '/about', label: 'About', icon: Info },
+  { href: '/analytics', label: 'Analitik', icon: BarChart3 },
+  { href: '/history', label: 'Riwayat', icon: History },
+  { href: '/about', label: 'Tentang', icon: Info },
 ]
 
 export default function Sidebar() {
@@ -49,7 +49,7 @@ export default function Sidebar() {
             exit={{ opacity: 0 }}
             className="flex flex-col"
           >
-            <span className="text-xs text-white/30 uppercase tracking-wider">Navigation</span>
+            <span className="text-xs text-white/30 uppercase tracking-wider">Navigasi</span>
           </motion.div>
         )}
         <button
@@ -114,13 +114,13 @@ export default function Sidebar() {
           className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-white/40 hover:text-white/70 hover:bg-white/5 transition-all`}
         >
           <Settings size={18} className="flex-shrink-0" />
-          {!collapsed && <span className="text-sm">Settings</span>}
+          {!collapsed && <span className="text-sm">Pengaturan</span>}
         </button>
         <button
           className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-white/40 hover:text-red-400 hover:bg-red-500/5 transition-all`}
         >
           <LogOut size={18} className="flex-shrink-0" />
-          {!collapsed && <span className="text-sm">Logout</span>}
+          {!collapsed && <span className="text-sm">Keluar</span>}
         </button>
       </div>
 

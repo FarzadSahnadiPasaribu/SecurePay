@@ -18,49 +18,49 @@ import Navbar from '@/components/Navbar'
 const features = [
   {
     icon: ScanLine,
-    title: 'AI-Powered OCR Scanning',
+    title: 'Pemindaian OCR Berbasis AI',
     description:
-      'Extract transaction data from invoices and transfer receipts with 95%+ accuracy using advanced computer vision.',
+      'Ekstrak data transaksi dari invoice dan bukti transfer dengan akurasi 95%+ menggunakan computer vision canggih.',
     color: 'text-neon-blue',
     bg: 'bg-neon-blue/10 border-neon-blue/20',
   },
   {
     icon: Brain,
-    title: 'Machine Learning Detection',
+    title: 'Deteksi Machine Learning',
     description:
-      'Random Forest & XGBoost models trained on 10,000+ UMKM transactions to identify fraud patterns in real-time.',
+      'Model Random Forest & XGBoost dilatih pada 10.000+ transaksi UMKM untuk mengidentifikasi pola fraud secara real-time.',
     color: 'text-neon-cyan',
     bg: 'bg-neon-cyan/10 border-neon-cyan/20',
   },
   {
     icon: Zap,
-    title: 'Real-Time Analysis',
+    title: 'Analisis Real-Time',
     description:
-      'Get instant fraud risk scores within seconds. High, Medium, Low, and Normal classifications with explainable AI.',
+      'Dapatkan skor risiko fraud secara instan dalam hitungan detik. Klasifikasi High, Medium, Low, dan Normal dengan AI yang dapat dijelaskan.',
     color: 'text-amber-400',
     bg: 'bg-amber-500/10 border-amber-500/20',
   },
   {
     icon: Eye,
-    title: 'Image Manipulation Detection',
+    title: 'Deteksi Manipulasi Gambar',
     description:
-      'Detect forged receipts and altered transaction amounts using metadata analysis and pixel-level verification.',
+      'Deteksi bukti transfer palsu dan nominal transaksi yang diubah menggunakan analisis metadata dan verifikasi tingkat piksel.',
     color: 'text-purple-400',
     bg: 'bg-purple-500/10 border-purple-500/20',
   },
   {
     icon: BarChart3,
-    title: 'Comprehensive Analytics',
+    title: 'Analitik Komprehensif',
     description:
-      'Dashboard with trend analysis, fraud distribution charts, and model performance metrics for informed decisions.',
+      'Dashboard dengan analisis tren, grafik distribusi fraud, dan metrik performa model untuk pengambilan keputusan yang tepat.',
     color: 'text-emerald-400',
     bg: 'bg-emerald-500/10 border-emerald-500/20',
   },
   {
     icon: Lock,
-    title: 'UMKM-Focused Security',
+    title: 'Keamanan Khusus UMKM',
     description:
-      'Purpose-built for Indonesian small businesses. Supports QRIS, GoPay, OVO, Dana, ShopeePay, and Bank Transfer.',
+      'Dirancang khusus untuk usaha kecil Indonesia. Mendukung QRIS, GoPay, OVO, Dana, ShopeePay, dan Transfer Bank.',
     color: 'text-red-400',
     bg: 'bg-red-500/10 border-red-500/20',
   },
@@ -69,8 +69,8 @@ const features = [
 const techStack = [
   { name: 'Python', desc: 'Backend & ML' },
   { name: 'FastAPI', desc: 'REST API' },
-  { name: 'Scikit-learn', desc: 'ML Models' },
-  { name: 'EasyOCR', desc: 'OCR Engine' },
+  { name: 'Scikit-learn', desc: 'Model ML' },
+  { name: 'EasyOCR', desc: 'Mesin OCR' },
   { name: 'Next.js 14', desc: 'Frontend' },
   { name: 'PostgreSQL', desc: 'Database' },
   { name: 'Supabase', desc: 'Auth & Realtime' },
@@ -78,9 +78,9 @@ const techStack = [
 ]
 
 const stats = [
-  { value: '96.8%', label: 'Detection Accuracy' },
-  { value: '< 2s', label: 'Analysis Time' },
-  { value: '100K+', label: 'Transactions Analyzed' },
+  { value: '96.8%', label: 'Akurasi Deteksi' },
+  { value: '< 2s', label: 'Waktu Analisis' },
+  { value: '100K+', label: 'Transaksi Dianalisis' },
   { value: '0.978', label: 'AUC Score' },
 ]
 
@@ -112,7 +112,7 @@ export default function LandingPage() {
             className="inline-flex items-center gap-2 bg-neon-blue/10 border border-neon-blue/20 rounded-full px-4 py-1.5 text-xs text-neon-blue font-medium mb-8"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-neon-blue animate-pulse" />
-            AI-Powered System for UMKM Indonesia
+            Sistem Berbasis AI untuk UMKM Indonesia
             <ChevronRight size={12} />
           </motion.div>
 
@@ -141,7 +141,7 @@ export default function LandingPage() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-xl md:text-2xl text-white/60 font-light mb-4"
           >
-            AI-Powered Fraud Detection for{' '}
+            Deteksi Fraud Berbasis AI untuk{' '}
             <span className="text-neon-cyan font-semibold">UMKM</span>
           </motion.p>
 
@@ -151,9 +151,9 @@ export default function LandingPage() {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="text-base text-white/40 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Protect your small business from digital transaction fraud with advanced OCR scanning,
-            machine learning anomaly detection, and real-time risk assessment. Built specifically
-            for Indonesian UMKM.
+            Lindungi usaha kecil Anda dari fraud transaksi digital dengan pemindaian OCR canggih,
+            deteksi anomali machine learning, dan penilaian risiko real-time. Dibangun khusus
+            untuk UMKM Indonesia.
           </motion.p>
 
           <motion.div
@@ -169,7 +169,7 @@ export default function LandingPage() {
                 className="btn-primary flex items-center gap-2 text-base px-8 py-4"
               >
                 <Shield size={18} />
-                Get Started Free
+                Mulai Sekarang
                 <ArrowRight size={16} />
               </motion.button>
             </Link>
@@ -180,7 +180,7 @@ export default function LandingPage() {
                 className="btn-secondary flex items-center gap-2 text-base px-8 py-4"
               >
                 <ScanLine size={18} />
-                Try Demo Scan
+                Coba Demo Scan
               </motion.button>
             </Link>
           </motion.div>
@@ -211,10 +211,10 @@ export default function LandingPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <span className="text-neon-blue text-sm font-semibold uppercase tracking-widest">Features</span>
-            <h2 className="text-4xl font-bold text-white mt-2 mb-4">Complete Fraud Detection Suite</h2>
+            <span className="text-neon-blue text-sm font-semibold uppercase tracking-widest">Fitur</span>
+            <h2 className="text-4xl font-bold text-white mt-2 mb-4">Suite Deteksi Fraud Lengkap</h2>
             <p className="text-white/50 max-w-xl mx-auto">
-              Everything you need to protect your UMKM business from digital transaction fraud
+              Semua yang Anda butuhkan untuk melindungi bisnis UMKM dari fraud transaksi digital
             </p>
           </motion.div>
 
@@ -252,8 +252,8 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <span className="text-neon-cyan text-sm font-semibold uppercase tracking-widest">Process</span>
-            <h2 className="text-4xl font-bold text-white mt-2 mb-4">3 Simple Steps</h2>
+            <span className="text-neon-cyan text-sm font-semibold uppercase tracking-widest">Proses</span>
+            <h2 className="text-4xl font-bold text-white mt-2 mb-4">3 Langkah Mudah</h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -262,7 +262,7 @@ export default function LandingPage() {
                 step: '01',
                 icon: ScanLine,
                 title: 'Upload Invoice',
-                desc: 'Upload your transaction receipt, bukti transfer, or invoice in JPG, PNG, or PDF format.',
+                desc: 'Unggah bukti transfer, kwitansi, atau invoice Anda dalam format JPG, PNG, atau PDF.',
                 color: 'text-neon-blue',
                 border: 'border-neon-blue/30',
                 bg: 'bg-neon-blue/10',
@@ -270,8 +270,8 @@ export default function LandingPage() {
               {
                 step: '02',
                 icon: Brain,
-                title: 'AI Analysis',
-                desc: 'Our AI extracts transaction data via OCR, then runs ML models to detect anomalies and fraud patterns.',
+                title: 'Analisis AI',
+                desc: 'AI kami mengekstrak data transaksi via OCR, lalu menjalankan model ML untuk mendeteksi anomali dan pola fraud.',
                 color: 'text-neon-cyan',
                 border: 'border-neon-cyan/30',
                 bg: 'bg-neon-cyan/10',
@@ -279,8 +279,8 @@ export default function LandingPage() {
               {
                 step: '03',
                 icon: Shield,
-                title: 'Get Results',
-                desc: 'Receive instant risk classification (High/Medium/Low/Normal) with detailed fraud indicators.',
+                title: 'Lihat Hasil',
+                desc: 'Terima klasifikasi risiko instan (High/Medium/Low/Normal) dengan indikator fraud yang terperinci.',
                 color: 'text-purple-400',
                 border: 'border-purple-500/30',
                 bg: 'bg-purple-500/10',
@@ -320,8 +320,8 @@ export default function LandingPage() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <span className="text-white/30 text-sm uppercase tracking-widest">Built with</span>
-            <h2 className="text-3xl font-bold text-white mt-2 mb-4">Modern Technology Stack</h2>
+            <span className="text-white/30 text-sm uppercase tracking-widest">Dibangun dengan</span>
+            <h2 className="text-3xl font-bold text-white mt-2 mb-4">Tumpukan Teknologi Modern</h2>
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -358,10 +358,10 @@ export default function LandingPage() {
                 <Shield size={30} className="text-neon-blue" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Protect Your Business Today
+                Lindungi Bisnis Anda Sekarang
               </h2>
               <p className="text-white/50 mb-8 max-w-xl mx-auto">
-                Join thousands of UMKM businesses using SecurePay Vision to safeguard their digital transactions.
+                Bergabung dengan ribuan bisnis UMKM yang menggunakan SecurePay Vision untuk melindungi transaksi digital mereka.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/dashboard">
@@ -371,7 +371,7 @@ export default function LandingPage() {
                     className="btn-primary flex items-center gap-2 px-8 py-4"
                   >
                     <Shield size={18} />
-                    Go to Dashboard
+                    Buka Dashboard
                     <ArrowRight size={16} />
                   </motion.button>
                 </Link>
@@ -382,7 +382,7 @@ export default function LandingPage() {
                     className="btn-secondary flex items-center gap-2 px-8 py-4"
                   >
                     <ScanLine size={18} />
-                    Try Free Scan
+                    Coba Scan Gratis
                   </motion.button>
                 </Link>
               </div>
@@ -397,7 +397,7 @@ export default function LandingPage() {
           <div className="flex items-center gap-2">
             <Shield size={16} className="text-neon-blue" />
             <span className="text-white/50 text-sm">
-              SecurePay Vision — AI Fraud Detection for UMKM Indonesia
+              SecurePay Vision — Deteksi Fraud AI untuk UMKM Indonesia
             </span>
           </div>
           <p className="text-white/30 text-sm">© 2024 SecurePay Vision. Final Project</p>

@@ -18,50 +18,50 @@ export default function OCRResultPanel({ data, confidence = 92.3 }: OCRResultPan
   const fields = [
     {
       icon: DollarSign,
-      label: 'Transaction Amount',
+      label: 'Nominal Transaksi',
       value: formatIDR(data.amount),
       highlight: true,
       color: 'text-neon-cyan',
     },
     {
       icon: Calendar,
-      label: 'Transaction Date',
+      label: 'Tanggal Transaksi',
       value: format(new Date(data.date), 'dd MMMM yyyy, HH:mm'),
       color: 'text-white/90',
     },
     {
       icon: Store,
-      label: 'Merchant Name',
+      label: 'Nama Merchant',
       value: data.merchantName,
       color: 'text-white/90',
     },
     {
       icon: Hash,
-      label: 'Account Number',
+      label: 'Nomor Rekening',
       value: data.accountNumber,
       color: 'text-neon-blue font-mono',
     },
     {
       icon: CreditCard,
-      label: 'Payment Method',
+      label: 'Metode Pembayaran',
       value: data.paymentMethod,
       color: 'text-white/90',
     },
     {
       icon: Hash,
-      label: 'Transaction ID',
+      label: 'ID Transaksi',
       value: data.transactionId,
       color: 'text-neon-blue/80 font-mono text-xs',
     },
     {
       icon: User,
-      label: 'Sender',
+      label: 'Pengirim',
       value: data.senderName,
       color: 'text-white/90',
     },
     {
       icon: ArrowRight,
-      label: 'Receiver',
+      label: 'Penerima',
       value: data.receiverName,
       color: 'text-white/90',
     },
@@ -78,13 +78,13 @@ export default function OCRResultPanel({ data, confidence = 92.3 }: OCRResultPan
       <div className="flex items-center justify-between mb-5">
         <div className="flex items-center gap-2">
           <div className="w-2 h-2 rounded-full bg-neon-cyan animate-pulse" />
-          <h3 className="text-neon-cyan font-semibold text-sm uppercase tracking-wider">OCR Extracted Data</h3>
+          <h3 className="text-neon-cyan font-semibold text-sm uppercase tracking-wider">Data Terekstrak OCR</h3>
         </div>
         <div className="flex items-center gap-2">
           <div
             className="text-xs font-mono bg-neon-cyan/10 border border-neon-cyan/20 px-2 py-1 rounded-full text-neon-cyan"
           >
-            {confidence.toFixed(1)}% confidence
+            {confidence.toFixed(1)}% akurasi
           </div>
         </div>
       </div>

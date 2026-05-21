@@ -73,7 +73,7 @@ export default function UploadZone({ onFileSelected, onClear, disabled, selected
             <p className="text-white/40 text-sm">{formatSize(selectedFile.size)}</p>
             <div className="flex items-center gap-1 mt-1">
               <CheckCircle size={12} className="text-emerald-400" />
-              <span className="text-emerald-400 text-xs">Ready for analysis</span>
+              <span className="text-emerald-400 text-xs">Siap dianalisis</span>
             </div>
           </div>
 
@@ -133,10 +133,10 @@ export default function UploadZone({ onFileSelected, onClear, disabled, selected
 
               <div>
                 <p className="text-white font-semibold text-lg mb-1">
-                  {isDragActive ? 'Drop your file here' : 'Drop invoice or bukti transfer'}
+                  {isDragActive ? 'Letakkan file di sini' : 'Letakkan invoice atau bukti transfer di sini'}
                 </p>
                 <p className="text-white/40 text-sm">
-                  or <span className="text-neon-blue">click to browse</span>
+                  atau <span className="text-neon-blue">klik untuk pilih file</span>
                 </p>
               </div>
 

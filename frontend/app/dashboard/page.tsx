@@ -66,12 +66,12 @@ export default function DashboardPage() {
           {/* Header */}
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h1 className="text-2xl font-bold text-white">Fraud Monitoring Dashboard</h1>
-              <p className="text-white/40 text-sm mt-1">Real-time transaction analytics &amp; AI fraud detection</p>
+              <h1 className="text-2xl font-bold text-white">Dashboard Monitoring Fraud</h1>
+              <p className="text-white/40 text-sm mt-1">Analitik transaksi real-time &amp; deteksi fraud AI</p>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-xs text-white/30 hidden sm:block">
-                Updated: {format(lastUpdate, 'HH:mm:ss')}
+                Diperbarui: {format(lastUpdate, 'HH:mm:ss')}
               </span>
               <button
                 onClick={refresh}
@@ -92,29 +92,29 @@ export default function DashboardPage() {
           {/* Stats Row 1 */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
             <StatsCard
-              title="Total Transactions"
+              title="Total Transaksi"
               value={mockDashboardStats.totalTransactions.toLocaleString('id-ID')}
               icon={Activity}
               trend={9.5}
-              trendLabel="vs last month"
+              trendLabel="vs bulan lalu"
               color="blue"
               delay={0}
             />
             <StatsCard
-              title="Fraud Detected"
+              title="Fraud Terdeteksi"
               value={mockDashboardStats.fraudDetected.toLocaleString('id-ID')}
               icon={AlertTriangle}
               trend={18.2}
-              trendLabel="vs last month"
+              trendLabel="vs bulan lalu"
               color="red"
               delay={0.05}
             />
             <StatsCard
-              title="Normal Transactions"
+              title="Transaksi Normal"
               value={mockDashboardStats.normalTransactions.toLocaleString('id-ID')}
               icon={CheckCircle2}
               trend={8.1}
-              trendLabel="vs last month"
+              trendLabel="vs bulan lalu"
               color="green"
               delay={0.1}
             />
@@ -123,7 +123,7 @@ export default function DashboardPage() {
               value={`${mockDashboardStats.anomalyPercentage}%`}
               icon={Zap}
               trend={-1.2}
-              trendLabel="improving"
+              trendLabel="membaik"
               color="amber"
               delay={0.15}
             />

@@ -14,21 +14,21 @@ interface Alert {
 const mockAlerts: Alert[] = [
   {
     id: '1',
-    message: 'High-risk transaction detected at Toko Online Elektronik',
+    message: 'Transaksi berisiko tinggi terdeteksi di Toko Online Elektronik',
     amount: 'Rp 15.750.000',
-    time: '2 min ago',
+    time: '2 menit lalu',
   },
   {
     id: '2',
-    message: 'Suspicious activity flagged at CV Maju Bersama',
+    message: 'Aktivitas mencurigakan terdeteksi di CV Maju Bersama',
     amount: 'Rp 8.200.000',
-    time: '7 min ago',
+    time: '7 menit lalu',
   },
   {
     id: '3',
-    message: 'Multiple rapid transactions from same account',
+    message: 'Banyak transaksi cepat dari akun yang sama',
     amount: 'Rp 3.450.000',
-    time: '12 min ago',
+    time: '12 menit lalu',
   },
 ]
 
@@ -81,7 +81,7 @@ export default function AlertBanner() {
               <div className="flex items-center gap-2 flex-wrap">
                 <span className="text-xs font-bold text-red-400 uppercase tracking-wider flex items-center gap-1">
                   <Bell size={10} />
-                  FRAUD ALERT
+                  PERINGATAN FRAUD
                 </span>
                 <AnimatePresence mode="wait">
                   <motion.span

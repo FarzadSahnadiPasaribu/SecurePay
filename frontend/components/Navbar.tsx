@@ -7,12 +7,12 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Shield, Menu, X, Bell, Search, ChevronDown } from 'lucide-react'
 
 const navLinks = [
-  { href: '/', label: 'Home' },
+  { href: '/', label: 'Beranda' },
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/scan', label: 'Scan' },
-  { href: '/analytics', label: 'Analytics' },
-  { href: '/history', label: 'History' },
-  { href: '/about', label: 'About' },
+  { href: '/analytics', label: 'Analitik' },
+  { href: '/history', label: 'Riwayat' },
+  { href: '/about', label: 'Tentang' },
 ]
 
 export default function Navbar() {
@@ -97,7 +97,7 @@ export default function Navbar() {
               href="/login"
               className="hidden md:flex items-center gap-1 text-sm font-medium text-white/50 hover:text-white/80 px-3 py-1.5 rounded-lg hover:bg-white/5 transition-all"
             >
-              Login
+              Masuk
             </Link>
             <Link
               href="/dashboard"
@@ -145,7 +145,7 @@ export default function Navbar() {
               })}
               <div className="pt-2 flex gap-2">
                 <Link href="/login" onClick={() => setMobileOpen(false)} className="flex-1 btn-secondary text-center text-sm py-2">
-                  Login
+                  Masuk
                 </Link>
                 <Link href="/dashboard" onClick={() => setMobileOpen(false)} className="flex-1 btn-primary text-center text-sm py-2">
                   Dashboard
