@@ -5,7 +5,8 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
-import { Shield, Eye, EyeOff, Lock, Mail, User, ArrowRight, AlertCircle, CheckCircle2 } from 'lucide-react'
+import { Shield, Eye, EyeOff, Lock, Mail, User, ArrowRight, AlertCircle, CheckCircle2, MailCheck } from 'lucide-react'
+import { createClient } from '@/lib/supabase'
 
 interface RegisterForm {
   name: string
@@ -19,6 +20,7 @@ export default function RegisterPage() {
   const [showPassword, setShowPassword] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [emailSent, setEmailSent] = useState(false)
 
   const {
     register,
@@ -32,15 +34,25 @@ export default function RegisterPage() {
   const onSubmit = async (data: RegisterForm) => {
     setLoading(true)
     setError('')
-    try {
-      await new Promise((r) => setTimeout(r, 1400))
-      localStorage.setItem('auth_token', 'demo_token_' + Date.now())
-      router.push('/dashboard')
-    } catch {
-      setError('Registration failed. Please try again.')
-    } finally {
+
+    const supabase = createClient()
+    const { error: authError } = await supabase.auth.signUp({
+      email: data.email,
+      password: data.password,
+      options: {
+        data: { full_name: data.name },
+      },
+    })
+
+    if (authError) {
+      setError(authError.message)
       setLoading(false)
+      return
     }
+
+    // Supabase mengirim email konfirmasi — tampilkan pesan
+    setEmailSent(true)
+    setLoading(false)
   }
 
   const passwordStrength = (pwd: string) => {
@@ -53,8 +65,40 @@ export default function RegisterPage() {
   }
 
   const strength = passwordStrength(password)
-  const strengthLabel = ['', 'Weak', 'Fair', 'Good', 'Strong'][strength]
+  const strengthLabel = ['', 'Lemah', 'Cukup', 'Baik', 'Kuat'][strength]
   const strengthColor = ['', 'bg-red-500', 'bg-amber-500', 'bg-yellow-400', 'bg-emerald-400'][strength]
+
+  if (emailSent) {
+    return (
+      <div className="min-h-screen bg-navy-900 flex items-center justify-center px-4 relative overflow-hidden">
+        <div className="absolute inset-0 cyber-grid-bg opacity-50" />
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="relative z-10 w-full max-w-sm glass-card p-10 border border-emerald-500/20 text-center"
+          style={{ boxShadow: '0 0 40px rgba(16,185,129,0.1)' }}
+        >
+          <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center mx-auto mb-6">
+            <MailCheck size={32} className="text-emerald-400" />
+          </div>
+          <h2 className="text-xl font-bold text-white mb-2">Cek Email Anda</h2>
+          <p className="text-white/50 text-sm mb-6">
+            Kami telah mengirimkan link konfirmasi ke email Anda. Klik link tersebut untuk mengaktifkan akun dan mulai menggunakan SecurePay Vision.
+          </p>
+          <Link href="/login">
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="btn-primary w-full flex items-center justify-center gap-2 py-3"
+            >
+              Kembali ke Halaman Masuk
+              <ArrowRight size={16} />
+            </motion.button>
+          </Link>
+        </motion.div>
+      </div>
+    )
+  }
 
   return (
     <div className="min-h-screen bg-navy-900 flex items-center justify-center px-4 py-12 relative overflow-hidden">
@@ -82,7 +126,7 @@ export default function RegisterPage() {
                 <span className="text-white">SecurePay </span>
                 <span className="text-neon-cyan">Vision</span>
               </h1>
-              <p className="text-white/30 text-xs mt-0.5">Create your account</p>
+              <p className="text-white/30 text-xs mt-0.5">Buat akun Anda</p>
             </div>
           </Link>
         </motion.div>
@@ -94,8 +138,8 @@ export default function RegisterPage() {
           className="glass-card p-8 border border-white/10"
           style={{ boxShadow: '0 0 40px rgba(0,255,204,0.05)' }}
         >
-          <h2 className="text-xl font-bold text-white mb-1">Create account</h2>
-          <p className="text-white/40 text-sm mb-6">Start protecting your UMKM transactions</p>
+          <h2 className="text-xl font-bold text-white mb-1">Buat Akun</h2>
+          <p className="text-white/40 text-sm mb-6">Mulai lindungi transaksi UMKM Anda</p>
 
           {error && (
             <motion.div
@@ -110,15 +154,15 @@ export default function RegisterPage() {
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div>
-              <label className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1.5 block">Full Name</label>
+              <label className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1.5 block">Nama Lengkap</label>
               <div className="relative">
                 <User size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-white/30" />
                 <input
                   type="text"
                   placeholder="Budi Santoso"
                   {...register('name', {
-                    required: 'Full name is required',
-                    minLength: { value: 2, message: 'Name must be at least 2 characters' },
+                    required: 'Nama lengkap wajib diisi',
+                    minLength: { value: 2, message: 'Nama minimal 2 karakter' },
                   })}
                   className="input-field pl-9 text-sm"
                 />
@@ -127,15 +171,15 @@ export default function RegisterPage() {
             </div>
 
             <div>
-              <label className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1.5 block">Email Address</label>
+              <label className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1.5 block">Alamat Email</label>
               <div className="relative">
                 <Mail size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-white/30" />
                 <input
                   type="email"
                   placeholder="budi@umkm.id"
                   {...register('email', {
-                    required: 'Email is required',
-                    pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: 'Invalid email format' },
+                    required: 'Email wajib diisi',
+                    pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: 'Format email tidak valid' },
                   })}
                   className="input-field pl-9 text-sm"
                 />
@@ -149,10 +193,10 @@ export default function RegisterPage() {
                 <Lock size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-white/30" />
                 <input
                   type={showPassword ? 'text' : 'password'}
-                  placeholder="Min 6 characters"
+                  placeholder="Min 6 karakter"
                   {...register('password', {
-                    required: 'Password is required',
-                    minLength: { value: 6, message: 'Password must be at least 6 characters' },
+                    required: 'Password wajib diisi',
+                    minLength: { value: 6, message: 'Password minimal 6 karakter' },
                   })}
                   className="input-field pl-9 pr-10 text-sm"
                 />
@@ -173,22 +217,22 @@ export default function RegisterPage() {
                     ))}
                   </div>
                   <p className={`text-xs ${strength === 4 ? 'text-emerald-400' : strength === 3 ? 'text-yellow-400' : strength === 2 ? 'text-amber-400' : 'text-red-400'}`}>
-                    {strengthLabel} password
+                    Password {strengthLabel}
                   </p>
                 </div>
               )}
             </div>
 
             <div>
-              <label className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1.5 block">Confirm Password</label>
+              <label className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1.5 block">Konfirmasi Password</label>
               <div className="relative">
                 <Lock size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-white/30" />
                 <input
                   type={showPassword ? 'text' : 'password'}
-                  placeholder="Repeat password"
+                  placeholder="Ulangi password"
                   {...register('confirmPassword', {
-                    required: 'Please confirm your password',
-                    validate: (val) => val === password || 'Passwords do not match',
+                    required: 'Konfirmasi password wajib diisi',
+                    validate: (val) => val === password || 'Password tidak cocok',
                   })}
                   className="input-field pl-9 text-sm"
                 />
@@ -200,10 +244,10 @@ export default function RegisterPage() {
             </div>
 
             <p className="text-white/30 text-xs">
-              By registering you agree to our{' '}
-              <Link href="#" className="text-neon-blue hover:underline">Terms</Link>
-              {' '}and{' '}
-              <Link href="#" className="text-neon-blue hover:underline">Privacy Policy</Link>.
+              Dengan mendaftar, Anda menyetujui{' '}
+              <Link href="#" className="text-neon-blue hover:underline">Syarat & Ketentuan</Link>
+              {' '}dan{' '}
+              <Link href="#" className="text-neon-blue hover:underline">Kebijakan Privasi</Link> kami.
             </p>
 
             <motion.button
@@ -222,11 +266,11 @@ export default function RegisterPage() {
                     animate={{ rotate: 360 }}
                     transition={{ duration: 0.8, repeat: Infinity, ease: 'linear' }}
                   />
-                  Creating account...
+                  Membuat akun...
                 </>
               ) : (
                 <>
-                  Create Account
+                  Buat Akun
                   <ArrowRight size={16} />
                 </>
               )}
@@ -235,9 +279,9 @@ export default function RegisterPage() {
 
           <div className="mt-6 pt-5 border-t border-white/5 text-center">
             <p className="text-white/40 text-sm">
-              Already have an account?{' '}
+              Sudah punya akun?{' '}
               <Link href="/login" className="text-neon-cyan hover:text-neon-blue transition-colors font-medium">
-                Sign in
+                Masuk
               </Link>
             </p>
           </div>

@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { Shield, Eye, EyeOff, Lock, Mail, ArrowRight, AlertCircle } from 'lucide-react'
+import { createClient } from '@/lib/supabase'
 
 interface LoginForm {
   email: string
@@ -27,20 +28,25 @@ export default function LoginPage() {
   const onSubmit = async (data: LoginForm) => {
     setLoading(true)
     setError('')
-    try {
-      // Simulate auth - replace with real Supabase auth
-      await new Promise((r) => setTimeout(r, 1200))
 
-      // Demo: accept any credentials
-      if (data.email && data.password) {
-        localStorage.setItem('auth_token', 'demo_token_' + Date.now())
-        router.push('/dashboard')
-      }
-    } catch {
-      setError('Invalid email or password. Please try again.')
-    } finally {
+    const supabase = createClient()
+    const { error: authError } = await supabase.auth.signInWithPassword({
+      email: data.email,
+      password: data.password,
+    })
+
+    if (authError) {
+      setError(
+        authError.message === 'Invalid login credentials'
+          ? 'Email atau password salah. Silakan coba lagi.'
+          : authError.message
+      )
       setLoading(false)
+      return
     }
+
+    router.push('/dashboard')
+    router.refresh()
   }
 
   return (
@@ -76,7 +82,7 @@ export default function LoginPage() {
                 <span className="text-white">SecurePay </span>
                 <span className="text-neon-blue">Vision</span>
               </h1>
-              <p className="text-white/30 text-xs mt-0.5">AI Fraud Detection for UMKM</p>
+              <p className="text-white/30 text-xs mt-0.5">Deteksi Fraud AI untuk UMKM</p>
             </div>
           </Link>
         </motion.div>
@@ -89,8 +95,8 @@ export default function LoginPage() {
           className="glass-card p-8 border border-white/10"
           style={{ boxShadow: '0 0 40px rgba(0,212,255,0.05)' }}
         >
-          <h2 className="text-xl font-bold text-white mb-1">Welcome back</h2>
-          <p className="text-white/40 text-sm mb-6">Sign in to your SecurePay account</p>
+          <h2 className="text-xl font-bold text-white mb-1">Selamat Datang Kembali</h2>
+          <p className="text-white/40 text-sm mb-6">Masuk ke akun SecurePay Anda</p>
 
           {error && (
             <motion.div
@@ -107,16 +113,16 @@ export default function LoginPage() {
             {/* Email */}
             <div>
               <label className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1.5 block">
-                Email Address
+                Alamat Email
               </label>
               <div className="relative">
                 <Mail size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-white/30" />
                 <input
                   type="email"
-                  placeholder="admin@umkm.id"
+                  placeholder="email@umkm.id"
                   {...register('email', {
-                    required: 'Email is required',
-                    pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: 'Invalid email format' },
+                    required: 'Email wajib diisi',
+                    pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: 'Format email tidak valid' },
                   })}
                   className="input-field pl-9 text-sm"
                 />
@@ -137,8 +143,8 @@ export default function LoginPage() {
                   type={showPassword ? 'text' : 'password'}
                   placeholder="••••••••"
                   {...register('password', {
-                    required: 'Password is required',
-                    minLength: { value: 6, message: 'Password must be at least 6 characters' },
+                    required: 'Password wajib diisi',
+                    minLength: { value: 6, message: 'Password minimal 6 karakter' },
                   })}
                   className="input-field pl-9 pr-10 text-sm"
                 />
@@ -158,7 +164,7 @@ export default function LoginPage() {
             {/* Forgot password */}
             <div className="flex justify-end">
               <Link href="#" className="text-xs text-neon-blue/70 hover:text-neon-blue transition-colors">
-                Forgot password?
+                Lupa password?
               </Link>
             </div>
 
@@ -178,29 +184,22 @@ export default function LoginPage() {
                     animate={{ rotate: 360 }}
                     transition={{ duration: 0.8, repeat: Infinity, ease: 'linear' }}
                   />
-                  Signing in...
+                  Memverifikasi...
                 </>
               ) : (
                 <>
-                  Sign In
+                  Masuk
                   <ArrowRight size={16} />
                 </>
               )}
             </motion.button>
           </form>
 
-          {/* Demo credentials */}
-          <div className="mt-4 p-3 rounded-xl bg-neon-blue/5 border border-neon-blue/15">
-            <p className="text-neon-blue/70 text-xs text-center">
-              Demo: Any email + password (min 6 chars) will work
-            </p>
-          </div>
-
           <div className="mt-6 pt-5 border-t border-white/5 text-center">
             <p className="text-white/40 text-sm">
-              Don&apos;t have an account?{' '}
+              Belum punya akun?{' '}
               <Link href="/register" className="text-neon-blue hover:text-neon-cyan transition-colors font-medium">
-                Register
+                Daftar Sekarang
               </Link>
             </p>
           </div>

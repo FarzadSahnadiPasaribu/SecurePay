@@ -4,15 +4,16 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import {
-  Users, Shield, BarChart3, AlertTriangle, CheckCircle2,
-  Activity, Eye, Trash2, UserCheck, UserX, Crown
+  Users, Shield, AlertTriangle, CheckCircle2,
+  Activity, Eye, UserCheck, UserX, Crown
 } from 'lucide-react'
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
-import { getCurrentUser, ROLE_PERMISSIONS, type AuthUser } from '@/lib/auth'
+import { createClient } from '@/lib/supabase'
+import { ROLE_PERMISSIONS } from '@/lib/auth'
+import type { User as SupabaseUser } from '@supabase/supabase-js'
 
-const mockUsers: (AuthUser & { totalScans: number; fraudFound: number; lastActive: string; status: 'aktif' | 'nonaktif' })[] = [
-  { id: 'admin-001', name: 'Admin SecurePay', email: 'admin@securepay.id', role: 'admin', totalScans: 0, fraudFound: 0, lastActive: 'Sekarang', status: 'aktif' },
+const mockUsers = [
   { id: 'user-001', name: 'Budi Santoso', email: 'umkm@securepay.id', role: 'user', totalScans: 24, fraudFound: 3, lastActive: '2 jam lalu', status: 'aktif' },
   { id: 'user-002', name: 'Siti Rahayu', email: 'siti@warung.id', role: 'user', totalScans: 18, fraudFound: 1, lastActive: '1 hari lalu', status: 'aktif' },
   { id: 'user-003', name: 'Andi Pratama', email: 'andi@toko.id', role: 'user', totalScans: 31, fraudFound: 5, lastActive: '3 hari lalu', status: 'aktif' },
@@ -28,18 +29,23 @@ const globalStats = [
 
 export default function AdminPage() {
   const router = useRouter()
-  const [user, setUser] = useState<AuthUser | null>(null)
+  const [authUser, setAuthUser] = useState<SupabaseUser | null>(null)
+  const [checking, setChecking] = useState(true)
 
   useEffect(() => {
-    const u = getCurrentUser()
-    if (!u || u.role !== 'admin') {
-      router.push('/dashboard')
-      return
-    }
-    setUser(u)
+    const supabase = createClient()
+    supabase.auth.getUser().then(({ data }) => {
+      const u = data.user
+      if (!u || u.user_metadata?.role !== 'admin') {
+        router.push('/dashboard')
+        return
+      }
+      setAuthUser(u)
+      setChecking(false)
+    })
   }, [router])
 
-  if (!user) return null
+  if (checking) return null
 
   const perms = ROLE_PERMISSIONS.admin
 
@@ -50,7 +56,6 @@ export default function AdminPage() {
       <main className="pt-16 pl-16 md:pl-56 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-8">
 
-          {/* Header */}
           <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-neon-purple/10 border border-neon-purple/20 flex items-center justify-center">
@@ -63,7 +68,6 @@ export default function AdminPage() {
             </div>
           </motion.div>
 
-          {/* Global Stats */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
             {globalStats.map((s, i) => (
               <motion.div
@@ -80,7 +84,6 @@ export default function AdminPage() {
             ))}
           </div>
 
-          {/* Hak Akses Admin */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -111,7 +114,6 @@ export default function AdminPage() {
             </div>
           </motion.div>
 
-          {/* Daftar Pengguna */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -144,9 +146,7 @@ export default function AdminPage() {
                     >
                       <td className="py-3 px-4">
                         <div className="flex items-center gap-3">
-                          <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold ${
-                            u.role === 'admin' ? 'bg-neon-purple/20 text-neon-purple' : 'bg-neon-blue/20 text-neon-blue'
-                          }`}>
+                          <div className="w-8 h-8 rounded-full bg-neon-blue/20 text-neon-blue flex items-center justify-center text-xs font-bold">
                             {u.name.charAt(0)}
                           </div>
                           <div>
@@ -156,12 +156,8 @@ export default function AdminPage() {
                         </div>
                       </td>
                       <td className="py-3 px-4">
-                        <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold border ${
-                          u.role === 'admin'
-                            ? 'bg-neon-purple/20 text-neon-purple border-neon-purple/30'
-                            : 'bg-neon-blue/20 text-neon-blue border-neon-blue/30'
-                        }`}>
-                          {u.role === 'admin' ? 'Admin' : 'Pengguna UMKM'}
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold border bg-neon-blue/20 text-neon-blue border-neon-blue/30">
+                          Pengguna UMKM
                         </span>
                       </td>
                       <td className="py-3 px-4 text-gray-300 text-xs">{u.totalScans}</td>
@@ -173,9 +169,7 @@ export default function AdminPage() {
                       <td className="py-3 px-4 text-gray-400 text-xs">{u.lastActive}</td>
                       <td className="py-3 px-4">
                         <span className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${
-                          u.status === 'aktif'
-                            ? 'bg-green-500/20 text-green-400'
-                            : 'bg-gray-500/20 text-gray-400'
+                          u.status === 'aktif' ? 'bg-green-500/20 text-green-400' : 'bg-gray-500/20 text-gray-400'
                         }`}>
                           {u.status === 'aktif' ? 'Aktif' : 'Nonaktif'}
                         </span>
@@ -185,16 +179,12 @@ export default function AdminPage() {
                           <button className="p-1.5 rounded-lg hover:bg-neon-blue/10 text-gray-400 hover:text-neon-blue transition-colors" title="Lihat detail">
                             <Eye size={12} />
                           </button>
-                          {u.role !== 'admin' && (
-                            <>
-                              <button className="p-1.5 rounded-lg hover:bg-green-500/10 text-gray-400 hover:text-green-400 transition-colors" title="Aktifkan">
-                                <UserCheck size={12} />
-                              </button>
-                              <button className="p-1.5 rounded-lg hover:bg-red-500/10 text-gray-400 hover:text-red-400 transition-colors" title="Nonaktifkan">
-                                <UserX size={12} />
-                              </button>
-                            </>
-                          )}
+                          <button className="p-1.5 rounded-lg hover:bg-green-500/10 text-gray-400 hover:text-green-400 transition-colors" title="Aktifkan">
+                            <UserCheck size={12} />
+                          </button>
+                          <button className="p-1.5 rounded-lg hover:bg-red-500/10 text-gray-400 hover:text-red-400 transition-colors" title="Nonaktifkan">
+                            <UserX size={12} />
+                          </button>
                         </div>
                       </td>
                     </motion.tr>

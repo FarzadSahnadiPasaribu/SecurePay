@@ -1,10 +1,12 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Shield, Menu, X, Bell, Search, ChevronDown } from 'lucide-react'
+import { Shield, Menu, X, Bell, Search, LogOut, User } from 'lucide-react'
+import { createClient } from '@/lib/supabase'
+import type { User as SupabaseUser } from '@supabase/supabase-js'
 
 const navLinks = [
   { href: '/', label: 'Beranda' },
@@ -17,11 +19,36 @@ const navLinks = [
 
 export default function Navbar() {
   const pathname = usePathname()
+  const router = useRouter()
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [authUser, setAuthUser] = useState<SupabaseUser | null>(null)
 
-  const isDashboardPage = ['/dashboard', '/scan', '/analytics', '/history', '/about'].some((p) =>
-    pathname.startsWith(p)
+  useEffect(() => {
+    const supabase = createClient()
+
+    supabase.auth.getUser().then(({ data }) => {
+      setAuthUser(data.user)
+    })
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setAuthUser(session?.user ?? null)
+    })
+
+    return () => subscription.unsubscribe()
+  }, [])
+
+  const handleLogout = async () => {
+    const supabase = createClient()
+    await supabase.auth.signOut()
+    router.push('/login')
+    router.refresh()
+  }
+
+  const isDashboardPage = ['/dashboard', '/scan', '/analytics', '/history', '/about', '/admin'].some(
+    (p) => pathname.startsWith(p)
   )
+
+  const displayName = authUser?.user_metadata?.full_name || authUser?.email?.split('@')[0] || ''
 
   return (
     <nav
@@ -81,7 +108,7 @@ export default function Navbar() {
 
           {/* Right side */}
           <div className="flex items-center gap-2">
-            {isDashboardPage && (
+            {isDashboardPage && authUser && (
               <>
                 <button className="p-2 rounded-lg hover:bg-white/5 transition-colors hidden md:flex">
                   <Search size={16} className="text-white/40" />
@@ -93,18 +120,38 @@ export default function Navbar() {
               </>
             )}
 
-            <Link
-              href="/login"
-              className="hidden md:flex items-center gap-1 text-sm font-medium text-white/50 hover:text-white/80 px-3 py-1.5 rounded-lg hover:bg-white/5 transition-all"
-            >
-              Masuk
-            </Link>
-            <Link
-              href="/dashboard"
-              className="btn-primary text-xs px-4 py-2 hidden md:flex"
-            >
-              Dashboard
-            </Link>
+            {authUser ? (
+              <div className="hidden md:flex items-center gap-2">
+                <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5">
+                  <div className="w-6 h-6 rounded-full bg-neon-blue/20 border border-neon-blue/30 flex items-center justify-center">
+                    <User size={12} className="text-neon-blue" />
+                  </div>
+                  <span className="text-white/70 text-xs font-medium">{displayName}</span>
+                </div>
+                <button
+                  onClick={handleLogout}
+                  className="flex items-center gap-1.5 text-xs text-white/40 hover:text-red-400 px-3 py-1.5 rounded-lg hover:bg-red-500/5 transition-all"
+                >
+                  <LogOut size={14} />
+                  Keluar
+                </button>
+              </div>
+            ) : (
+              <div className="hidden md:flex items-center gap-2">
+                <Link
+                  href="/login"
+                  className="text-sm font-medium text-white/50 hover:text-white/80 px-3 py-1.5 rounded-lg hover:bg-white/5 transition-all"
+                >
+                  Masuk
+                </Link>
+                <Link
+                  href="/register"
+                  className="btn-primary text-xs px-4 py-2"
+                >
+                  Daftar
+                </Link>
+              </div>
+            )}
 
             {/* Mobile menu toggle */}
             <button
@@ -144,12 +191,24 @@ export default function Navbar() {
                 )
               })}
               <div className="pt-2 flex gap-2">
-                <Link href="/login" onClick={() => setMobileOpen(false)} className="flex-1 btn-secondary text-center text-sm py-2">
-                  Masuk
-                </Link>
-                <Link href="/dashboard" onClick={() => setMobileOpen(false)} className="flex-1 btn-primary text-center text-sm py-2">
-                  Dashboard
-                </Link>
+                {authUser ? (
+                  <button
+                    onClick={() => { setMobileOpen(false); handleLogout() }}
+                    className="flex-1 btn-secondary text-center text-sm py-2 flex items-center justify-center gap-1"
+                  >
+                    <LogOut size={14} />
+                    Keluar
+                  </button>
+                ) : (
+                  <>
+                    <Link href="/login" onClick={() => setMobileOpen(false)} className="flex-1 btn-secondary text-center text-sm py-2">
+                      Masuk
+                    </Link>
+                    <Link href="/register" onClick={() => setMobileOpen(false)} className="flex-1 btn-primary text-center text-sm py-2">
+                      Daftar
+                    </Link>
+                  </>
+                )}
               </div>
             </div>
           </motion.div>

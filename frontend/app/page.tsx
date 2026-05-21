@@ -162,7 +162,7 @@ export default function LandingPage() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Link href="/dashboard">
+            <Link href="/login">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
@@ -173,14 +173,14 @@ export default function LandingPage() {
                 <ArrowRight size={16} />
               </motion.button>
             </Link>
-            <Link href="/scan">
+            <Link href="/register">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
                 className="btn-secondary flex items-center gap-2 text-base px-8 py-4"
               >
                 <ScanLine size={18} />
-                Coba Demo Scan
+                Daftar Gratis
               </motion.button>
             </Link>
           </motion.div>
@@ -364,25 +364,25 @@ export default function LandingPage() {
                 Bergabung dengan ribuan bisnis UMKM yang menggunakan SecurePay Vision untuk melindungi transaksi digital mereka.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/dashboard">
+                <Link href="/login">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.98 }}
                     className="btn-primary flex items-center gap-2 px-8 py-4"
                   >
                     <Shield size={18} />
-                    Buka Dashboard
+                    Masuk ke Dashboard
                     <ArrowRight size={16} />
                   </motion.button>
                 </Link>
-                <Link href="/scan">
+                <Link href="/register">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.98 }}
                     className="btn-secondary flex items-center gap-2 px-8 py-4"
                   >
                     <ScanLine size={18} />
-                    Coba Scan Gratis
+                    Daftar Gratis
                   </motion.button>
                 </Link>
               </div>
