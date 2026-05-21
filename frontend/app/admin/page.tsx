@@ -36,7 +36,7 @@ export default function AdminPage() {
     const supabase = createClient()
     supabase.auth.getUser().then(({ data }) => {
       const u = data.user
-      if (!u || u.user_metadata?.role !== 'admin') {
+      if (!u || u.app_metadata?.role !== 'admin') {
         router.push('/dashboard')
         return
       }

@@ -49,7 +49,7 @@ export default function Sidebar() {
 
   const displayName = authUser?.user_metadata?.full_name || authUser?.email?.split('@')[0] || 'Pengguna'
   const displayEmail = authUser?.email || ''
-  const isAdmin = authUser?.user_metadata?.role === 'admin'
+  const isAdmin = authUser?.app_metadata?.role === 'admin'
 
   return (
     <motion.aside
