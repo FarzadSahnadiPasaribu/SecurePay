@@ -21,24 +21,84 @@ const analysisSteps = [
 
 export default function ScanPage() {
   const [selectedFile, setSelectedFile] = useState<File | null>(null)
-  const { result, loading, error, progress, analyzeFile, reset } = useFraudAnalysis()
+  const [customResult, setCustomResult] = useState<any>(null)
+  const [customLoading, setCustomLoading] = useState<boolean>(false)
+  const [customProgress, setCustomProgress] = useState<number>(0)
+  const [customError, setCustomError] = useState<string | null>(null)
+
+  const { reset } = useFraudAnalysis()
 
   const handleFileSelected = (file: File) => {
     setSelectedFile(file)
+    setCustomResult(null)
+    setCustomError(null)
     reset()
   }
 
   const handleClear = () => {
     setSelectedFile(null)
+    setCustomResult(null)
+    setCustomError(null)
+    setCustomProgress(0)
     reset()
   }
 
+  // --- INTEGRASI PENGIRIMAN DATA NYATA & MURNI KE FASTAPI ---
   const handleAnalyze = async () => {
     if (!selectedFile) return
-    await analyzeFile(selectedFile)
+    
+    setCustomLoading(true)
+    setCustomError(null)
+    setCustomProgress(5)
+
+    // Simulasi visual jalannya progress bar sesuai tahapan text machine learning
+    const interval = setInterval(() => {
+      setCustomProgress((prev) => {
+        if (prev >= 90) {
+          clearInterval(interval)
+          return prev
+        }
+        return prev + 15
+      })
+    }, 400)
+
+    try {
+      // 1. Bungkus gambar nyata ke FormData
+      const formData = new FormData()
+      formData.append("file", selectedFile)
+
+      // 2. Tembak langsung secara jujur ke Port Backend FastAPI lokal laptopmu
+      const response = await fetch("http://localhost:8000/api/scan", {
+        method: "POST",
+        body: formData,
+      })
+
+      clearInterval(interval)
+
+      if (!response.ok) {
+        throw new Error(`Koneksi Backend Gagal (Status: ${response.status})`)
+      }
+
+      const responseData = await response.json()
+      
+      // Ambil data dari pembungkus API, sesuaikan dengan fallback objek terstruktur
+      const finalData = responseData.data ? responseData.data : responseData
+
+      // 3. Set hasil data OCR & Machine learning nyata ke state view
+      setCustomProgress(100)
+      setTimeout(() => {
+        setCustomResult(finalData)
+        setCustomLoading(false)
+      }, 300)
+
+    } catch (err: any) {
+      clearInterval(interval)
+      setCustomError(err.message || "Gagal menghubungkan sistem ke core OCR Engine Python.")
+      setCustomLoading(false)
+    }
   }
 
-  const currentStep = Math.floor((progress / 100) * analysisSteps.length)
+  const currentStep = Math.floor((customProgress / 100) * analysisSteps.length)
 
   return (
     <div className="min-h-screen bg-navy-900">
@@ -77,19 +137,19 @@ export default function ScanPage() {
                 <UploadZone
                   onFileSelected={handleFileSelected}
                   onClear={handleClear}
-                  disabled={loading}
+                  disabled={customLoading}
                   selectedFile={selectedFile}
                 />
 
-                {!selectedFile && !loading && (
+                {!selectedFile && !customLoading && (
                   <div className="mt-4 p-3 rounded-xl bg-neon-blue/5 border border-neon-blue/15">
                     <p className="text-neon-blue/70 text-xs text-center">
-                      Demo mode: Upload any image to see a realistic fraud analysis result
+                      Production Mode: Upload any physical invoice to scan data via live EasyOCR Python engine
                     </p>
                   </div>
                 )}
 
-                {selectedFile && !loading && !result && (
+                {selectedFile && !customLoading && !customResult && (
                   <motion.button
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -104,7 +164,7 @@ export default function ScanPage() {
                   </motion.button>
                 )}
 
-                {result && (
+                {customResult && (
                   <button
                     onClick={handleClear}
                     className="btn-secondary w-full mt-4 flex items-center justify-center gap-2"
@@ -117,7 +177,7 @@ export default function ScanPage() {
 
               {/* Analysis Progress */}
               <AnimatePresence>
-                {loading && (
+                {customLoading && (
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -127,13 +187,13 @@ export default function ScanPage() {
                   >
                     <div className="flex items-center justify-between mb-4">
                       <h3 className="text-white font-semibold text-sm">AI Analysis in Progress</h3>
-                      <span className="text-neon-blue font-mono text-sm font-bold">{progress}%</span>
+                      <span className="text-neon-blue font-mono text-sm font-bold">{customProgress}%</span>
                     </div>
 
                     <div className="h-2 bg-white/10 rounded-full mb-6 overflow-hidden">
                       <motion.div
                         className="h-full rounded-full bg-gradient-to-r from-neon-blue to-neon-cyan"
-                        animate={{ width: `${progress}%` }}
+                        animate={{ width: `${customProgress}%` }}
                         transition={{ duration: 0.3 }}
                       />
                     </div>
@@ -171,21 +231,21 @@ export default function ScanPage() {
                 )}
               </AnimatePresence>
 
-              {error && (
+              {customError && (
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center gap-3"
                 >
                   <AlertTriangle size={16} className="text-red-400" />
-                  <p className="text-red-400 text-sm">{error}</p>
+                  <p className="text-red-400 text-sm">{customError}</p>
                 </motion.div>
               )}
             </div>
 
             {/* Right column - Results */}
             <div className="space-y-6">
-              {!result && !loading && (
+              {!customResult && !customLoading && (
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -215,14 +275,14 @@ export default function ScanPage() {
               )}
 
               <AnimatePresence>
-                {result && !loading && (
+                {customResult && !customLoading && (
                   <>
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
                       <h2 className="text-white font-semibold mb-3 flex items-center gap-2 text-sm">
                         <span className="w-6 h-6 rounded-lg bg-neon-cyan/20 text-neon-cyan text-xs flex items-center justify-center font-bold">2</span>
                         OCR Extracted Data
                       </h2>
-                      <OCRResultPanel data={result.extractedData} confidence={result.ocrConfidence} />
+                      <OCRResultPanel data={customResult.extractedData} confidence={customResult.ocrConfidence} />
                     </motion.div>
 
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
@@ -230,7 +290,7 @@ export default function ScanPage() {
                         <span className="w-6 h-6 rounded-lg bg-red-500/20 text-red-400 text-xs flex items-center justify-center font-bold">3</span>
                         Fraud Analysis Result
                       </h2>
-                      <FraudAnalysisResult result={result} />
+                      <FraudAnalysisResult result={customResult} />
                     </motion.div>
 
                     <motion.div
