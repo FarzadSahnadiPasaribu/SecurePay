@@ -1,0 +1,24 @@
+# Next.js
+frontend/.next/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.db
+*.sqlite3
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Uploads (runtime)
+uploads/
+
+# OS
+.DS_Store
+*.log
