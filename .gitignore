@@ -22,3 +22,8 @@ uploads/
 # OS
 .DS_Store
 *.log
+
+# PENTING: Tambahkan ini untuk mencegah error file besar
+*.dll
+*.so
+*.dylib
